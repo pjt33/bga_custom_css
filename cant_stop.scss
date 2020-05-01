@@ -1,0 +1,15 @@
+#cantstop_wrap {
+	#board {
+		/* Image includes a modified version of https://commons.wikimedia.org/wiki/File:K2_2006.jpg which is copyright (c) 2006 Wikimedia user Svy123 and licensed CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/deed.en) */
+		background-image: url(http://pjt33.github.io/bga_custom_css/cant_stop_board.png);
+	}
+
+	@for $x from 2 through 12 {
+		@for $y from 0 through 12 - 2 * abs($x - 7) {
+			#step_#{$x}_#{$y} {
+				left: 19px + 35 * $x !important;
+				top: 39px + (abs($x - 7) + $y) * 38 !important;
+			}
+		}
+	}
+}
