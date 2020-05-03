@@ -422,3 +422,7 @@
   left: 439px !important;
   top: 305px !important;
 }
+
+#campscell #campswrapper h2.Header {
+  max-height: 1em;
+}
