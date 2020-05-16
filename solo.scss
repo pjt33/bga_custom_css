@@ -1,0 +1,12 @@
+/*
+Suppress most of the content of the tooltips.
+This selector is a HACK to try to avoid affecting games other than Solo.
+*/
+#playercards_wrap ~ #myhand_wrap {
+	.tooltip > * {
+		display: none;
+	}
+	.tooltip > :last-child {
+		display: block;
+	}
+}
