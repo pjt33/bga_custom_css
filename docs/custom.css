@@ -1,6 +1,6 @@
 /* Particularly intended for Coloretto */
 .player-board.roundedboxdisabled {
-  background-color: #808080;
+  background-color: transparent;
 }
 
 #cantstop_wrap #board {
