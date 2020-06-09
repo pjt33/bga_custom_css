@@ -1,0 +1,233 @@
+$baseurl: "https://pjt33.github.io/bga_custom_css/tobago/";
+
+#tbg_game_area {
+	/* Fix a glitch due to this being placed on the wrong element */
+	#clue_cards_deck { background-repeat: no-repeat; }
+
+	/* Doing the statues well is hard, so for the time being I'm going to stick to arrows */
+	.statue_1 { background-image: url('#{$baseurl}statue_s.svg') }
+	.statue_2 { background-image: url('#{$baseurl}statue_sw.svg') }
+	.statue_3 { background-image: url('#{$baseurl}statue_nw.svg') }
+	.statue_4 { background-image: url('#{$baseurl}statue_n.svg') }
+	.statue_5 { background-image: url('#{$baseurl}statue_ne.svg') }
+	.statue_6 { background-image: url('#{$baseurl}statue_se.svg') }
+
+	/* Display the map using the cells set up for event handling */
+	#island { background: url('#{$baseurl}board.svg') !important; }
+	#amulet_heap_counter, #clue_cards_counter, #treasure_cards_counter { color: #000; }
+	.tbg_space { width: 49px; height: 44px; }
+
+	/* =================================  BOARD 1  ================================= */
+
+	.island_1, .island_4, .island_11, .island_13, .island_16, .island_23, .island_25, .island_28 {
+		#space_60, #space_73, #space_96, #space_97, #space_99, #space_109, #space_112, #space_123 { background: url('#{$baseurl}beach.svg'); }
+		#space_72, #space_84, #space_85, #space_86, #space_98, #space_111 { background: url('#{$baseurl}jungle.svg'); }
+		#space_68, #space_81, #space_82 { background: url('#{$baseurl}lake.svg'); }
+		#space_70, #space_83, #space_87, #space_95 { background: url('#{$baseurl}mountain.svg'); }
+		#space_94, #space_108, #space_121 { background: url('#{$baseurl}scrub.svg'); }
+		#space_45 { background: url('#{$baseurl}river12.svg'); }
+		#space_56 { background: url('#{$baseurl}river24.svg'); }
+		#space_57 { background: url('#{$baseurl}river35.svg'); }
+		#space_58 { background: url('#{$baseurl}river03.svg'); }
+		#space_69 { background: url('#{$baseurl}river15.svg'); }
+	}
+
+	.island_3, .island_6, .island_8, .island_15, .island_18, .island_20, .island_27, .island_30 {
+		#space_54, #space_67, #space_90, #space_91, #space_93, #space_102, #space_105, #space_116 { background: url('#{$baseurl}beach.svg'); }
+		#space_66, #space_78, #space_79, #space_80, #space_92, #space_104 { background: url('#{$baseurl}jungle.svg'); }
+		#space_62, #space_75, #space_76 { background: url('#{$baseurl}lake.svg'); }
+		#space_64, #space_77, #space_81, #space_89 { background: url('#{$baseurl}mountain.svg'); }
+		#space_88, #space_101, #space_114 { background: url('#{$baseurl}scrub.svg'); }
+		#space_38 { background: url('#{$baseurl}river12.svg'); }
+		#space_50 { background: url('#{$baseurl}river24.svg'); }
+		#space_51 { background: url('#{$baseurl}river35.svg'); }
+		#space_52 { background: url('#{$baseurl}river03.svg'); }
+		#space_63 { background: url('#{$baseurl}river15.svg'); }
+	}
+
+	.island_2, .island_9, .island_12, .island_14, .island_21, .island_24, .island_26, .island_32 {
+		#space_115, #space_116 { background: url('#{$baseurl}beach.svg'); }
+		#space_52, #space_64, #space_65, #space_79, #space_91, #space_92, #space_102, #space_103, #space_104 { background: url('#{$baseurl}jungle.svg'); }
+		#space_76, #space_77, #space_78, #space_89, #space_90 { background: url('#{$baseurl}lake.svg'); }
+		#space_40, #space_53, #space_54, #space_62, #space_66, #space_67, #space_75, #space_80, #space_81, #space_88, #space_93, #space_101 { background: url('#{$baseurl}mountain.svg'); }
+		#space_38, #space_50, #space_114, #space_126 { background: url('#{$baseurl}scrub.svg'); }
+		#space_51, #space_63 { background: url('#{$baseurl}river14.svg'); }
+	}
+
+	.island_5, .island_7, .island_10, .island_17, .island_19, .island_22, .island_29, .island_31 {
+		#space_122, #space_123 { background: url('#{$baseurl}beach.svg'); }
+		#space_58, #space_70, #space_71, #space_85, #space_97, #space_98, #space_109, #space_110, #space_111 { background: url('#{$baseurl}jungle.svg'); }
+		#space_82, #space_83, #space_84, #space_95, #space_96 { background: url('#{$baseurl}lake.svg'); }
+		#space_47, #space_59, #space_60, #space_68, #space_72, #space_73, #space_81, #space_86, #space_87, #space_94, #space_99, #space_108 { background: url('#{$baseurl}mountain.svg'); }
+		#space_45, #space_56, #space_121, #space_134 { background: url('#{$baseurl}scrub.svg'); }
+		#space_57, #space_69 { background: url('#{$baseurl}river14.svg'); }
+	}
+
+	/* =================================  BOARD 2  ================================= */
+
+	.island_1, .island_5, .island_13, .island_17 {
+		#space_140, #space_141, #space_142 { background: url('#{$baseurl}beach.svg'); }
+		#space_104, #space_116, #space_127, #space_128, #space_137, #space_138, #space_147 { background: url('#{$baseurl}jungle.svg'); }
+		#space_79, #space_80, #space_92, #space_93 { background: url('#{$baseurl}lake.svg'); }
+		#space_78, #space_90, #space_91, #space_103, #space_115 { background: url('#{$baseurl}mountain.svg'); }
+		#space_76, #space_77, #space_88, #space_89, #space_106, #space_107, #space_118, #space_120, #space_130, #space_131 { background: url('#{$baseurl}scrub.svg'); }
+		#space_105, #space_117 { background: url('#{$baseurl}river14.svg'); }
+	}
+
+	.island_2, .island_3, .island_14, .island_15 {
+		#space_141, #space_142, #space_143 { background: url('#{$baseurl}beach.svg'); }
+		#space_110, #space_121, #space_130, #space_131, #space_138, #space_139, #space_147 { background: url('#{$baseurl}jungle.svg'); }
+		#space_86, #space_87, #space_99, #space_100 { background: url('#{$baseurl}lake.svg'); }
+		#space_85, #space_97, #space_98, #space_109, #space_120 { background: url('#{$baseurl}mountain.svg'); }
+		#space_83, #space_84, #space_95, #space_96, #space_112, #space_113, #space_123, #space_125, #space_133, #space_134 { background: url('#{$baseurl}scrub.svg'); }
+		#space_111, #space_122 { background: url('#{$baseurl}river14.svg'); }
+	}
+
+	.island_4, .island_7, .island_16, .island_19 {
+		#space_115, #space_116, #space_118, #space_119, #space_130, #space_132, #space_141 { background: url('#{$baseurl}beach.svg'); }
+		#space_105, #space_117 { background: url('#{$baseurl}lake.svg'); }
+		#space_80, #space_90, #space_91, #space_93, #space_103, #space_104, #space_127 { background: url('#{$baseurl}mountain.svg'); }
+		#space_77, #space_78, #space_79, #space_92, #space_129, #space_140, #space_149 { background: url('#{$baseurl}scrub.svg'); }
+		#space_106 { background: url('#{$baseurl}river03.svg'); }
+		#space_107 { background: url('#{$baseurl}river02.svg'); }
+		#space_120, #space_133 { background: url('#{$baseurl}river25.svg'); }
+	}
+
+	.island_6, .island_9, .island_18, .island_21 {
+		#space_120, #space_121, #space_123, #space_124, #space_133, #space_135, #space_142 { background: url('#{$baseurl}beach.svg'); }
+		#space_111, #space_122 { background: url('#{$baseurl}lake.svg'); }
+		#space_87, #space_97, #space_98, #space_100, #space_109, #space_110, #space_130 { background: url('#{$baseurl}mountain.svg'); }
+		#space_84, #space_85, #space_86, #space_99, #space_132, #space_141, #space_149 { background: url('#{$baseurl}scrub.svg'); }
+		#space_112 { background: url('#{$baseurl}river03.svg'); }
+		#space_113 { background: url('#{$baseurl}river02.svg'); }
+		#space_125, #space_136 { background: url('#{$baseurl}river25.svg'); }
+	}
+
+	.island_8, .island_12, .island_26, .island_27 {
+		#space_108, #space_109, #space_121, #space_130, #space_131, #space_135, #space_143, #space_151 { background: url('#{$baseurl}beach.svg'); }
+		#space_87, #space_99, #space_100, #space_112, #space_113, #space_124, #space_134, #space_142, #space_150, #space_154 { background: url('#{$baseurl}jungle.svg'); }
+		#space_111, #space_122, #space_123 { background: url('#{$baseurl}lake.svg'); }
+		#space_125, #space_132, #space_133, #space_136, #space_139, #space_140, #space_141, #space_149 { background: url('#{$baseurl}mountain.svg'); }
+		#space_84, #space_85, #space_86, #space_98 { background: url('#{$baseurl}scrub.svg'); }
+		#space_95, #space_96 { background: url('#{$baseurl}river03.svg'); }
+		#space_97 { background: url('#{$baseurl}river02.svg'); }
+		#space_110 { background: url('#{$baseurl}river25.svg'); }
+	}
+
+	.island_10, .island_11, .island_25, .island_29 {
+		#space_102, #space_103, #space_116, #space_127, #space_128, #space_132, #space_142, #space_151 { background: url('#{$baseurl}beach.svg'); }
+		#space_80, #space_92, #space_93, #space_106, #space_107, #space_119, #space_131, #space_141, #space_150, #space_154 { background: url('#{$baseurl}jungle.svg'); }
+		#space_105, #space_117, #space_118 { background: url('#{$baseurl}lake.svg'); }
+		#space_120, #space_129, #space_130, #space_133, #space_138, #space_139, #space_140, #space_149 { background: url('#{$baseurl}mountain.svg'); }
+		#space_77, #space_78, #space_79, #space_91 { background: url('#{$baseurl}scrub.svg'); }
+		#space_88, #space_89 { background: url('#{$baseurl}river03.svg'); }
+		#space_90 { background: url('#{$baseurl}river02.svg'); }
+		#space_104 { background: url('#{$baseurl}river25.svg'); }
+	}
+
+	.island_20, .island_24, .island_30, .island_32 {
+		#space_96, #space_108, #space_120, #space_131, #space_143, #space_144 { background: url('#{$baseurl}beach.svg'); }
+		#space_122, #space_132, #space_140, #space_141, #space_149 { background: url('#{$baseurl}jungle.svg'); }
+		#space_87, #space_99, #space_100, #space_111, #space_112, #space_113 { background: url('#{$baseurl}lake.svg'); }
+		#space_84, #space_85, #space_86 { background: url('#{$baseurl}mountain.svg'); }
+		#space_97, #space_98, #space_109, #space_110, #space_121, #space_124, #space_125, #space_134, #space_135, #space_136 { background: url('#{$baseurl}scrub.svg'); }
+		#space_123 { background: url('#{$baseurl}river14.svg'); }
+		#space_133 { background: url('#{$baseurl}river24.svg'); }
+		#space_142 { background: url('#{$baseurl}river25.svg'); }
+	}
+
+	.island_22, .island_23, .island_28, .island_31 {
+		#space_89, #space_102, #space_115, #space_128, #space_142, #space_143 { background: url('#{$baseurl}beach.svg'); }
+		#space_117, #space_129, #space_139, #space_140, #space_149 { background: url('#{$baseurl}jungle.svg'); }
+		#space_80, #space_92, #space_93, #space_105, #space_106, #space_107 { background: url('#{$baseurl}lake.svg'); }
+		#space_77, #space_78, #space_79 { background: url('#{$baseurl}mountain.svg'); }
+		#space_90, #space_91, #space_103, #space_104, #space_116, #space_119, #space_120, #space_131, #space_132, #space_133 { background: url('#{$baseurl}scrub.svg'); }
+		#space_118 { background: url('#{$baseurl}river14.svg'); }
+		#space_130 { background: url('#{$baseurl}river24.svg'); }
+		#space_141 { background: url('#{$baseurl}river25.svg'); }
+	}
+
+	/* =================================  BOARD 3  ================================= */
+
+	.island_1, .island_5, .island_22, .island_23 {
+		#space_15, #space_23, #space_29, #space_30, #space_41, #space_51, #space_52 { background: url('#{$baseurl}beach.svg'); }
+		#space_31, #space_42 { background: url('#{$baseurl}lake.svg'); }
+		#space_8, #space_24, #space_32, #space_33, #space_43, #space_66, #space_67 { background: url('#{$baseurl}mountain.svg'); }
+		#space_12, #space_21, #space_22, #space_34, #space_44, #space_54, #space_55 { background: url('#{$baseurl}scrub.svg'); }
+		#space_53 { background: url('#{$baseurl}river14.svg'); }
+		#space_63, #space_64 { background: url('#{$baseurl}river03.svg'); }
+		#space_65 { background: url('#{$baseurl}river04.svg'); }
+	}
+
+	.island_2, .island_3, .island_20, .island_24 {
+		#space_15, #space_24, #space_32, #space_33, #space_46, #space_57, #space_58 { background: url('#{$baseurl}beach.svg'); }
+		#space_34, #space_47 { background: url('#{$baseurl}lake.svg'); }
+		#space_8, #space_25, #space_35, #space_36, #space_48, #space_73, #space_74 { background: url('#{$baseurl}mountain.svg'); }
+		#space_12, #space_22, #space_23, #space_37, #space_49, #space_60, #space_61 { background: url('#{$baseurl}scrub.svg'); }
+		#space_59 { background: url('#{$baseurl}river14.svg'); }
+		#space_70, #space_71 { background: url('#{$baseurl}river03.svg'); }
+		#space_72 { background: url('#{$baseurl}river04.svg'); }
+	}
+
+	.island_4, .island_7, .island_10, .island_11 {
+		#space_21, #space_29, #space_39 { background: url('#{$baseurl}beach.svg'); }
+		#space_2, #space_3, #space_7, #space_8, #space_14, #space_23, #space_32 { background: url('#{$baseurl}jungle.svg'); }
+		#space_54, #space_55, #space_66, #space_67 { background: url('#{$baseurl}lake.svg'); }
+		#space_15, #space_24, #space_33, #space_43, #space_44 { background: url('#{$baseurl}mountain.svg'); }
+		#space_17, #space_25, #space_26, #space_30, #space_34, #space_40, #space_41, #space_53, #space_64, #space_65 { background: url('#{$baseurl}scrub.svg'); }
+		#space_31, #space_42 { background: url('#{$baseurl}river25.svg'); }
+	}
+
+	.island_6, .island_8, .island_9, .island_12 {
+		#space_22, #space_32, #space_44 { background: url('#{$baseurl}beach.svg'); }
+		#space_2, #space_3, #space_7, #space_8, #space_14, #space_24, #space_35 { background: url('#{$baseurl}jungle.svg'); }
+		#space_60, #space_61, #space_73, #space_74 { background: url('#{$baseurl}lake.svg'); }
+		#space_15, #space_25, #space_36, #space_48, #space_49 { background: url('#{$baseurl}mountain.svg'); }
+		#space_17, #space_26, #space_27, #space_33, #space_37, #space_45, #space_46, #space_59, #space_71, #space_72 { background: url('#{$baseurl}scrub.svg'); }
+		#space_34, #space_47 { background: url('#{$baseurl}river25.svg'); }
+	}
+
+	.island_13, .island_17, .island_28, .island_31 {
+		#space_8, #space_14, #space_1, #space_23, #space_24, #space_28, #space_39, #space_51 { background: url('#{$baseurl}beach.svg'); }
+		#space_11, #space_20, #space_29, #space_40, #space_52, #space_53, #space_54, #space_65, #space_66, #space_67 { background: url('#{$baseurl}jungle.svg'); }
+		#space_31, #space_41, #space_42 { background: url('#{$baseurl}lake.svg'); }
+		#space_7, #space_12, #space_13, #space_21, #space_22, #space_30, #space_63, #space_64 { background: url('#{$baseurl}mountain.svg'); }
+		#space_34, #space_43, #space_44, #space_55 { background: url('#{$baseurl}scrub.svg'); }
+		#space_17, #space_25 { background: url('#{$baseurl}river14.svg'); }
+		#space_32 { background: url('#{$baseurl}river03.svg'); }
+		#space_33 { background: url('#{$baseurl}river04.svg'); }
+	}
+
+	.island_14, .island_15, .island_30, .island_32 {
+		#space_8, #space_14, #space_16, #space_24, #space_25, #space_31, #space_44, #space_57 { background: url('#{$baseurl}beach.svg'); }
+		#space_11, #space_21, #space_32, #space_45, #space_58, #space_59, #space_60, #space_72, #space_73, #space_74 { background: url('#{$baseurl}jungle.svg'); }
+		#space_34, #space_46, #space_47 { background: url('#{$baseurl}lake.svg'); }
+		#space_7, #space_12, #space_13, #space_22, #space_23, #space_33, #space_70, #space_71 { background: url('#{$baseurl}mountain.svg'); }
+		#space_37, #space_48, #space_49, #space_61 { background: url('#{$baseurl}scrub.svg'); }
+		#space_17, #space_26 { background: url('#{$baseurl}river14.svg'); }
+		#space_35 { background: url('#{$baseurl}river03.svg'); }
+		#space_36 { background: url('#{$baseurl}river04.svg'); }
+	}
+
+	.island_16, .island_19, .island_25, .island_29 {
+		#space_14, #space_15, #space_16, #space_25, #space_39, #space_50 { background: url('#{$baseurl}beach.svg'); }
+		#space_12, #space_13, #space_21, #space_22, #space_31 { background: url('#{$baseurl}jungle.svg'); }
+		#space_42, #space_53, #space_54, #space_65, #space_66, #space_67 { background: url('#{$baseurl}lake.svg'); }
+		#space_34, #space_44, #space_55 { background: url('#{$baseurl}mountain.svg'); }
+		#space_23, #space_24, #space_32, #space_33, #space_40, #space_43, #space_51, #space_52, #space_63, #space_64 { background: url('#{$baseurl}scrub.svg'); }
+		#space_29 { background: url('#{$baseurl}river03.svg'); }
+		#space_30 { background: url('#{$baseurl}river02.svg'); }
+		#space_41 { background: url('#{$baseurl}river25.svg'); }
+	}
+
+	.island_18, .island_21, .island_26, .island_27 {
+		#space_14, #space_15, #space_16, #space_26, #space_44, #space_56 { background: url('#{$baseurl}beach.svg'); }
+		#space_12, #space_13, #space_22, #space_23, #space_34 { background: url('#{$baseurl}jungle.svg'); }
+		#space_47, #space_59, #space_60, #space_72, #space_73, #space_74 { background: url('#{$baseurl}lake.svg'); }
+		#space_37, #space_49, #space_61 { background: url('#{$baseurl}mountain.svg'); }
+		#space_24, #space_25, #space_35, #space_36, #space_45, #space_48, #space_57, #space_58, #space_70, #space_71 { background: url('#{$baseurl}scrub.svg'); }
+		#space_32 { background: url('#{$baseurl}river03.svg'); }
+		#space_33 { background: url('#{$baseurl}river02.svg'); }
+		#space_46 { background: url('#{$baseurl}river25.svg'); }
+	}
+}

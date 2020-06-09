@@ -432,3 +432,645 @@
   top: 0;
   right: 0;
 }
+
+#tbg_game_area {
+  /* Fix a glitch due to this being placed on the wrong element */
+  /* Doing the statues well is hard, so for the time being I'm going to stick to arrows */
+  /* Display the map using the cells set up for event handling */
+  /* =================================  BOARD 1  ================================= */
+  /* =================================  BOARD 2  ================================= */
+  /* =================================  BOARD 3  ================================= */
+}
+
+#tbg_game_area #clue_cards_deck {
+  background-repeat: no-repeat;
+}
+
+#tbg_game_area .statue_1 {
+  background-image: url("https://pjt33.github.io/bga_custom_css/tobago/statue_s.svg");
+}
+
+#tbg_game_area .statue_2 {
+  background-image: url("https://pjt33.github.io/bga_custom_css/tobago/statue_sw.svg");
+}
+
+#tbg_game_area .statue_3 {
+  background-image: url("https://pjt33.github.io/bga_custom_css/tobago/statue_nw.svg");
+}
+
+#tbg_game_area .statue_4 {
+  background-image: url("https://pjt33.github.io/bga_custom_css/tobago/statue_n.svg");
+}
+
+#tbg_game_area .statue_5 {
+  background-image: url("https://pjt33.github.io/bga_custom_css/tobago/statue_ne.svg");
+}
+
+#tbg_game_area .statue_6 {
+  background-image: url("https://pjt33.github.io/bga_custom_css/tobago/statue_se.svg");
+}
+
+#tbg_game_area #island {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/board.svg") !important;
+}
+
+#tbg_game_area #amulet_heap_counter, #tbg_game_area #clue_cards_counter, #tbg_game_area #treasure_cards_counter {
+  color: #000;
+}
+
+#tbg_game_area .tbg_space {
+  width: 49px;
+  height: 44px;
+}
+
+#tbg_game_area .island_1 #space_60, #tbg_game_area .island_1 #space_73, #tbg_game_area .island_1 #space_96, #tbg_game_area .island_1 #space_97, #tbg_game_area .island_1 #space_99, #tbg_game_area .island_1 #space_109, #tbg_game_area .island_1 #space_112, #tbg_game_area .island_1 #space_123, #tbg_game_area .island_4 #space_60, #tbg_game_area .island_4 #space_73, #tbg_game_area .island_4 #space_96, #tbg_game_area .island_4 #space_97, #tbg_game_area .island_4 #space_99, #tbg_game_area .island_4 #space_109, #tbg_game_area .island_4 #space_112, #tbg_game_area .island_4 #space_123, #tbg_game_area .island_11 #space_60, #tbg_game_area .island_11 #space_73, #tbg_game_area .island_11 #space_96, #tbg_game_area .island_11 #space_97, #tbg_game_area .island_11 #space_99, #tbg_game_area .island_11 #space_109, #tbg_game_area .island_11 #space_112, #tbg_game_area .island_11 #space_123, #tbg_game_area .island_13 #space_60, #tbg_game_area .island_13 #space_73, #tbg_game_area .island_13 #space_96, #tbg_game_area .island_13 #space_97, #tbg_game_area .island_13 #space_99, #tbg_game_area .island_13 #space_109, #tbg_game_area .island_13 #space_112, #tbg_game_area .island_13 #space_123, #tbg_game_area .island_16 #space_60, #tbg_game_area .island_16 #space_73, #tbg_game_area .island_16 #space_96, #tbg_game_area .island_16 #space_97, #tbg_game_area .island_16 #space_99, #tbg_game_area .island_16 #space_109, #tbg_game_area .island_16 #space_112, #tbg_game_area .island_16 #space_123, #tbg_game_area .island_23 #space_60, #tbg_game_area .island_23 #space_73, #tbg_game_area .island_23 #space_96, #tbg_game_area .island_23 #space_97, #tbg_game_area .island_23 #space_99, #tbg_game_area .island_23 #space_109, #tbg_game_area .island_23 #space_112, #tbg_game_area .island_23 #space_123, #tbg_game_area .island_25 #space_60, #tbg_game_area .island_25 #space_73, #tbg_game_area .island_25 #space_96, #tbg_game_area .island_25 #space_97, #tbg_game_area .island_25 #space_99, #tbg_game_area .island_25 #space_109, #tbg_game_area .island_25 #space_112, #tbg_game_area .island_25 #space_123, #tbg_game_area .island_28 #space_60, #tbg_game_area .island_28 #space_73, #tbg_game_area .island_28 #space_96, #tbg_game_area .island_28 #space_97, #tbg_game_area .island_28 #space_99, #tbg_game_area .island_28 #space_109, #tbg_game_area .island_28 #space_112, #tbg_game_area .island_28 #space_123 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_1 #space_72, #tbg_game_area .island_1 #space_84, #tbg_game_area .island_1 #space_85, #tbg_game_area .island_1 #space_86, #tbg_game_area .island_1 #space_98, #tbg_game_area .island_1 #space_111, #tbg_game_area .island_4 #space_72, #tbg_game_area .island_4 #space_84, #tbg_game_area .island_4 #space_85, #tbg_game_area .island_4 #space_86, #tbg_game_area .island_4 #space_98, #tbg_game_area .island_4 #space_111, #tbg_game_area .island_11 #space_72, #tbg_game_area .island_11 #space_84, #tbg_game_area .island_11 #space_85, #tbg_game_area .island_11 #space_86, #tbg_game_area .island_11 #space_98, #tbg_game_area .island_11 #space_111, #tbg_game_area .island_13 #space_72, #tbg_game_area .island_13 #space_84, #tbg_game_area .island_13 #space_85, #tbg_game_area .island_13 #space_86, #tbg_game_area .island_13 #space_98, #tbg_game_area .island_13 #space_111, #tbg_game_area .island_16 #space_72, #tbg_game_area .island_16 #space_84, #tbg_game_area .island_16 #space_85, #tbg_game_area .island_16 #space_86, #tbg_game_area .island_16 #space_98, #tbg_game_area .island_16 #space_111, #tbg_game_area .island_23 #space_72, #tbg_game_area .island_23 #space_84, #tbg_game_area .island_23 #space_85, #tbg_game_area .island_23 #space_86, #tbg_game_area .island_23 #space_98, #tbg_game_area .island_23 #space_111, #tbg_game_area .island_25 #space_72, #tbg_game_area .island_25 #space_84, #tbg_game_area .island_25 #space_85, #tbg_game_area .island_25 #space_86, #tbg_game_area .island_25 #space_98, #tbg_game_area .island_25 #space_111, #tbg_game_area .island_28 #space_72, #tbg_game_area .island_28 #space_84, #tbg_game_area .island_28 #space_85, #tbg_game_area .island_28 #space_86, #tbg_game_area .island_28 #space_98, #tbg_game_area .island_28 #space_111 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_1 #space_68, #tbg_game_area .island_1 #space_81, #tbg_game_area .island_1 #space_82, #tbg_game_area .island_4 #space_68, #tbg_game_area .island_4 #space_81, #tbg_game_area .island_4 #space_82, #tbg_game_area .island_11 #space_68, #tbg_game_area .island_11 #space_81, #tbg_game_area .island_11 #space_82, #tbg_game_area .island_13 #space_68, #tbg_game_area .island_13 #space_81, #tbg_game_area .island_13 #space_82, #tbg_game_area .island_16 #space_68, #tbg_game_area .island_16 #space_81, #tbg_game_area .island_16 #space_82, #tbg_game_area .island_23 #space_68, #tbg_game_area .island_23 #space_81, #tbg_game_area .island_23 #space_82, #tbg_game_area .island_25 #space_68, #tbg_game_area .island_25 #space_81, #tbg_game_area .island_25 #space_82, #tbg_game_area .island_28 #space_68, #tbg_game_area .island_28 #space_81, #tbg_game_area .island_28 #space_82 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_1 #space_70, #tbg_game_area .island_1 #space_83, #tbg_game_area .island_1 #space_87, #tbg_game_area .island_1 #space_95, #tbg_game_area .island_4 #space_70, #tbg_game_area .island_4 #space_83, #tbg_game_area .island_4 #space_87, #tbg_game_area .island_4 #space_95, #tbg_game_area .island_11 #space_70, #tbg_game_area .island_11 #space_83, #tbg_game_area .island_11 #space_87, #tbg_game_area .island_11 #space_95, #tbg_game_area .island_13 #space_70, #tbg_game_area .island_13 #space_83, #tbg_game_area .island_13 #space_87, #tbg_game_area .island_13 #space_95, #tbg_game_area .island_16 #space_70, #tbg_game_area .island_16 #space_83, #tbg_game_area .island_16 #space_87, #tbg_game_area .island_16 #space_95, #tbg_game_area .island_23 #space_70, #tbg_game_area .island_23 #space_83, #tbg_game_area .island_23 #space_87, #tbg_game_area .island_23 #space_95, #tbg_game_area .island_25 #space_70, #tbg_game_area .island_25 #space_83, #tbg_game_area .island_25 #space_87, #tbg_game_area .island_25 #space_95, #tbg_game_area .island_28 #space_70, #tbg_game_area .island_28 #space_83, #tbg_game_area .island_28 #space_87, #tbg_game_area .island_28 #space_95 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_1 #space_94, #tbg_game_area .island_1 #space_108, #tbg_game_area .island_1 #space_121, #tbg_game_area .island_4 #space_94, #tbg_game_area .island_4 #space_108, #tbg_game_area .island_4 #space_121, #tbg_game_area .island_11 #space_94, #tbg_game_area .island_11 #space_108, #tbg_game_area .island_11 #space_121, #tbg_game_area .island_13 #space_94, #tbg_game_area .island_13 #space_108, #tbg_game_area .island_13 #space_121, #tbg_game_area .island_16 #space_94, #tbg_game_area .island_16 #space_108, #tbg_game_area .island_16 #space_121, #tbg_game_area .island_23 #space_94, #tbg_game_area .island_23 #space_108, #tbg_game_area .island_23 #space_121, #tbg_game_area .island_25 #space_94, #tbg_game_area .island_25 #space_108, #tbg_game_area .island_25 #space_121, #tbg_game_area .island_28 #space_94, #tbg_game_area .island_28 #space_108, #tbg_game_area .island_28 #space_121 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_1 #space_45, #tbg_game_area .island_4 #space_45, #tbg_game_area .island_11 #space_45, #tbg_game_area .island_13 #space_45, #tbg_game_area .island_16 #space_45, #tbg_game_area .island_23 #space_45, #tbg_game_area .island_25 #space_45, #tbg_game_area .island_28 #space_45 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river12.svg");
+}
+
+#tbg_game_area .island_1 #space_56, #tbg_game_area .island_4 #space_56, #tbg_game_area .island_11 #space_56, #tbg_game_area .island_13 #space_56, #tbg_game_area .island_16 #space_56, #tbg_game_area .island_23 #space_56, #tbg_game_area .island_25 #space_56, #tbg_game_area .island_28 #space_56 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river24.svg");
+}
+
+#tbg_game_area .island_1 #space_57, #tbg_game_area .island_4 #space_57, #tbg_game_area .island_11 #space_57, #tbg_game_area .island_13 #space_57, #tbg_game_area .island_16 #space_57, #tbg_game_area .island_23 #space_57, #tbg_game_area .island_25 #space_57, #tbg_game_area .island_28 #space_57 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river35.svg");
+}
+
+#tbg_game_area .island_1 #space_58, #tbg_game_area .island_4 #space_58, #tbg_game_area .island_11 #space_58, #tbg_game_area .island_13 #space_58, #tbg_game_area .island_16 #space_58, #tbg_game_area .island_23 #space_58, #tbg_game_area .island_25 #space_58, #tbg_game_area .island_28 #space_58 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river03.svg");
+}
+
+#tbg_game_area .island_1 #space_69, #tbg_game_area .island_4 #space_69, #tbg_game_area .island_11 #space_69, #tbg_game_area .island_13 #space_69, #tbg_game_area .island_16 #space_69, #tbg_game_area .island_23 #space_69, #tbg_game_area .island_25 #space_69, #tbg_game_area .island_28 #space_69 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river15.svg");
+}
+
+#tbg_game_area .island_3 #space_54, #tbg_game_area .island_3 #space_67, #tbg_game_area .island_3 #space_90, #tbg_game_area .island_3 #space_91, #tbg_game_area .island_3 #space_93, #tbg_game_area .island_3 #space_102, #tbg_game_area .island_3 #space_105, #tbg_game_area .island_3 #space_116, #tbg_game_area .island_6 #space_54, #tbg_game_area .island_6 #space_67, #tbg_game_area .island_6 #space_90, #tbg_game_area .island_6 #space_91, #tbg_game_area .island_6 #space_93, #tbg_game_area .island_6 #space_102, #tbg_game_area .island_6 #space_105, #tbg_game_area .island_6 #space_116, #tbg_game_area .island_8 #space_54, #tbg_game_area .island_8 #space_67, #tbg_game_area .island_8 #space_90, #tbg_game_area .island_8 #space_91, #tbg_game_area .island_8 #space_93, #tbg_game_area .island_8 #space_102, #tbg_game_area .island_8 #space_105, #tbg_game_area .island_8 #space_116, #tbg_game_area .island_15 #space_54, #tbg_game_area .island_15 #space_67, #tbg_game_area .island_15 #space_90, #tbg_game_area .island_15 #space_91, #tbg_game_area .island_15 #space_93, #tbg_game_area .island_15 #space_102, #tbg_game_area .island_15 #space_105, #tbg_game_area .island_15 #space_116, #tbg_game_area .island_18 #space_54, #tbg_game_area .island_18 #space_67, #tbg_game_area .island_18 #space_90, #tbg_game_area .island_18 #space_91, #tbg_game_area .island_18 #space_93, #tbg_game_area .island_18 #space_102, #tbg_game_area .island_18 #space_105, #tbg_game_area .island_18 #space_116, #tbg_game_area .island_20 #space_54, #tbg_game_area .island_20 #space_67, #tbg_game_area .island_20 #space_90, #tbg_game_area .island_20 #space_91, #tbg_game_area .island_20 #space_93, #tbg_game_area .island_20 #space_102, #tbg_game_area .island_20 #space_105, #tbg_game_area .island_20 #space_116, #tbg_game_area .island_27 #space_54, #tbg_game_area .island_27 #space_67, #tbg_game_area .island_27 #space_90, #tbg_game_area .island_27 #space_91, #tbg_game_area .island_27 #space_93, #tbg_game_area .island_27 #space_102, #tbg_game_area .island_27 #space_105, #tbg_game_area .island_27 #space_116, #tbg_game_area .island_30 #space_54, #tbg_game_area .island_30 #space_67, #tbg_game_area .island_30 #space_90, #tbg_game_area .island_30 #space_91, #tbg_game_area .island_30 #space_93, #tbg_game_area .island_30 #space_102, #tbg_game_area .island_30 #space_105, #tbg_game_area .island_30 #space_116 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_3 #space_66, #tbg_game_area .island_3 #space_78, #tbg_game_area .island_3 #space_79, #tbg_game_area .island_3 #space_80, #tbg_game_area .island_3 #space_92, #tbg_game_area .island_3 #space_104, #tbg_game_area .island_6 #space_66, #tbg_game_area .island_6 #space_78, #tbg_game_area .island_6 #space_79, #tbg_game_area .island_6 #space_80, #tbg_game_area .island_6 #space_92, #tbg_game_area .island_6 #space_104, #tbg_game_area .island_8 #space_66, #tbg_game_area .island_8 #space_78, #tbg_game_area .island_8 #space_79, #tbg_game_area .island_8 #space_80, #tbg_game_area .island_8 #space_92, #tbg_game_area .island_8 #space_104, #tbg_game_area .island_15 #space_66, #tbg_game_area .island_15 #space_78, #tbg_game_area .island_15 #space_79, #tbg_game_area .island_15 #space_80, #tbg_game_area .island_15 #space_92, #tbg_game_area .island_15 #space_104, #tbg_game_area .island_18 #space_66, #tbg_game_area .island_18 #space_78, #tbg_game_area .island_18 #space_79, #tbg_game_area .island_18 #space_80, #tbg_game_area .island_18 #space_92, #tbg_game_area .island_18 #space_104, #tbg_game_area .island_20 #space_66, #tbg_game_area .island_20 #space_78, #tbg_game_area .island_20 #space_79, #tbg_game_area .island_20 #space_80, #tbg_game_area .island_20 #space_92, #tbg_game_area .island_20 #space_104, #tbg_game_area .island_27 #space_66, #tbg_game_area .island_27 #space_78, #tbg_game_area .island_27 #space_79, #tbg_game_area .island_27 #space_80, #tbg_game_area .island_27 #space_92, #tbg_game_area .island_27 #space_104, #tbg_game_area .island_30 #space_66, #tbg_game_area .island_30 #space_78, #tbg_game_area .island_30 #space_79, #tbg_game_area .island_30 #space_80, #tbg_game_area .island_30 #space_92, #tbg_game_area .island_30 #space_104 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_3 #space_62, #tbg_game_area .island_3 #space_75, #tbg_game_area .island_3 #space_76, #tbg_game_area .island_6 #space_62, #tbg_game_area .island_6 #space_75, #tbg_game_area .island_6 #space_76, #tbg_game_area .island_8 #space_62, #tbg_game_area .island_8 #space_75, #tbg_game_area .island_8 #space_76, #tbg_game_area .island_15 #space_62, #tbg_game_area .island_15 #space_75, #tbg_game_area .island_15 #space_76, #tbg_game_area .island_18 #space_62, #tbg_game_area .island_18 #space_75, #tbg_game_area .island_18 #space_76, #tbg_game_area .island_20 #space_62, #tbg_game_area .island_20 #space_75, #tbg_game_area .island_20 #space_76, #tbg_game_area .island_27 #space_62, #tbg_game_area .island_27 #space_75, #tbg_game_area .island_27 #space_76, #tbg_game_area .island_30 #space_62, #tbg_game_area .island_30 #space_75, #tbg_game_area .island_30 #space_76 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_3 #space_64, #tbg_game_area .island_3 #space_77, #tbg_game_area .island_3 #space_81, #tbg_game_area .island_3 #space_89, #tbg_game_area .island_6 #space_64, #tbg_game_area .island_6 #space_77, #tbg_game_area .island_6 #space_81, #tbg_game_area .island_6 #space_89, #tbg_game_area .island_8 #space_64, #tbg_game_area .island_8 #space_77, #tbg_game_area .island_8 #space_81, #tbg_game_area .island_8 #space_89, #tbg_game_area .island_15 #space_64, #tbg_game_area .island_15 #space_77, #tbg_game_area .island_15 #space_81, #tbg_game_area .island_15 #space_89, #tbg_game_area .island_18 #space_64, #tbg_game_area .island_18 #space_77, #tbg_game_area .island_18 #space_81, #tbg_game_area .island_18 #space_89, #tbg_game_area .island_20 #space_64, #tbg_game_area .island_20 #space_77, #tbg_game_area .island_20 #space_81, #tbg_game_area .island_20 #space_89, #tbg_game_area .island_27 #space_64, #tbg_game_area .island_27 #space_77, #tbg_game_area .island_27 #space_81, #tbg_game_area .island_27 #space_89, #tbg_game_area .island_30 #space_64, #tbg_game_area .island_30 #space_77, #tbg_game_area .island_30 #space_81, #tbg_game_area .island_30 #space_89 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_3 #space_88, #tbg_game_area .island_3 #space_101, #tbg_game_area .island_3 #space_114, #tbg_game_area .island_6 #space_88, #tbg_game_area .island_6 #space_101, #tbg_game_area .island_6 #space_114, #tbg_game_area .island_8 #space_88, #tbg_game_area .island_8 #space_101, #tbg_game_area .island_8 #space_114, #tbg_game_area .island_15 #space_88, #tbg_game_area .island_15 #space_101, #tbg_game_area .island_15 #space_114, #tbg_game_area .island_18 #space_88, #tbg_game_area .island_18 #space_101, #tbg_game_area .island_18 #space_114, #tbg_game_area .island_20 #space_88, #tbg_game_area .island_20 #space_101, #tbg_game_area .island_20 #space_114, #tbg_game_area .island_27 #space_88, #tbg_game_area .island_27 #space_101, #tbg_game_area .island_27 #space_114, #tbg_game_area .island_30 #space_88, #tbg_game_area .island_30 #space_101, #tbg_game_area .island_30 #space_114 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_3 #space_38, #tbg_game_area .island_6 #space_38, #tbg_game_area .island_8 #space_38, #tbg_game_area .island_15 #space_38, #tbg_game_area .island_18 #space_38, #tbg_game_area .island_20 #space_38, #tbg_game_area .island_27 #space_38, #tbg_game_area .island_30 #space_38 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river12.svg");
+}
+
+#tbg_game_area .island_3 #space_50, #tbg_game_area .island_6 #space_50, #tbg_game_area .island_8 #space_50, #tbg_game_area .island_15 #space_50, #tbg_game_area .island_18 #space_50, #tbg_game_area .island_20 #space_50, #tbg_game_area .island_27 #space_50, #tbg_game_area .island_30 #space_50 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river24.svg");
+}
+
+#tbg_game_area .island_3 #space_51, #tbg_game_area .island_6 #space_51, #tbg_game_area .island_8 #space_51, #tbg_game_area .island_15 #space_51, #tbg_game_area .island_18 #space_51, #tbg_game_area .island_20 #space_51, #tbg_game_area .island_27 #space_51, #tbg_game_area .island_30 #space_51 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river35.svg");
+}
+
+#tbg_game_area .island_3 #space_52, #tbg_game_area .island_6 #space_52, #tbg_game_area .island_8 #space_52, #tbg_game_area .island_15 #space_52, #tbg_game_area .island_18 #space_52, #tbg_game_area .island_20 #space_52, #tbg_game_area .island_27 #space_52, #tbg_game_area .island_30 #space_52 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river03.svg");
+}
+
+#tbg_game_area .island_3 #space_63, #tbg_game_area .island_6 #space_63, #tbg_game_area .island_8 #space_63, #tbg_game_area .island_15 #space_63, #tbg_game_area .island_18 #space_63, #tbg_game_area .island_20 #space_63, #tbg_game_area .island_27 #space_63, #tbg_game_area .island_30 #space_63 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river15.svg");
+}
+
+#tbg_game_area .island_2 #space_115, #tbg_game_area .island_2 #space_116, #tbg_game_area .island_9 #space_115, #tbg_game_area .island_9 #space_116, #tbg_game_area .island_12 #space_115, #tbg_game_area .island_12 #space_116, #tbg_game_area .island_14 #space_115, #tbg_game_area .island_14 #space_116, #tbg_game_area .island_21 #space_115, #tbg_game_area .island_21 #space_116, #tbg_game_area .island_24 #space_115, #tbg_game_area .island_24 #space_116, #tbg_game_area .island_26 #space_115, #tbg_game_area .island_26 #space_116, #tbg_game_area .island_32 #space_115, #tbg_game_area .island_32 #space_116 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_2 #space_52, #tbg_game_area .island_2 #space_64, #tbg_game_area .island_2 #space_65, #tbg_game_area .island_2 #space_79, #tbg_game_area .island_2 #space_91, #tbg_game_area .island_2 #space_92, #tbg_game_area .island_2 #space_102, #tbg_game_area .island_2 #space_103, #tbg_game_area .island_2 #space_104, #tbg_game_area .island_9 #space_52, #tbg_game_area .island_9 #space_64, #tbg_game_area .island_9 #space_65, #tbg_game_area .island_9 #space_79, #tbg_game_area .island_9 #space_91, #tbg_game_area .island_9 #space_92, #tbg_game_area .island_9 #space_102, #tbg_game_area .island_9 #space_103, #tbg_game_area .island_9 #space_104, #tbg_game_area .island_12 #space_52, #tbg_game_area .island_12 #space_64, #tbg_game_area .island_12 #space_65, #tbg_game_area .island_12 #space_79, #tbg_game_area .island_12 #space_91, #tbg_game_area .island_12 #space_92, #tbg_game_area .island_12 #space_102, #tbg_game_area .island_12 #space_103, #tbg_game_area .island_12 #space_104, #tbg_game_area .island_14 #space_52, #tbg_game_area .island_14 #space_64, #tbg_game_area .island_14 #space_65, #tbg_game_area .island_14 #space_79, #tbg_game_area .island_14 #space_91, #tbg_game_area .island_14 #space_92, #tbg_game_area .island_14 #space_102, #tbg_game_area .island_14 #space_103, #tbg_game_area .island_14 #space_104, #tbg_game_area .island_21 #space_52, #tbg_game_area .island_21 #space_64, #tbg_game_area .island_21 #space_65, #tbg_game_area .island_21 #space_79, #tbg_game_area .island_21 #space_91, #tbg_game_area .island_21 #space_92, #tbg_game_area .island_21 #space_102, #tbg_game_area .island_21 #space_103, #tbg_game_area .island_21 #space_104, #tbg_game_area .island_24 #space_52, #tbg_game_area .island_24 #space_64, #tbg_game_area .island_24 #space_65, #tbg_game_area .island_24 #space_79, #tbg_game_area .island_24 #space_91, #tbg_game_area .island_24 #space_92, #tbg_game_area .island_24 #space_102, #tbg_game_area .island_24 #space_103, #tbg_game_area .island_24 #space_104, #tbg_game_area .island_26 #space_52, #tbg_game_area .island_26 #space_64, #tbg_game_area .island_26 #space_65, #tbg_game_area .island_26 #space_79, #tbg_game_area .island_26 #space_91, #tbg_game_area .island_26 #space_92, #tbg_game_area .island_26 #space_102, #tbg_game_area .island_26 #space_103, #tbg_game_area .island_26 #space_104, #tbg_game_area .island_32 #space_52, #tbg_game_area .island_32 #space_64, #tbg_game_area .island_32 #space_65, #tbg_game_area .island_32 #space_79, #tbg_game_area .island_32 #space_91, #tbg_game_area .island_32 #space_92, #tbg_game_area .island_32 #space_102, #tbg_game_area .island_32 #space_103, #tbg_game_area .island_32 #space_104 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_2 #space_76, #tbg_game_area .island_2 #space_77, #tbg_game_area .island_2 #space_78, #tbg_game_area .island_2 #space_89, #tbg_game_area .island_2 #space_90, #tbg_game_area .island_9 #space_76, #tbg_game_area .island_9 #space_77, #tbg_game_area .island_9 #space_78, #tbg_game_area .island_9 #space_89, #tbg_game_area .island_9 #space_90, #tbg_game_area .island_12 #space_76, #tbg_game_area .island_12 #space_77, #tbg_game_area .island_12 #space_78, #tbg_game_area .island_12 #space_89, #tbg_game_area .island_12 #space_90, #tbg_game_area .island_14 #space_76, #tbg_game_area .island_14 #space_77, #tbg_game_area .island_14 #space_78, #tbg_game_area .island_14 #space_89, #tbg_game_area .island_14 #space_90, #tbg_game_area .island_21 #space_76, #tbg_game_area .island_21 #space_77, #tbg_game_area .island_21 #space_78, #tbg_game_area .island_21 #space_89, #tbg_game_area .island_21 #space_90, #tbg_game_area .island_24 #space_76, #tbg_game_area .island_24 #space_77, #tbg_game_area .island_24 #space_78, #tbg_game_area .island_24 #space_89, #tbg_game_area .island_24 #space_90, #tbg_game_area .island_26 #space_76, #tbg_game_area .island_26 #space_77, #tbg_game_area .island_26 #space_78, #tbg_game_area .island_26 #space_89, #tbg_game_area .island_26 #space_90, #tbg_game_area .island_32 #space_76, #tbg_game_area .island_32 #space_77, #tbg_game_area .island_32 #space_78, #tbg_game_area .island_32 #space_89, #tbg_game_area .island_32 #space_90 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_2 #space_40, #tbg_game_area .island_2 #space_53, #tbg_game_area .island_2 #space_54, #tbg_game_area .island_2 #space_62, #tbg_game_area .island_2 #space_66, #tbg_game_area .island_2 #space_67, #tbg_game_area .island_2 #space_75, #tbg_game_area .island_2 #space_80, #tbg_game_area .island_2 #space_81, #tbg_game_area .island_2 #space_88, #tbg_game_area .island_2 #space_93, #tbg_game_area .island_2 #space_101, #tbg_game_area .island_9 #space_40, #tbg_game_area .island_9 #space_53, #tbg_game_area .island_9 #space_54, #tbg_game_area .island_9 #space_62, #tbg_game_area .island_9 #space_66, #tbg_game_area .island_9 #space_67, #tbg_game_area .island_9 #space_75, #tbg_game_area .island_9 #space_80, #tbg_game_area .island_9 #space_81, #tbg_game_area .island_9 #space_88, #tbg_game_area .island_9 #space_93, #tbg_game_area .island_9 #space_101, #tbg_game_area .island_12 #space_40, #tbg_game_area .island_12 #space_53, #tbg_game_area .island_12 #space_54, #tbg_game_area .island_12 #space_62, #tbg_game_area .island_12 #space_66, #tbg_game_area .island_12 #space_67, #tbg_game_area .island_12 #space_75, #tbg_game_area .island_12 #space_80, #tbg_game_area .island_12 #space_81, #tbg_game_area .island_12 #space_88, #tbg_game_area .island_12 #space_93, #tbg_game_area .island_12 #space_101, #tbg_game_area .island_14 #space_40, #tbg_game_area .island_14 #space_53, #tbg_game_area .island_14 #space_54, #tbg_game_area .island_14 #space_62, #tbg_game_area .island_14 #space_66, #tbg_game_area .island_14 #space_67, #tbg_game_area .island_14 #space_75, #tbg_game_area .island_14 #space_80, #tbg_game_area .island_14 #space_81, #tbg_game_area .island_14 #space_88, #tbg_game_area .island_14 #space_93, #tbg_game_area .island_14 #space_101, #tbg_game_area .island_21 #space_40, #tbg_game_area .island_21 #space_53, #tbg_game_area .island_21 #space_54, #tbg_game_area .island_21 #space_62, #tbg_game_area .island_21 #space_66, #tbg_game_area .island_21 #space_67, #tbg_game_area .island_21 #space_75, #tbg_game_area .island_21 #space_80, #tbg_game_area .island_21 #space_81, #tbg_game_area .island_21 #space_88, #tbg_game_area .island_21 #space_93, #tbg_game_area .island_21 #space_101, #tbg_game_area .island_24 #space_40, #tbg_game_area .island_24 #space_53, #tbg_game_area .island_24 #space_54, #tbg_game_area .island_24 #space_62, #tbg_game_area .island_24 #space_66, #tbg_game_area .island_24 #space_67, #tbg_game_area .island_24 #space_75, #tbg_game_area .island_24 #space_80, #tbg_game_area .island_24 #space_81, #tbg_game_area .island_24 #space_88, #tbg_game_area .island_24 #space_93, #tbg_game_area .island_24 #space_101, #tbg_game_area .island_26 #space_40, #tbg_game_area .island_26 #space_53, #tbg_game_area .island_26 #space_54, #tbg_game_area .island_26 #space_62, #tbg_game_area .island_26 #space_66, #tbg_game_area .island_26 #space_67, #tbg_game_area .island_26 #space_75, #tbg_game_area .island_26 #space_80, #tbg_game_area .island_26 #space_81, #tbg_game_area .island_26 #space_88, #tbg_game_area .island_26 #space_93, #tbg_game_area .island_26 #space_101, #tbg_game_area .island_32 #space_40, #tbg_game_area .island_32 #space_53, #tbg_game_area .island_32 #space_54, #tbg_game_area .island_32 #space_62, #tbg_game_area .island_32 #space_66, #tbg_game_area .island_32 #space_67, #tbg_game_area .island_32 #space_75, #tbg_game_area .island_32 #space_80, #tbg_game_area .island_32 #space_81, #tbg_game_area .island_32 #space_88, #tbg_game_area .island_32 #space_93, #tbg_game_area .island_32 #space_101 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_2 #space_38, #tbg_game_area .island_2 #space_50, #tbg_game_area .island_2 #space_114, #tbg_game_area .island_2 #space_126, #tbg_game_area .island_9 #space_38, #tbg_game_area .island_9 #space_50, #tbg_game_area .island_9 #space_114, #tbg_game_area .island_9 #space_126, #tbg_game_area .island_12 #space_38, #tbg_game_area .island_12 #space_50, #tbg_game_area .island_12 #space_114, #tbg_game_area .island_12 #space_126, #tbg_game_area .island_14 #space_38, #tbg_game_area .island_14 #space_50, #tbg_game_area .island_14 #space_114, #tbg_game_area .island_14 #space_126, #tbg_game_area .island_21 #space_38, #tbg_game_area .island_21 #space_50, #tbg_game_area .island_21 #space_114, #tbg_game_area .island_21 #space_126, #tbg_game_area .island_24 #space_38, #tbg_game_area .island_24 #space_50, #tbg_game_area .island_24 #space_114, #tbg_game_area .island_24 #space_126, #tbg_game_area .island_26 #space_38, #tbg_game_area .island_26 #space_50, #tbg_game_area .island_26 #space_114, #tbg_game_area .island_26 #space_126, #tbg_game_area .island_32 #space_38, #tbg_game_area .island_32 #space_50, #tbg_game_area .island_32 #space_114, #tbg_game_area .island_32 #space_126 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_2 #space_51, #tbg_game_area .island_2 #space_63, #tbg_game_area .island_9 #space_51, #tbg_game_area .island_9 #space_63, #tbg_game_area .island_12 #space_51, #tbg_game_area .island_12 #space_63, #tbg_game_area .island_14 #space_51, #tbg_game_area .island_14 #space_63, #tbg_game_area .island_21 #space_51, #tbg_game_area .island_21 #space_63, #tbg_game_area .island_24 #space_51, #tbg_game_area .island_24 #space_63, #tbg_game_area .island_26 #space_51, #tbg_game_area .island_26 #space_63, #tbg_game_area .island_32 #space_51, #tbg_game_area .island_32 #space_63 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river14.svg");
+}
+
+#tbg_game_area .island_5 #space_122, #tbg_game_area .island_5 #space_123, #tbg_game_area .island_7 #space_122, #tbg_game_area .island_7 #space_123, #tbg_game_area .island_10 #space_122, #tbg_game_area .island_10 #space_123, #tbg_game_area .island_17 #space_122, #tbg_game_area .island_17 #space_123, #tbg_game_area .island_19 #space_122, #tbg_game_area .island_19 #space_123, #tbg_game_area .island_22 #space_122, #tbg_game_area .island_22 #space_123, #tbg_game_area .island_29 #space_122, #tbg_game_area .island_29 #space_123, #tbg_game_area .island_31 #space_122, #tbg_game_area .island_31 #space_123 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_5 #space_58, #tbg_game_area .island_5 #space_70, #tbg_game_area .island_5 #space_71, #tbg_game_area .island_5 #space_85, #tbg_game_area .island_5 #space_97, #tbg_game_area .island_5 #space_98, #tbg_game_area .island_5 #space_109, #tbg_game_area .island_5 #space_110, #tbg_game_area .island_5 #space_111, #tbg_game_area .island_7 #space_58, #tbg_game_area .island_7 #space_70, #tbg_game_area .island_7 #space_71, #tbg_game_area .island_7 #space_85, #tbg_game_area .island_7 #space_97, #tbg_game_area .island_7 #space_98, #tbg_game_area .island_7 #space_109, #tbg_game_area .island_7 #space_110, #tbg_game_area .island_7 #space_111, #tbg_game_area .island_10 #space_58, #tbg_game_area .island_10 #space_70, #tbg_game_area .island_10 #space_71, #tbg_game_area .island_10 #space_85, #tbg_game_area .island_10 #space_97, #tbg_game_area .island_10 #space_98, #tbg_game_area .island_10 #space_109, #tbg_game_area .island_10 #space_110, #tbg_game_area .island_10 #space_111, #tbg_game_area .island_17 #space_58, #tbg_game_area .island_17 #space_70, #tbg_game_area .island_17 #space_71, #tbg_game_area .island_17 #space_85, #tbg_game_area .island_17 #space_97, #tbg_game_area .island_17 #space_98, #tbg_game_area .island_17 #space_109, #tbg_game_area .island_17 #space_110, #tbg_game_area .island_17 #space_111, #tbg_game_area .island_19 #space_58, #tbg_game_area .island_19 #space_70, #tbg_game_area .island_19 #space_71, #tbg_game_area .island_19 #space_85, #tbg_game_area .island_19 #space_97, #tbg_game_area .island_19 #space_98, #tbg_game_area .island_19 #space_109, #tbg_game_area .island_19 #space_110, #tbg_game_area .island_19 #space_111, #tbg_game_area .island_22 #space_58, #tbg_game_area .island_22 #space_70, #tbg_game_area .island_22 #space_71, #tbg_game_area .island_22 #space_85, #tbg_game_area .island_22 #space_97, #tbg_game_area .island_22 #space_98, #tbg_game_area .island_22 #space_109, #tbg_game_area .island_22 #space_110, #tbg_game_area .island_22 #space_111, #tbg_game_area .island_29 #space_58, #tbg_game_area .island_29 #space_70, #tbg_game_area .island_29 #space_71, #tbg_game_area .island_29 #space_85, #tbg_game_area .island_29 #space_97, #tbg_game_area .island_29 #space_98, #tbg_game_area .island_29 #space_109, #tbg_game_area .island_29 #space_110, #tbg_game_area .island_29 #space_111, #tbg_game_area .island_31 #space_58, #tbg_game_area .island_31 #space_70, #tbg_game_area .island_31 #space_71, #tbg_game_area .island_31 #space_85, #tbg_game_area .island_31 #space_97, #tbg_game_area .island_31 #space_98, #tbg_game_area .island_31 #space_109, #tbg_game_area .island_31 #space_110, #tbg_game_area .island_31 #space_111 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_5 #space_82, #tbg_game_area .island_5 #space_83, #tbg_game_area .island_5 #space_84, #tbg_game_area .island_5 #space_95, #tbg_game_area .island_5 #space_96, #tbg_game_area .island_7 #space_82, #tbg_game_area .island_7 #space_83, #tbg_game_area .island_7 #space_84, #tbg_game_area .island_7 #space_95, #tbg_game_area .island_7 #space_96, #tbg_game_area .island_10 #space_82, #tbg_game_area .island_10 #space_83, #tbg_game_area .island_10 #space_84, #tbg_game_area .island_10 #space_95, #tbg_game_area .island_10 #space_96, #tbg_game_area .island_17 #space_82, #tbg_game_area .island_17 #space_83, #tbg_game_area .island_17 #space_84, #tbg_game_area .island_17 #space_95, #tbg_game_area .island_17 #space_96, #tbg_game_area .island_19 #space_82, #tbg_game_area .island_19 #space_83, #tbg_game_area .island_19 #space_84, #tbg_game_area .island_19 #space_95, #tbg_game_area .island_19 #space_96, #tbg_game_area .island_22 #space_82, #tbg_game_area .island_22 #space_83, #tbg_game_area .island_22 #space_84, #tbg_game_area .island_22 #space_95, #tbg_game_area .island_22 #space_96, #tbg_game_area .island_29 #space_82, #tbg_game_area .island_29 #space_83, #tbg_game_area .island_29 #space_84, #tbg_game_area .island_29 #space_95, #tbg_game_area .island_29 #space_96, #tbg_game_area .island_31 #space_82, #tbg_game_area .island_31 #space_83, #tbg_game_area .island_31 #space_84, #tbg_game_area .island_31 #space_95, #tbg_game_area .island_31 #space_96 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_5 #space_47, #tbg_game_area .island_5 #space_59, #tbg_game_area .island_5 #space_60, #tbg_game_area .island_5 #space_68, #tbg_game_area .island_5 #space_72, #tbg_game_area .island_5 #space_73, #tbg_game_area .island_5 #space_81, #tbg_game_area .island_5 #space_86, #tbg_game_area .island_5 #space_87, #tbg_game_area .island_5 #space_94, #tbg_game_area .island_5 #space_99, #tbg_game_area .island_5 #space_108, #tbg_game_area .island_7 #space_47, #tbg_game_area .island_7 #space_59, #tbg_game_area .island_7 #space_60, #tbg_game_area .island_7 #space_68, #tbg_game_area .island_7 #space_72, #tbg_game_area .island_7 #space_73, #tbg_game_area .island_7 #space_81, #tbg_game_area .island_7 #space_86, #tbg_game_area .island_7 #space_87, #tbg_game_area .island_7 #space_94, #tbg_game_area .island_7 #space_99, #tbg_game_area .island_7 #space_108, #tbg_game_area .island_10 #space_47, #tbg_game_area .island_10 #space_59, #tbg_game_area .island_10 #space_60, #tbg_game_area .island_10 #space_68, #tbg_game_area .island_10 #space_72, #tbg_game_area .island_10 #space_73, #tbg_game_area .island_10 #space_81, #tbg_game_area .island_10 #space_86, #tbg_game_area .island_10 #space_87, #tbg_game_area .island_10 #space_94, #tbg_game_area .island_10 #space_99, #tbg_game_area .island_10 #space_108, #tbg_game_area .island_17 #space_47, #tbg_game_area .island_17 #space_59, #tbg_game_area .island_17 #space_60, #tbg_game_area .island_17 #space_68, #tbg_game_area .island_17 #space_72, #tbg_game_area .island_17 #space_73, #tbg_game_area .island_17 #space_81, #tbg_game_area .island_17 #space_86, #tbg_game_area .island_17 #space_87, #tbg_game_area .island_17 #space_94, #tbg_game_area .island_17 #space_99, #tbg_game_area .island_17 #space_108, #tbg_game_area .island_19 #space_47, #tbg_game_area .island_19 #space_59, #tbg_game_area .island_19 #space_60, #tbg_game_area .island_19 #space_68, #tbg_game_area .island_19 #space_72, #tbg_game_area .island_19 #space_73, #tbg_game_area .island_19 #space_81, #tbg_game_area .island_19 #space_86, #tbg_game_area .island_19 #space_87, #tbg_game_area .island_19 #space_94, #tbg_game_area .island_19 #space_99, #tbg_game_area .island_19 #space_108, #tbg_game_area .island_22 #space_47, #tbg_game_area .island_22 #space_59, #tbg_game_area .island_22 #space_60, #tbg_game_area .island_22 #space_68, #tbg_game_area .island_22 #space_72, #tbg_game_area .island_22 #space_73, #tbg_game_area .island_22 #space_81, #tbg_game_area .island_22 #space_86, #tbg_game_area .island_22 #space_87, #tbg_game_area .island_22 #space_94, #tbg_game_area .island_22 #space_99, #tbg_game_area .island_22 #space_108, #tbg_game_area .island_29 #space_47, #tbg_game_area .island_29 #space_59, #tbg_game_area .island_29 #space_60, #tbg_game_area .island_29 #space_68, #tbg_game_area .island_29 #space_72, #tbg_game_area .island_29 #space_73, #tbg_game_area .island_29 #space_81, #tbg_game_area .island_29 #space_86, #tbg_game_area .island_29 #space_87, #tbg_game_area .island_29 #space_94, #tbg_game_area .island_29 #space_99, #tbg_game_area .island_29 #space_108, #tbg_game_area .island_31 #space_47, #tbg_game_area .island_31 #space_59, #tbg_game_area .island_31 #space_60, #tbg_game_area .island_31 #space_68, #tbg_game_area .island_31 #space_72, #tbg_game_area .island_31 #space_73, #tbg_game_area .island_31 #space_81, #tbg_game_area .island_31 #space_86, #tbg_game_area .island_31 #space_87, #tbg_game_area .island_31 #space_94, #tbg_game_area .island_31 #space_99, #tbg_game_area .island_31 #space_108 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_5 #space_45, #tbg_game_area .island_5 #space_56, #tbg_game_area .island_5 #space_121, #tbg_game_area .island_5 #space_134, #tbg_game_area .island_7 #space_45, #tbg_game_area .island_7 #space_56, #tbg_game_area .island_7 #space_121, #tbg_game_area .island_7 #space_134, #tbg_game_area .island_10 #space_45, #tbg_game_area .island_10 #space_56, #tbg_game_area .island_10 #space_121, #tbg_game_area .island_10 #space_134, #tbg_game_area .island_17 #space_45, #tbg_game_area .island_17 #space_56, #tbg_game_area .island_17 #space_121, #tbg_game_area .island_17 #space_134, #tbg_game_area .island_19 #space_45, #tbg_game_area .island_19 #space_56, #tbg_game_area .island_19 #space_121, #tbg_game_area .island_19 #space_134, #tbg_game_area .island_22 #space_45, #tbg_game_area .island_22 #space_56, #tbg_game_area .island_22 #space_121, #tbg_game_area .island_22 #space_134, #tbg_game_area .island_29 #space_45, #tbg_game_area .island_29 #space_56, #tbg_game_area .island_29 #space_121, #tbg_game_area .island_29 #space_134, #tbg_game_area .island_31 #space_45, #tbg_game_area .island_31 #space_56, #tbg_game_area .island_31 #space_121, #tbg_game_area .island_31 #space_134 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_5 #space_57, #tbg_game_area .island_5 #space_69, #tbg_game_area .island_7 #space_57, #tbg_game_area .island_7 #space_69, #tbg_game_area .island_10 #space_57, #tbg_game_area .island_10 #space_69, #tbg_game_area .island_17 #space_57, #tbg_game_area .island_17 #space_69, #tbg_game_area .island_19 #space_57, #tbg_game_area .island_19 #space_69, #tbg_game_area .island_22 #space_57, #tbg_game_area .island_22 #space_69, #tbg_game_area .island_29 #space_57, #tbg_game_area .island_29 #space_69, #tbg_game_area .island_31 #space_57, #tbg_game_area .island_31 #space_69 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river14.svg");
+}
+
+#tbg_game_area .island_1 #space_140, #tbg_game_area .island_1 #space_141, #tbg_game_area .island_1 #space_142, #tbg_game_area .island_5 #space_140, #tbg_game_area .island_5 #space_141, #tbg_game_area .island_5 #space_142, #tbg_game_area .island_13 #space_140, #tbg_game_area .island_13 #space_141, #tbg_game_area .island_13 #space_142, #tbg_game_area .island_17 #space_140, #tbg_game_area .island_17 #space_141, #tbg_game_area .island_17 #space_142 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_1 #space_104, #tbg_game_area .island_1 #space_116, #tbg_game_area .island_1 #space_127, #tbg_game_area .island_1 #space_128, #tbg_game_area .island_1 #space_137, #tbg_game_area .island_1 #space_138, #tbg_game_area .island_1 #space_147, #tbg_game_area .island_5 #space_104, #tbg_game_area .island_5 #space_116, #tbg_game_area .island_5 #space_127, #tbg_game_area .island_5 #space_128, #tbg_game_area .island_5 #space_137, #tbg_game_area .island_5 #space_138, #tbg_game_area .island_5 #space_147, #tbg_game_area .island_13 #space_104, #tbg_game_area .island_13 #space_116, #tbg_game_area .island_13 #space_127, #tbg_game_area .island_13 #space_128, #tbg_game_area .island_13 #space_137, #tbg_game_area .island_13 #space_138, #tbg_game_area .island_13 #space_147, #tbg_game_area .island_17 #space_104, #tbg_game_area .island_17 #space_116, #tbg_game_area .island_17 #space_127, #tbg_game_area .island_17 #space_128, #tbg_game_area .island_17 #space_137, #tbg_game_area .island_17 #space_138, #tbg_game_area .island_17 #space_147 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_1 #space_79, #tbg_game_area .island_1 #space_80, #tbg_game_area .island_1 #space_92, #tbg_game_area .island_1 #space_93, #tbg_game_area .island_5 #space_79, #tbg_game_area .island_5 #space_80, #tbg_game_area .island_5 #space_92, #tbg_game_area .island_5 #space_93, #tbg_game_area .island_13 #space_79, #tbg_game_area .island_13 #space_80, #tbg_game_area .island_13 #space_92, #tbg_game_area .island_13 #space_93, #tbg_game_area .island_17 #space_79, #tbg_game_area .island_17 #space_80, #tbg_game_area .island_17 #space_92, #tbg_game_area .island_17 #space_93 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_1 #space_78, #tbg_game_area .island_1 #space_90, #tbg_game_area .island_1 #space_91, #tbg_game_area .island_1 #space_103, #tbg_game_area .island_1 #space_115, #tbg_game_area .island_5 #space_78, #tbg_game_area .island_5 #space_90, #tbg_game_area .island_5 #space_91, #tbg_game_area .island_5 #space_103, #tbg_game_area .island_5 #space_115, #tbg_game_area .island_13 #space_78, #tbg_game_area .island_13 #space_90, #tbg_game_area .island_13 #space_91, #tbg_game_area .island_13 #space_103, #tbg_game_area .island_13 #space_115, #tbg_game_area .island_17 #space_78, #tbg_game_area .island_17 #space_90, #tbg_game_area .island_17 #space_91, #tbg_game_area .island_17 #space_103, #tbg_game_area .island_17 #space_115 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_1 #space_76, #tbg_game_area .island_1 #space_77, #tbg_game_area .island_1 #space_88, #tbg_game_area .island_1 #space_89, #tbg_game_area .island_1 #space_106, #tbg_game_area .island_1 #space_107, #tbg_game_area .island_1 #space_118, #tbg_game_area .island_1 #space_120, #tbg_game_area .island_1 #space_130, #tbg_game_area .island_1 #space_131, #tbg_game_area .island_5 #space_76, #tbg_game_area .island_5 #space_77, #tbg_game_area .island_5 #space_88, #tbg_game_area .island_5 #space_89, #tbg_game_area .island_5 #space_106, #tbg_game_area .island_5 #space_107, #tbg_game_area .island_5 #space_118, #tbg_game_area .island_5 #space_120, #tbg_game_area .island_5 #space_130, #tbg_game_area .island_5 #space_131, #tbg_game_area .island_13 #space_76, #tbg_game_area .island_13 #space_77, #tbg_game_area .island_13 #space_88, #tbg_game_area .island_13 #space_89, #tbg_game_area .island_13 #space_106, #tbg_game_area .island_13 #space_107, #tbg_game_area .island_13 #space_118, #tbg_game_area .island_13 #space_120, #tbg_game_area .island_13 #space_130, #tbg_game_area .island_13 #space_131, #tbg_game_area .island_17 #space_76, #tbg_game_area .island_17 #space_77, #tbg_game_area .island_17 #space_88, #tbg_game_area .island_17 #space_89, #tbg_game_area .island_17 #space_106, #tbg_game_area .island_17 #space_107, #tbg_game_area .island_17 #space_118, #tbg_game_area .island_17 #space_120, #tbg_game_area .island_17 #space_130, #tbg_game_area .island_17 #space_131 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_1 #space_105, #tbg_game_area .island_1 #space_117, #tbg_game_area .island_5 #space_105, #tbg_game_area .island_5 #space_117, #tbg_game_area .island_13 #space_105, #tbg_game_area .island_13 #space_117, #tbg_game_area .island_17 #space_105, #tbg_game_area .island_17 #space_117 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river14.svg");
+}
+
+#tbg_game_area .island_2 #space_141, #tbg_game_area .island_2 #space_142, #tbg_game_area .island_2 #space_143, #tbg_game_area .island_3 #space_141, #tbg_game_area .island_3 #space_142, #tbg_game_area .island_3 #space_143, #tbg_game_area .island_14 #space_141, #tbg_game_area .island_14 #space_142, #tbg_game_area .island_14 #space_143, #tbg_game_area .island_15 #space_141, #tbg_game_area .island_15 #space_142, #tbg_game_area .island_15 #space_143 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_2 #space_110, #tbg_game_area .island_2 #space_121, #tbg_game_area .island_2 #space_130, #tbg_game_area .island_2 #space_131, #tbg_game_area .island_2 #space_138, #tbg_game_area .island_2 #space_139, #tbg_game_area .island_2 #space_147, #tbg_game_area .island_3 #space_110, #tbg_game_area .island_3 #space_121, #tbg_game_area .island_3 #space_130, #tbg_game_area .island_3 #space_131, #tbg_game_area .island_3 #space_138, #tbg_game_area .island_3 #space_139, #tbg_game_area .island_3 #space_147, #tbg_game_area .island_14 #space_110, #tbg_game_area .island_14 #space_121, #tbg_game_area .island_14 #space_130, #tbg_game_area .island_14 #space_131, #tbg_game_area .island_14 #space_138, #tbg_game_area .island_14 #space_139, #tbg_game_area .island_14 #space_147, #tbg_game_area .island_15 #space_110, #tbg_game_area .island_15 #space_121, #tbg_game_area .island_15 #space_130, #tbg_game_area .island_15 #space_131, #tbg_game_area .island_15 #space_138, #tbg_game_area .island_15 #space_139, #tbg_game_area .island_15 #space_147 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_2 #space_86, #tbg_game_area .island_2 #space_87, #tbg_game_area .island_2 #space_99, #tbg_game_area .island_2 #space_100, #tbg_game_area .island_3 #space_86, #tbg_game_area .island_3 #space_87, #tbg_game_area .island_3 #space_99, #tbg_game_area .island_3 #space_100, #tbg_game_area .island_14 #space_86, #tbg_game_area .island_14 #space_87, #tbg_game_area .island_14 #space_99, #tbg_game_area .island_14 #space_100, #tbg_game_area .island_15 #space_86, #tbg_game_area .island_15 #space_87, #tbg_game_area .island_15 #space_99, #tbg_game_area .island_15 #space_100 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_2 #space_85, #tbg_game_area .island_2 #space_97, #tbg_game_area .island_2 #space_98, #tbg_game_area .island_2 #space_109, #tbg_game_area .island_2 #space_120, #tbg_game_area .island_3 #space_85, #tbg_game_area .island_3 #space_97, #tbg_game_area .island_3 #space_98, #tbg_game_area .island_3 #space_109, #tbg_game_area .island_3 #space_120, #tbg_game_area .island_14 #space_85, #tbg_game_area .island_14 #space_97, #tbg_game_area .island_14 #space_98, #tbg_game_area .island_14 #space_109, #tbg_game_area .island_14 #space_120, #tbg_game_area .island_15 #space_85, #tbg_game_area .island_15 #space_97, #tbg_game_area .island_15 #space_98, #tbg_game_area .island_15 #space_109, #tbg_game_area .island_15 #space_120 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_2 #space_83, #tbg_game_area .island_2 #space_84, #tbg_game_area .island_2 #space_95, #tbg_game_area .island_2 #space_96, #tbg_game_area .island_2 #space_112, #tbg_game_area .island_2 #space_113, #tbg_game_area .island_2 #space_123, #tbg_game_area .island_2 #space_125, #tbg_game_area .island_2 #space_133, #tbg_game_area .island_2 #space_134, #tbg_game_area .island_3 #space_83, #tbg_game_area .island_3 #space_84, #tbg_game_area .island_3 #space_95, #tbg_game_area .island_3 #space_96, #tbg_game_area .island_3 #space_112, #tbg_game_area .island_3 #space_113, #tbg_game_area .island_3 #space_123, #tbg_game_area .island_3 #space_125, #tbg_game_area .island_3 #space_133, #tbg_game_area .island_3 #space_134, #tbg_game_area .island_14 #space_83, #tbg_game_area .island_14 #space_84, #tbg_game_area .island_14 #space_95, #tbg_game_area .island_14 #space_96, #tbg_game_area .island_14 #space_112, #tbg_game_area .island_14 #space_113, #tbg_game_area .island_14 #space_123, #tbg_game_area .island_14 #space_125, #tbg_game_area .island_14 #space_133, #tbg_game_area .island_14 #space_134, #tbg_game_area .island_15 #space_83, #tbg_game_area .island_15 #space_84, #tbg_game_area .island_15 #space_95, #tbg_game_area .island_15 #space_96, #tbg_game_area .island_15 #space_112, #tbg_game_area .island_15 #space_113, #tbg_game_area .island_15 #space_123, #tbg_game_area .island_15 #space_125, #tbg_game_area .island_15 #space_133, #tbg_game_area .island_15 #space_134 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_2 #space_111, #tbg_game_area .island_2 #space_122, #tbg_game_area .island_3 #space_111, #tbg_game_area .island_3 #space_122, #tbg_game_area .island_14 #space_111, #tbg_game_area .island_14 #space_122, #tbg_game_area .island_15 #space_111, #tbg_game_area .island_15 #space_122 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river14.svg");
+}
+
+#tbg_game_area .island_4 #space_115, #tbg_game_area .island_4 #space_116, #tbg_game_area .island_4 #space_118, #tbg_game_area .island_4 #space_119, #tbg_game_area .island_4 #space_130, #tbg_game_area .island_4 #space_132, #tbg_game_area .island_4 #space_141, #tbg_game_area .island_7 #space_115, #tbg_game_area .island_7 #space_116, #tbg_game_area .island_7 #space_118, #tbg_game_area .island_7 #space_119, #tbg_game_area .island_7 #space_130, #tbg_game_area .island_7 #space_132, #tbg_game_area .island_7 #space_141, #tbg_game_area .island_16 #space_115, #tbg_game_area .island_16 #space_116, #tbg_game_area .island_16 #space_118, #tbg_game_area .island_16 #space_119, #tbg_game_area .island_16 #space_130, #tbg_game_area .island_16 #space_132, #tbg_game_area .island_16 #space_141, #tbg_game_area .island_19 #space_115, #tbg_game_area .island_19 #space_116, #tbg_game_area .island_19 #space_118, #tbg_game_area .island_19 #space_119, #tbg_game_area .island_19 #space_130, #tbg_game_area .island_19 #space_132, #tbg_game_area .island_19 #space_141 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_4 #space_105, #tbg_game_area .island_4 #space_117, #tbg_game_area .island_7 #space_105, #tbg_game_area .island_7 #space_117, #tbg_game_area .island_16 #space_105, #tbg_game_area .island_16 #space_117, #tbg_game_area .island_19 #space_105, #tbg_game_area .island_19 #space_117 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_4 #space_80, #tbg_game_area .island_4 #space_90, #tbg_game_area .island_4 #space_91, #tbg_game_area .island_4 #space_93, #tbg_game_area .island_4 #space_103, #tbg_game_area .island_4 #space_104, #tbg_game_area .island_4 #space_127, #tbg_game_area .island_7 #space_80, #tbg_game_area .island_7 #space_90, #tbg_game_area .island_7 #space_91, #tbg_game_area .island_7 #space_93, #tbg_game_area .island_7 #space_103, #tbg_game_area .island_7 #space_104, #tbg_game_area .island_7 #space_127, #tbg_game_area .island_16 #space_80, #tbg_game_area .island_16 #space_90, #tbg_game_area .island_16 #space_91, #tbg_game_area .island_16 #space_93, #tbg_game_area .island_16 #space_103, #tbg_game_area .island_16 #space_104, #tbg_game_area .island_16 #space_127, #tbg_game_area .island_19 #space_80, #tbg_game_area .island_19 #space_90, #tbg_game_area .island_19 #space_91, #tbg_game_area .island_19 #space_93, #tbg_game_area .island_19 #space_103, #tbg_game_area .island_19 #space_104, #tbg_game_area .island_19 #space_127 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_4 #space_77, #tbg_game_area .island_4 #space_78, #tbg_game_area .island_4 #space_79, #tbg_game_area .island_4 #space_92, #tbg_game_area .island_4 #space_129, #tbg_game_area .island_4 #space_140, #tbg_game_area .island_4 #space_149, #tbg_game_area .island_7 #space_77, #tbg_game_area .island_7 #space_78, #tbg_game_area .island_7 #space_79, #tbg_game_area .island_7 #space_92, #tbg_game_area .island_7 #space_129, #tbg_game_area .island_7 #space_140, #tbg_game_area .island_7 #space_149, #tbg_game_area .island_16 #space_77, #tbg_game_area .island_16 #space_78, #tbg_game_area .island_16 #space_79, #tbg_game_area .island_16 #space_92, #tbg_game_area .island_16 #space_129, #tbg_game_area .island_16 #space_140, #tbg_game_area .island_16 #space_149, #tbg_game_area .island_19 #space_77, #tbg_game_area .island_19 #space_78, #tbg_game_area .island_19 #space_79, #tbg_game_area .island_19 #space_92, #tbg_game_area .island_19 #space_129, #tbg_game_area .island_19 #space_140, #tbg_game_area .island_19 #space_149 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_4 #space_106, #tbg_game_area .island_7 #space_106, #tbg_game_area .island_16 #space_106, #tbg_game_area .island_19 #space_106 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river03.svg");
+}
+
+#tbg_game_area .island_4 #space_107, #tbg_game_area .island_7 #space_107, #tbg_game_area .island_16 #space_107, #tbg_game_area .island_19 #space_107 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river02.svg");
+}
+
+#tbg_game_area .island_4 #space_120, #tbg_game_area .island_4 #space_133, #tbg_game_area .island_7 #space_120, #tbg_game_area .island_7 #space_133, #tbg_game_area .island_16 #space_120, #tbg_game_area .island_16 #space_133, #tbg_game_area .island_19 #space_120, #tbg_game_area .island_19 #space_133 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river25.svg");
+}
+
+#tbg_game_area .island_6 #space_120, #tbg_game_area .island_6 #space_121, #tbg_game_area .island_6 #space_123, #tbg_game_area .island_6 #space_124, #tbg_game_area .island_6 #space_133, #tbg_game_area .island_6 #space_135, #tbg_game_area .island_6 #space_142, #tbg_game_area .island_9 #space_120, #tbg_game_area .island_9 #space_121, #tbg_game_area .island_9 #space_123, #tbg_game_area .island_9 #space_124, #tbg_game_area .island_9 #space_133, #tbg_game_area .island_9 #space_135, #tbg_game_area .island_9 #space_142, #tbg_game_area .island_18 #space_120, #tbg_game_area .island_18 #space_121, #tbg_game_area .island_18 #space_123, #tbg_game_area .island_18 #space_124, #tbg_game_area .island_18 #space_133, #tbg_game_area .island_18 #space_135, #tbg_game_area .island_18 #space_142, #tbg_game_area .island_21 #space_120, #tbg_game_area .island_21 #space_121, #tbg_game_area .island_21 #space_123, #tbg_game_area .island_21 #space_124, #tbg_game_area .island_21 #space_133, #tbg_game_area .island_21 #space_135, #tbg_game_area .island_21 #space_142 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_6 #space_111, #tbg_game_area .island_6 #space_122, #tbg_game_area .island_9 #space_111, #tbg_game_area .island_9 #space_122, #tbg_game_area .island_18 #space_111, #tbg_game_area .island_18 #space_122, #tbg_game_area .island_21 #space_111, #tbg_game_area .island_21 #space_122 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_6 #space_87, #tbg_game_area .island_6 #space_97, #tbg_game_area .island_6 #space_98, #tbg_game_area .island_6 #space_100, #tbg_game_area .island_6 #space_109, #tbg_game_area .island_6 #space_110, #tbg_game_area .island_6 #space_130, #tbg_game_area .island_9 #space_87, #tbg_game_area .island_9 #space_97, #tbg_game_area .island_9 #space_98, #tbg_game_area .island_9 #space_100, #tbg_game_area .island_9 #space_109, #tbg_game_area .island_9 #space_110, #tbg_game_area .island_9 #space_130, #tbg_game_area .island_18 #space_87, #tbg_game_area .island_18 #space_97, #tbg_game_area .island_18 #space_98, #tbg_game_area .island_18 #space_100, #tbg_game_area .island_18 #space_109, #tbg_game_area .island_18 #space_110, #tbg_game_area .island_18 #space_130, #tbg_game_area .island_21 #space_87, #tbg_game_area .island_21 #space_97, #tbg_game_area .island_21 #space_98, #tbg_game_area .island_21 #space_100, #tbg_game_area .island_21 #space_109, #tbg_game_area .island_21 #space_110, #tbg_game_area .island_21 #space_130 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_6 #space_84, #tbg_game_area .island_6 #space_85, #tbg_game_area .island_6 #space_86, #tbg_game_area .island_6 #space_99, #tbg_game_area .island_6 #space_132, #tbg_game_area .island_6 #space_141, #tbg_game_area .island_6 #space_149, #tbg_game_area .island_9 #space_84, #tbg_game_area .island_9 #space_85, #tbg_game_area .island_9 #space_86, #tbg_game_area .island_9 #space_99, #tbg_game_area .island_9 #space_132, #tbg_game_area .island_9 #space_141, #tbg_game_area .island_9 #space_149, #tbg_game_area .island_18 #space_84, #tbg_game_area .island_18 #space_85, #tbg_game_area .island_18 #space_86, #tbg_game_area .island_18 #space_99, #tbg_game_area .island_18 #space_132, #tbg_game_area .island_18 #space_141, #tbg_game_area .island_18 #space_149, #tbg_game_area .island_21 #space_84, #tbg_game_area .island_21 #space_85, #tbg_game_area .island_21 #space_86, #tbg_game_area .island_21 #space_99, #tbg_game_area .island_21 #space_132, #tbg_game_area .island_21 #space_141, #tbg_game_area .island_21 #space_149 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_6 #space_112, #tbg_game_area .island_9 #space_112, #tbg_game_area .island_18 #space_112, #tbg_game_area .island_21 #space_112 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river03.svg");
+}
+
+#tbg_game_area .island_6 #space_113, #tbg_game_area .island_9 #space_113, #tbg_game_area .island_18 #space_113, #tbg_game_area .island_21 #space_113 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river02.svg");
+}
+
+#tbg_game_area .island_6 #space_125, #tbg_game_area .island_6 #space_136, #tbg_game_area .island_9 #space_125, #tbg_game_area .island_9 #space_136, #tbg_game_area .island_18 #space_125, #tbg_game_area .island_18 #space_136, #tbg_game_area .island_21 #space_125, #tbg_game_area .island_21 #space_136 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river25.svg");
+}
+
+#tbg_game_area .island_8 #space_108, #tbg_game_area .island_8 #space_109, #tbg_game_area .island_8 #space_121, #tbg_game_area .island_8 #space_130, #tbg_game_area .island_8 #space_131, #tbg_game_area .island_8 #space_135, #tbg_game_area .island_8 #space_143, #tbg_game_area .island_8 #space_151, #tbg_game_area .island_12 #space_108, #tbg_game_area .island_12 #space_109, #tbg_game_area .island_12 #space_121, #tbg_game_area .island_12 #space_130, #tbg_game_area .island_12 #space_131, #tbg_game_area .island_12 #space_135, #tbg_game_area .island_12 #space_143, #tbg_game_area .island_12 #space_151, #tbg_game_area .island_26 #space_108, #tbg_game_area .island_26 #space_109, #tbg_game_area .island_26 #space_121, #tbg_game_area .island_26 #space_130, #tbg_game_area .island_26 #space_131, #tbg_game_area .island_26 #space_135, #tbg_game_area .island_26 #space_143, #tbg_game_area .island_26 #space_151, #tbg_game_area .island_27 #space_108, #tbg_game_area .island_27 #space_109, #tbg_game_area .island_27 #space_121, #tbg_game_area .island_27 #space_130, #tbg_game_area .island_27 #space_131, #tbg_game_area .island_27 #space_135, #tbg_game_area .island_27 #space_143, #tbg_game_area .island_27 #space_151 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_8 #space_87, #tbg_game_area .island_8 #space_99, #tbg_game_area .island_8 #space_100, #tbg_game_area .island_8 #space_112, #tbg_game_area .island_8 #space_113, #tbg_game_area .island_8 #space_124, #tbg_game_area .island_8 #space_134, #tbg_game_area .island_8 #space_142, #tbg_game_area .island_8 #space_150, #tbg_game_area .island_8 #space_154, #tbg_game_area .island_12 #space_87, #tbg_game_area .island_12 #space_99, #tbg_game_area .island_12 #space_100, #tbg_game_area .island_12 #space_112, #tbg_game_area .island_12 #space_113, #tbg_game_area .island_12 #space_124, #tbg_game_area .island_12 #space_134, #tbg_game_area .island_12 #space_142, #tbg_game_area .island_12 #space_150, #tbg_game_area .island_12 #space_154, #tbg_game_area .island_26 #space_87, #tbg_game_area .island_26 #space_99, #tbg_game_area .island_26 #space_100, #tbg_game_area .island_26 #space_112, #tbg_game_area .island_26 #space_113, #tbg_game_area .island_26 #space_124, #tbg_game_area .island_26 #space_134, #tbg_game_area .island_26 #space_142, #tbg_game_area .island_26 #space_150, #tbg_game_area .island_26 #space_154, #tbg_game_area .island_27 #space_87, #tbg_game_area .island_27 #space_99, #tbg_game_area .island_27 #space_100, #tbg_game_area .island_27 #space_112, #tbg_game_area .island_27 #space_113, #tbg_game_area .island_27 #space_124, #tbg_game_area .island_27 #space_134, #tbg_game_area .island_27 #space_142, #tbg_game_area .island_27 #space_150, #tbg_game_area .island_27 #space_154 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_8 #space_111, #tbg_game_area .island_8 #space_122, #tbg_game_area .island_8 #space_123, #tbg_game_area .island_12 #space_111, #tbg_game_area .island_12 #space_122, #tbg_game_area .island_12 #space_123, #tbg_game_area .island_26 #space_111, #tbg_game_area .island_26 #space_122, #tbg_game_area .island_26 #space_123, #tbg_game_area .island_27 #space_111, #tbg_game_area .island_27 #space_122, #tbg_game_area .island_27 #space_123 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_8 #space_125, #tbg_game_area .island_8 #space_132, #tbg_game_area .island_8 #space_133, #tbg_game_area .island_8 #space_136, #tbg_game_area .island_8 #space_139, #tbg_game_area .island_8 #space_140, #tbg_game_area .island_8 #space_141, #tbg_game_area .island_8 #space_149, #tbg_game_area .island_12 #space_125, #tbg_game_area .island_12 #space_132, #tbg_game_area .island_12 #space_133, #tbg_game_area .island_12 #space_136, #tbg_game_area .island_12 #space_139, #tbg_game_area .island_12 #space_140, #tbg_game_area .island_12 #space_141, #tbg_game_area .island_12 #space_149, #tbg_game_area .island_26 #space_125, #tbg_game_area .island_26 #space_132, #tbg_game_area .island_26 #space_133, #tbg_game_area .island_26 #space_136, #tbg_game_area .island_26 #space_139, #tbg_game_area .island_26 #space_140, #tbg_game_area .island_26 #space_141, #tbg_game_area .island_26 #space_149, #tbg_game_area .island_27 #space_125, #tbg_game_area .island_27 #space_132, #tbg_game_area .island_27 #space_133, #tbg_game_area .island_27 #space_136, #tbg_game_area .island_27 #space_139, #tbg_game_area .island_27 #space_140, #tbg_game_area .island_27 #space_141, #tbg_game_area .island_27 #space_149 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_8 #space_84, #tbg_game_area .island_8 #space_85, #tbg_game_area .island_8 #space_86, #tbg_game_area .island_8 #space_98, #tbg_game_area .island_12 #space_84, #tbg_game_area .island_12 #space_85, #tbg_game_area .island_12 #space_86, #tbg_game_area .island_12 #space_98, #tbg_game_area .island_26 #space_84, #tbg_game_area .island_26 #space_85, #tbg_game_area .island_26 #space_86, #tbg_game_area .island_26 #space_98, #tbg_game_area .island_27 #space_84, #tbg_game_area .island_27 #space_85, #tbg_game_area .island_27 #space_86, #tbg_game_area .island_27 #space_98 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_8 #space_95, #tbg_game_area .island_8 #space_96, #tbg_game_area .island_12 #space_95, #tbg_game_area .island_12 #space_96, #tbg_game_area .island_26 #space_95, #tbg_game_area .island_26 #space_96, #tbg_game_area .island_27 #space_95, #tbg_game_area .island_27 #space_96 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river03.svg");
+}
+
+#tbg_game_area .island_8 #space_97, #tbg_game_area .island_12 #space_97, #tbg_game_area .island_26 #space_97, #tbg_game_area .island_27 #space_97 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river02.svg");
+}
+
+#tbg_game_area .island_8 #space_110, #tbg_game_area .island_12 #space_110, #tbg_game_area .island_26 #space_110, #tbg_game_area .island_27 #space_110 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river25.svg");
+}
+
+#tbg_game_area .island_10 #space_102, #tbg_game_area .island_10 #space_103, #tbg_game_area .island_10 #space_116, #tbg_game_area .island_10 #space_127, #tbg_game_area .island_10 #space_128, #tbg_game_area .island_10 #space_132, #tbg_game_area .island_10 #space_142, #tbg_game_area .island_10 #space_151, #tbg_game_area .island_11 #space_102, #tbg_game_area .island_11 #space_103, #tbg_game_area .island_11 #space_116, #tbg_game_area .island_11 #space_127, #tbg_game_area .island_11 #space_128, #tbg_game_area .island_11 #space_132, #tbg_game_area .island_11 #space_142, #tbg_game_area .island_11 #space_151, #tbg_game_area .island_25 #space_102, #tbg_game_area .island_25 #space_103, #tbg_game_area .island_25 #space_116, #tbg_game_area .island_25 #space_127, #tbg_game_area .island_25 #space_128, #tbg_game_area .island_25 #space_132, #tbg_game_area .island_25 #space_142, #tbg_game_area .island_25 #space_151, #tbg_game_area .island_29 #space_102, #tbg_game_area .island_29 #space_103, #tbg_game_area .island_29 #space_116, #tbg_game_area .island_29 #space_127, #tbg_game_area .island_29 #space_128, #tbg_game_area .island_29 #space_132, #tbg_game_area .island_29 #space_142, #tbg_game_area .island_29 #space_151 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_10 #space_80, #tbg_game_area .island_10 #space_92, #tbg_game_area .island_10 #space_93, #tbg_game_area .island_10 #space_106, #tbg_game_area .island_10 #space_107, #tbg_game_area .island_10 #space_119, #tbg_game_area .island_10 #space_131, #tbg_game_area .island_10 #space_141, #tbg_game_area .island_10 #space_150, #tbg_game_area .island_10 #space_154, #tbg_game_area .island_11 #space_80, #tbg_game_area .island_11 #space_92, #tbg_game_area .island_11 #space_93, #tbg_game_area .island_11 #space_106, #tbg_game_area .island_11 #space_107, #tbg_game_area .island_11 #space_119, #tbg_game_area .island_11 #space_131, #tbg_game_area .island_11 #space_141, #tbg_game_area .island_11 #space_150, #tbg_game_area .island_11 #space_154, #tbg_game_area .island_25 #space_80, #tbg_game_area .island_25 #space_92, #tbg_game_area .island_25 #space_93, #tbg_game_area .island_25 #space_106, #tbg_game_area .island_25 #space_107, #tbg_game_area .island_25 #space_119, #tbg_game_area .island_25 #space_131, #tbg_game_area .island_25 #space_141, #tbg_game_area .island_25 #space_150, #tbg_game_area .island_25 #space_154, #tbg_game_area .island_29 #space_80, #tbg_game_area .island_29 #space_92, #tbg_game_area .island_29 #space_93, #tbg_game_area .island_29 #space_106, #tbg_game_area .island_29 #space_107, #tbg_game_area .island_29 #space_119, #tbg_game_area .island_29 #space_131, #tbg_game_area .island_29 #space_141, #tbg_game_area .island_29 #space_150, #tbg_game_area .island_29 #space_154 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_10 #space_105, #tbg_game_area .island_10 #space_117, #tbg_game_area .island_10 #space_118, #tbg_game_area .island_11 #space_105, #tbg_game_area .island_11 #space_117, #tbg_game_area .island_11 #space_118, #tbg_game_area .island_25 #space_105, #tbg_game_area .island_25 #space_117, #tbg_game_area .island_25 #space_118, #tbg_game_area .island_29 #space_105, #tbg_game_area .island_29 #space_117, #tbg_game_area .island_29 #space_118 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_10 #space_120, #tbg_game_area .island_10 #space_129, #tbg_game_area .island_10 #space_130, #tbg_game_area .island_10 #space_133, #tbg_game_area .island_10 #space_138, #tbg_game_area .island_10 #space_139, #tbg_game_area .island_10 #space_140, #tbg_game_area .island_10 #space_149, #tbg_game_area .island_11 #space_120, #tbg_game_area .island_11 #space_129, #tbg_game_area .island_11 #space_130, #tbg_game_area .island_11 #space_133, #tbg_game_area .island_11 #space_138, #tbg_game_area .island_11 #space_139, #tbg_game_area .island_11 #space_140, #tbg_game_area .island_11 #space_149, #tbg_game_area .island_25 #space_120, #tbg_game_area .island_25 #space_129, #tbg_game_area .island_25 #space_130, #tbg_game_area .island_25 #space_133, #tbg_game_area .island_25 #space_138, #tbg_game_area .island_25 #space_139, #tbg_game_area .island_25 #space_140, #tbg_game_area .island_25 #space_149, #tbg_game_area .island_29 #space_120, #tbg_game_area .island_29 #space_129, #tbg_game_area .island_29 #space_130, #tbg_game_area .island_29 #space_133, #tbg_game_area .island_29 #space_138, #tbg_game_area .island_29 #space_139, #tbg_game_area .island_29 #space_140, #tbg_game_area .island_29 #space_149 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_10 #space_77, #tbg_game_area .island_10 #space_78, #tbg_game_area .island_10 #space_79, #tbg_game_area .island_10 #space_91, #tbg_game_area .island_11 #space_77, #tbg_game_area .island_11 #space_78, #tbg_game_area .island_11 #space_79, #tbg_game_area .island_11 #space_91, #tbg_game_area .island_25 #space_77, #tbg_game_area .island_25 #space_78, #tbg_game_area .island_25 #space_79, #tbg_game_area .island_25 #space_91, #tbg_game_area .island_29 #space_77, #tbg_game_area .island_29 #space_78, #tbg_game_area .island_29 #space_79, #tbg_game_area .island_29 #space_91 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_10 #space_88, #tbg_game_area .island_10 #space_89, #tbg_game_area .island_11 #space_88, #tbg_game_area .island_11 #space_89, #tbg_game_area .island_25 #space_88, #tbg_game_area .island_25 #space_89, #tbg_game_area .island_29 #space_88, #tbg_game_area .island_29 #space_89 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river03.svg");
+}
+
+#tbg_game_area .island_10 #space_90, #tbg_game_area .island_11 #space_90, #tbg_game_area .island_25 #space_90, #tbg_game_area .island_29 #space_90 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river02.svg");
+}
+
+#tbg_game_area .island_10 #space_104, #tbg_game_area .island_11 #space_104, #tbg_game_area .island_25 #space_104, #tbg_game_area .island_29 #space_104 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river25.svg");
+}
+
+#tbg_game_area .island_20 #space_96, #tbg_game_area .island_20 #space_108, #tbg_game_area .island_20 #space_120, #tbg_game_area .island_20 #space_131, #tbg_game_area .island_20 #space_143, #tbg_game_area .island_20 #space_144, #tbg_game_area .island_24 #space_96, #tbg_game_area .island_24 #space_108, #tbg_game_area .island_24 #space_120, #tbg_game_area .island_24 #space_131, #tbg_game_area .island_24 #space_143, #tbg_game_area .island_24 #space_144, #tbg_game_area .island_30 #space_96, #tbg_game_area .island_30 #space_108, #tbg_game_area .island_30 #space_120, #tbg_game_area .island_30 #space_131, #tbg_game_area .island_30 #space_143, #tbg_game_area .island_30 #space_144, #tbg_game_area .island_32 #space_96, #tbg_game_area .island_32 #space_108, #tbg_game_area .island_32 #space_120, #tbg_game_area .island_32 #space_131, #tbg_game_area .island_32 #space_143, #tbg_game_area .island_32 #space_144 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_20 #space_122, #tbg_game_area .island_20 #space_132, #tbg_game_area .island_20 #space_140, #tbg_game_area .island_20 #space_141, #tbg_game_area .island_20 #space_149, #tbg_game_area .island_24 #space_122, #tbg_game_area .island_24 #space_132, #tbg_game_area .island_24 #space_140, #tbg_game_area .island_24 #space_141, #tbg_game_area .island_24 #space_149, #tbg_game_area .island_30 #space_122, #tbg_game_area .island_30 #space_132, #tbg_game_area .island_30 #space_140, #tbg_game_area .island_30 #space_141, #tbg_game_area .island_30 #space_149, #tbg_game_area .island_32 #space_122, #tbg_game_area .island_32 #space_132, #tbg_game_area .island_32 #space_140, #tbg_game_area .island_32 #space_141, #tbg_game_area .island_32 #space_149 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_20 #space_87, #tbg_game_area .island_20 #space_99, #tbg_game_area .island_20 #space_100, #tbg_game_area .island_20 #space_111, #tbg_game_area .island_20 #space_112, #tbg_game_area .island_20 #space_113, #tbg_game_area .island_24 #space_87, #tbg_game_area .island_24 #space_99, #tbg_game_area .island_24 #space_100, #tbg_game_area .island_24 #space_111, #tbg_game_area .island_24 #space_112, #tbg_game_area .island_24 #space_113, #tbg_game_area .island_30 #space_87, #tbg_game_area .island_30 #space_99, #tbg_game_area .island_30 #space_100, #tbg_game_area .island_30 #space_111, #tbg_game_area .island_30 #space_112, #tbg_game_area .island_30 #space_113, #tbg_game_area .island_32 #space_87, #tbg_game_area .island_32 #space_99, #tbg_game_area .island_32 #space_100, #tbg_game_area .island_32 #space_111, #tbg_game_area .island_32 #space_112, #tbg_game_area .island_32 #space_113 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_20 #space_84, #tbg_game_area .island_20 #space_85, #tbg_game_area .island_20 #space_86, #tbg_game_area .island_24 #space_84, #tbg_game_area .island_24 #space_85, #tbg_game_area .island_24 #space_86, #tbg_game_area .island_30 #space_84, #tbg_game_area .island_30 #space_85, #tbg_game_area .island_30 #space_86, #tbg_game_area .island_32 #space_84, #tbg_game_area .island_32 #space_85, #tbg_game_area .island_32 #space_86 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_20 #space_97, #tbg_game_area .island_20 #space_98, #tbg_game_area .island_20 #space_109, #tbg_game_area .island_20 #space_110, #tbg_game_area .island_20 #space_121, #tbg_game_area .island_20 #space_124, #tbg_game_area .island_20 #space_125, #tbg_game_area .island_20 #space_134, #tbg_game_area .island_20 #space_135, #tbg_game_area .island_20 #space_136, #tbg_game_area .island_24 #space_97, #tbg_game_area .island_24 #space_98, #tbg_game_area .island_24 #space_109, #tbg_game_area .island_24 #space_110, #tbg_game_area .island_24 #space_121, #tbg_game_area .island_24 #space_124, #tbg_game_area .island_24 #space_125, #tbg_game_area .island_24 #space_134, #tbg_game_area .island_24 #space_135, #tbg_game_area .island_24 #space_136, #tbg_game_area .island_30 #space_97, #tbg_game_area .island_30 #space_98, #tbg_game_area .island_30 #space_109, #tbg_game_area .island_30 #space_110, #tbg_game_area .island_30 #space_121, #tbg_game_area .island_30 #space_124, #tbg_game_area .island_30 #space_125, #tbg_game_area .island_30 #space_134, #tbg_game_area .island_30 #space_135, #tbg_game_area .island_30 #space_136, #tbg_game_area .island_32 #space_97, #tbg_game_area .island_32 #space_98, #tbg_game_area .island_32 #space_109, #tbg_game_area .island_32 #space_110, #tbg_game_area .island_32 #space_121, #tbg_game_area .island_32 #space_124, #tbg_game_area .island_32 #space_125, #tbg_game_area .island_32 #space_134, #tbg_game_area .island_32 #space_135, #tbg_game_area .island_32 #space_136 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_20 #space_123, #tbg_game_area .island_24 #space_123, #tbg_game_area .island_30 #space_123, #tbg_game_area .island_32 #space_123 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river14.svg");
+}
+
+#tbg_game_area .island_20 #space_133, #tbg_game_area .island_24 #space_133, #tbg_game_area .island_30 #space_133, #tbg_game_area .island_32 #space_133 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river24.svg");
+}
+
+#tbg_game_area .island_20 #space_142, #tbg_game_area .island_24 #space_142, #tbg_game_area .island_30 #space_142, #tbg_game_area .island_32 #space_142 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river25.svg");
+}
+
+#tbg_game_area .island_22 #space_89, #tbg_game_area .island_22 #space_102, #tbg_game_area .island_22 #space_115, #tbg_game_area .island_22 #space_128, #tbg_game_area .island_22 #space_142, #tbg_game_area .island_22 #space_143, #tbg_game_area .island_23 #space_89, #tbg_game_area .island_23 #space_102, #tbg_game_area .island_23 #space_115, #tbg_game_area .island_23 #space_128, #tbg_game_area .island_23 #space_142, #tbg_game_area .island_23 #space_143, #tbg_game_area .island_28 #space_89, #tbg_game_area .island_28 #space_102, #tbg_game_area .island_28 #space_115, #tbg_game_area .island_28 #space_128, #tbg_game_area .island_28 #space_142, #tbg_game_area .island_28 #space_143, #tbg_game_area .island_31 #space_89, #tbg_game_area .island_31 #space_102, #tbg_game_area .island_31 #space_115, #tbg_game_area .island_31 #space_128, #tbg_game_area .island_31 #space_142, #tbg_game_area .island_31 #space_143 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_22 #space_117, #tbg_game_area .island_22 #space_129, #tbg_game_area .island_22 #space_139, #tbg_game_area .island_22 #space_140, #tbg_game_area .island_22 #space_149, #tbg_game_area .island_23 #space_117, #tbg_game_area .island_23 #space_129, #tbg_game_area .island_23 #space_139, #tbg_game_area .island_23 #space_140, #tbg_game_area .island_23 #space_149, #tbg_game_area .island_28 #space_117, #tbg_game_area .island_28 #space_129, #tbg_game_area .island_28 #space_139, #tbg_game_area .island_28 #space_140, #tbg_game_area .island_28 #space_149, #tbg_game_area .island_31 #space_117, #tbg_game_area .island_31 #space_129, #tbg_game_area .island_31 #space_139, #tbg_game_area .island_31 #space_140, #tbg_game_area .island_31 #space_149 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_22 #space_80, #tbg_game_area .island_22 #space_92, #tbg_game_area .island_22 #space_93, #tbg_game_area .island_22 #space_105, #tbg_game_area .island_22 #space_106, #tbg_game_area .island_22 #space_107, #tbg_game_area .island_23 #space_80, #tbg_game_area .island_23 #space_92, #tbg_game_area .island_23 #space_93, #tbg_game_area .island_23 #space_105, #tbg_game_area .island_23 #space_106, #tbg_game_area .island_23 #space_107, #tbg_game_area .island_28 #space_80, #tbg_game_area .island_28 #space_92, #tbg_game_area .island_28 #space_93, #tbg_game_area .island_28 #space_105, #tbg_game_area .island_28 #space_106, #tbg_game_area .island_28 #space_107, #tbg_game_area .island_31 #space_80, #tbg_game_area .island_31 #space_92, #tbg_game_area .island_31 #space_93, #tbg_game_area .island_31 #space_105, #tbg_game_area .island_31 #space_106, #tbg_game_area .island_31 #space_107 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_22 #space_77, #tbg_game_area .island_22 #space_78, #tbg_game_area .island_22 #space_79, #tbg_game_area .island_23 #space_77, #tbg_game_area .island_23 #space_78, #tbg_game_area .island_23 #space_79, #tbg_game_area .island_28 #space_77, #tbg_game_area .island_28 #space_78, #tbg_game_area .island_28 #space_79, #tbg_game_area .island_31 #space_77, #tbg_game_area .island_31 #space_78, #tbg_game_area .island_31 #space_79 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_22 #space_90, #tbg_game_area .island_22 #space_91, #tbg_game_area .island_22 #space_103, #tbg_game_area .island_22 #space_104, #tbg_game_area .island_22 #space_116, #tbg_game_area .island_22 #space_119, #tbg_game_area .island_22 #space_120, #tbg_game_area .island_22 #space_131, #tbg_game_area .island_22 #space_132, #tbg_game_area .island_22 #space_133, #tbg_game_area .island_23 #space_90, #tbg_game_area .island_23 #space_91, #tbg_game_area .island_23 #space_103, #tbg_game_area .island_23 #space_104, #tbg_game_area .island_23 #space_116, #tbg_game_area .island_23 #space_119, #tbg_game_area .island_23 #space_120, #tbg_game_area .island_23 #space_131, #tbg_game_area .island_23 #space_132, #tbg_game_area .island_23 #space_133, #tbg_game_area .island_28 #space_90, #tbg_game_area .island_28 #space_91, #tbg_game_area .island_28 #space_103, #tbg_game_area .island_28 #space_104, #tbg_game_area .island_28 #space_116, #tbg_game_area .island_28 #space_119, #tbg_game_area .island_28 #space_120, #tbg_game_area .island_28 #space_131, #tbg_game_area .island_28 #space_132, #tbg_game_area .island_28 #space_133, #tbg_game_area .island_31 #space_90, #tbg_game_area .island_31 #space_91, #tbg_game_area .island_31 #space_103, #tbg_game_area .island_31 #space_104, #tbg_game_area .island_31 #space_116, #tbg_game_area .island_31 #space_119, #tbg_game_area .island_31 #space_120, #tbg_game_area .island_31 #space_131, #tbg_game_area .island_31 #space_132, #tbg_game_area .island_31 #space_133 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_22 #space_118, #tbg_game_area .island_23 #space_118, #tbg_game_area .island_28 #space_118, #tbg_game_area .island_31 #space_118 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river14.svg");
+}
+
+#tbg_game_area .island_22 #space_130, #tbg_game_area .island_23 #space_130, #tbg_game_area .island_28 #space_130, #tbg_game_area .island_31 #space_130 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river24.svg");
+}
+
+#tbg_game_area .island_22 #space_141, #tbg_game_area .island_23 #space_141, #tbg_game_area .island_28 #space_141, #tbg_game_area .island_31 #space_141 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river25.svg");
+}
+
+#tbg_game_area .island_1 #space_15, #tbg_game_area .island_1 #space_23, #tbg_game_area .island_1 #space_29, #tbg_game_area .island_1 #space_30, #tbg_game_area .island_1 #space_41, #tbg_game_area .island_1 #space_51, #tbg_game_area .island_1 #space_52, #tbg_game_area .island_5 #space_15, #tbg_game_area .island_5 #space_23, #tbg_game_area .island_5 #space_29, #tbg_game_area .island_5 #space_30, #tbg_game_area .island_5 #space_41, #tbg_game_area .island_5 #space_51, #tbg_game_area .island_5 #space_52, #tbg_game_area .island_22 #space_15, #tbg_game_area .island_22 #space_23, #tbg_game_area .island_22 #space_29, #tbg_game_area .island_22 #space_30, #tbg_game_area .island_22 #space_41, #tbg_game_area .island_22 #space_51, #tbg_game_area .island_22 #space_52, #tbg_game_area .island_23 #space_15, #tbg_game_area .island_23 #space_23, #tbg_game_area .island_23 #space_29, #tbg_game_area .island_23 #space_30, #tbg_game_area .island_23 #space_41, #tbg_game_area .island_23 #space_51, #tbg_game_area .island_23 #space_52 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_1 #space_31, #tbg_game_area .island_1 #space_42, #tbg_game_area .island_5 #space_31, #tbg_game_area .island_5 #space_42, #tbg_game_area .island_22 #space_31, #tbg_game_area .island_22 #space_42, #tbg_game_area .island_23 #space_31, #tbg_game_area .island_23 #space_42 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_1 #space_8, #tbg_game_area .island_1 #space_24, #tbg_game_area .island_1 #space_32, #tbg_game_area .island_1 #space_33, #tbg_game_area .island_1 #space_43, #tbg_game_area .island_1 #space_66, #tbg_game_area .island_1 #space_67, #tbg_game_area .island_5 #space_8, #tbg_game_area .island_5 #space_24, #tbg_game_area .island_5 #space_32, #tbg_game_area .island_5 #space_33, #tbg_game_area .island_5 #space_43, #tbg_game_area .island_5 #space_66, #tbg_game_area .island_5 #space_67, #tbg_game_area .island_22 #space_8, #tbg_game_area .island_22 #space_24, #tbg_game_area .island_22 #space_32, #tbg_game_area .island_22 #space_33, #tbg_game_area .island_22 #space_43, #tbg_game_area .island_22 #space_66, #tbg_game_area .island_22 #space_67, #tbg_game_area .island_23 #space_8, #tbg_game_area .island_23 #space_24, #tbg_game_area .island_23 #space_32, #tbg_game_area .island_23 #space_33, #tbg_game_area .island_23 #space_43, #tbg_game_area .island_23 #space_66, #tbg_game_area .island_23 #space_67 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_1 #space_12, #tbg_game_area .island_1 #space_21, #tbg_game_area .island_1 #space_22, #tbg_game_area .island_1 #space_34, #tbg_game_area .island_1 #space_44, #tbg_game_area .island_1 #space_54, #tbg_game_area .island_1 #space_55, #tbg_game_area .island_5 #space_12, #tbg_game_area .island_5 #space_21, #tbg_game_area .island_5 #space_22, #tbg_game_area .island_5 #space_34, #tbg_game_area .island_5 #space_44, #tbg_game_area .island_5 #space_54, #tbg_game_area .island_5 #space_55, #tbg_game_area .island_22 #space_12, #tbg_game_area .island_22 #space_21, #tbg_game_area .island_22 #space_22, #tbg_game_area .island_22 #space_34, #tbg_game_area .island_22 #space_44, #tbg_game_area .island_22 #space_54, #tbg_game_area .island_22 #space_55, #tbg_game_area .island_23 #space_12, #tbg_game_area .island_23 #space_21, #tbg_game_area .island_23 #space_22, #tbg_game_area .island_23 #space_34, #tbg_game_area .island_23 #space_44, #tbg_game_area .island_23 #space_54, #tbg_game_area .island_23 #space_55 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_1 #space_53, #tbg_game_area .island_5 #space_53, #tbg_game_area .island_22 #space_53, #tbg_game_area .island_23 #space_53 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river14.svg");
+}
+
+#tbg_game_area .island_1 #space_63, #tbg_game_area .island_1 #space_64, #tbg_game_area .island_5 #space_63, #tbg_game_area .island_5 #space_64, #tbg_game_area .island_22 #space_63, #tbg_game_area .island_22 #space_64, #tbg_game_area .island_23 #space_63, #tbg_game_area .island_23 #space_64 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river03.svg");
+}
+
+#tbg_game_area .island_1 #space_65, #tbg_game_area .island_5 #space_65, #tbg_game_area .island_22 #space_65, #tbg_game_area .island_23 #space_65 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river04.svg");
+}
+
+#tbg_game_area .island_2 #space_15, #tbg_game_area .island_2 #space_24, #tbg_game_area .island_2 #space_32, #tbg_game_area .island_2 #space_33, #tbg_game_area .island_2 #space_46, #tbg_game_area .island_2 #space_57, #tbg_game_area .island_2 #space_58, #tbg_game_area .island_3 #space_15, #tbg_game_area .island_3 #space_24, #tbg_game_area .island_3 #space_32, #tbg_game_area .island_3 #space_33, #tbg_game_area .island_3 #space_46, #tbg_game_area .island_3 #space_57, #tbg_game_area .island_3 #space_58, #tbg_game_area .island_20 #space_15, #tbg_game_area .island_20 #space_24, #tbg_game_area .island_20 #space_32, #tbg_game_area .island_20 #space_33, #tbg_game_area .island_20 #space_46, #tbg_game_area .island_20 #space_57, #tbg_game_area .island_20 #space_58, #tbg_game_area .island_24 #space_15, #tbg_game_area .island_24 #space_24, #tbg_game_area .island_24 #space_32, #tbg_game_area .island_24 #space_33, #tbg_game_area .island_24 #space_46, #tbg_game_area .island_24 #space_57, #tbg_game_area .island_24 #space_58 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_2 #space_34, #tbg_game_area .island_2 #space_47, #tbg_game_area .island_3 #space_34, #tbg_game_area .island_3 #space_47, #tbg_game_area .island_20 #space_34, #tbg_game_area .island_20 #space_47, #tbg_game_area .island_24 #space_34, #tbg_game_area .island_24 #space_47 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_2 #space_8, #tbg_game_area .island_2 #space_25, #tbg_game_area .island_2 #space_35, #tbg_game_area .island_2 #space_36, #tbg_game_area .island_2 #space_48, #tbg_game_area .island_2 #space_73, #tbg_game_area .island_2 #space_74, #tbg_game_area .island_3 #space_8, #tbg_game_area .island_3 #space_25, #tbg_game_area .island_3 #space_35, #tbg_game_area .island_3 #space_36, #tbg_game_area .island_3 #space_48, #tbg_game_area .island_3 #space_73, #tbg_game_area .island_3 #space_74, #tbg_game_area .island_20 #space_8, #tbg_game_area .island_20 #space_25, #tbg_game_area .island_20 #space_35, #tbg_game_area .island_20 #space_36, #tbg_game_area .island_20 #space_48, #tbg_game_area .island_20 #space_73, #tbg_game_area .island_20 #space_74, #tbg_game_area .island_24 #space_8, #tbg_game_area .island_24 #space_25, #tbg_game_area .island_24 #space_35, #tbg_game_area .island_24 #space_36, #tbg_game_area .island_24 #space_48, #tbg_game_area .island_24 #space_73, #tbg_game_area .island_24 #space_74 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_2 #space_12, #tbg_game_area .island_2 #space_22, #tbg_game_area .island_2 #space_23, #tbg_game_area .island_2 #space_37, #tbg_game_area .island_2 #space_49, #tbg_game_area .island_2 #space_60, #tbg_game_area .island_2 #space_61, #tbg_game_area .island_3 #space_12, #tbg_game_area .island_3 #space_22, #tbg_game_area .island_3 #space_23, #tbg_game_area .island_3 #space_37, #tbg_game_area .island_3 #space_49, #tbg_game_area .island_3 #space_60, #tbg_game_area .island_3 #space_61, #tbg_game_area .island_20 #space_12, #tbg_game_area .island_20 #space_22, #tbg_game_area .island_20 #space_23, #tbg_game_area .island_20 #space_37, #tbg_game_area .island_20 #space_49, #tbg_game_area .island_20 #space_60, #tbg_game_area .island_20 #space_61, #tbg_game_area .island_24 #space_12, #tbg_game_area .island_24 #space_22, #tbg_game_area .island_24 #space_23, #tbg_game_area .island_24 #space_37, #tbg_game_area .island_24 #space_49, #tbg_game_area .island_24 #space_60, #tbg_game_area .island_24 #space_61 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_2 #space_59, #tbg_game_area .island_3 #space_59, #tbg_game_area .island_20 #space_59, #tbg_game_area .island_24 #space_59 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river14.svg");
+}
+
+#tbg_game_area .island_2 #space_70, #tbg_game_area .island_2 #space_71, #tbg_game_area .island_3 #space_70, #tbg_game_area .island_3 #space_71, #tbg_game_area .island_20 #space_70, #tbg_game_area .island_20 #space_71, #tbg_game_area .island_24 #space_70, #tbg_game_area .island_24 #space_71 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river03.svg");
+}
+
+#tbg_game_area .island_2 #space_72, #tbg_game_area .island_3 #space_72, #tbg_game_area .island_20 #space_72, #tbg_game_area .island_24 #space_72 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river04.svg");
+}
+
+#tbg_game_area .island_4 #space_21, #tbg_game_area .island_4 #space_29, #tbg_game_area .island_4 #space_39, #tbg_game_area .island_7 #space_21, #tbg_game_area .island_7 #space_29, #tbg_game_area .island_7 #space_39, #tbg_game_area .island_10 #space_21, #tbg_game_area .island_10 #space_29, #tbg_game_area .island_10 #space_39, #tbg_game_area .island_11 #space_21, #tbg_game_area .island_11 #space_29, #tbg_game_area .island_11 #space_39 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_4 #space_2, #tbg_game_area .island_4 #space_3, #tbg_game_area .island_4 #space_7, #tbg_game_area .island_4 #space_8, #tbg_game_area .island_4 #space_14, #tbg_game_area .island_4 #space_23, #tbg_game_area .island_4 #space_32, #tbg_game_area .island_7 #space_2, #tbg_game_area .island_7 #space_3, #tbg_game_area .island_7 #space_7, #tbg_game_area .island_7 #space_8, #tbg_game_area .island_7 #space_14, #tbg_game_area .island_7 #space_23, #tbg_game_area .island_7 #space_32, #tbg_game_area .island_10 #space_2, #tbg_game_area .island_10 #space_3, #tbg_game_area .island_10 #space_7, #tbg_game_area .island_10 #space_8, #tbg_game_area .island_10 #space_14, #tbg_game_area .island_10 #space_23, #tbg_game_area .island_10 #space_32, #tbg_game_area .island_11 #space_2, #tbg_game_area .island_11 #space_3, #tbg_game_area .island_11 #space_7, #tbg_game_area .island_11 #space_8, #tbg_game_area .island_11 #space_14, #tbg_game_area .island_11 #space_23, #tbg_game_area .island_11 #space_32 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_4 #space_54, #tbg_game_area .island_4 #space_55, #tbg_game_area .island_4 #space_66, #tbg_game_area .island_4 #space_67, #tbg_game_area .island_7 #space_54, #tbg_game_area .island_7 #space_55, #tbg_game_area .island_7 #space_66, #tbg_game_area .island_7 #space_67, #tbg_game_area .island_10 #space_54, #tbg_game_area .island_10 #space_55, #tbg_game_area .island_10 #space_66, #tbg_game_area .island_10 #space_67, #tbg_game_area .island_11 #space_54, #tbg_game_area .island_11 #space_55, #tbg_game_area .island_11 #space_66, #tbg_game_area .island_11 #space_67 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_4 #space_15, #tbg_game_area .island_4 #space_24, #tbg_game_area .island_4 #space_33, #tbg_game_area .island_4 #space_43, #tbg_game_area .island_4 #space_44, #tbg_game_area .island_7 #space_15, #tbg_game_area .island_7 #space_24, #tbg_game_area .island_7 #space_33, #tbg_game_area .island_7 #space_43, #tbg_game_area .island_7 #space_44, #tbg_game_area .island_10 #space_15, #tbg_game_area .island_10 #space_24, #tbg_game_area .island_10 #space_33, #tbg_game_area .island_10 #space_43, #tbg_game_area .island_10 #space_44, #tbg_game_area .island_11 #space_15, #tbg_game_area .island_11 #space_24, #tbg_game_area .island_11 #space_33, #tbg_game_area .island_11 #space_43, #tbg_game_area .island_11 #space_44 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_4 #space_17, #tbg_game_area .island_4 #space_25, #tbg_game_area .island_4 #space_26, #tbg_game_area .island_4 #space_30, #tbg_game_area .island_4 #space_34, #tbg_game_area .island_4 #space_40, #tbg_game_area .island_4 #space_41, #tbg_game_area .island_4 #space_53, #tbg_game_area .island_4 #space_64, #tbg_game_area .island_4 #space_65, #tbg_game_area .island_7 #space_17, #tbg_game_area .island_7 #space_25, #tbg_game_area .island_7 #space_26, #tbg_game_area .island_7 #space_30, #tbg_game_area .island_7 #space_34, #tbg_game_area .island_7 #space_40, #tbg_game_area .island_7 #space_41, #tbg_game_area .island_7 #space_53, #tbg_game_area .island_7 #space_64, #tbg_game_area .island_7 #space_65, #tbg_game_area .island_10 #space_17, #tbg_game_area .island_10 #space_25, #tbg_game_area .island_10 #space_26, #tbg_game_area .island_10 #space_30, #tbg_game_area .island_10 #space_34, #tbg_game_area .island_10 #space_40, #tbg_game_area .island_10 #space_41, #tbg_game_area .island_10 #space_53, #tbg_game_area .island_10 #space_64, #tbg_game_area .island_10 #space_65, #tbg_game_area .island_11 #space_17, #tbg_game_area .island_11 #space_25, #tbg_game_area .island_11 #space_26, #tbg_game_area .island_11 #space_30, #tbg_game_area .island_11 #space_34, #tbg_game_area .island_11 #space_40, #tbg_game_area .island_11 #space_41, #tbg_game_area .island_11 #space_53, #tbg_game_area .island_11 #space_64, #tbg_game_area .island_11 #space_65 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_4 #space_31, #tbg_game_area .island_4 #space_42, #tbg_game_area .island_7 #space_31, #tbg_game_area .island_7 #space_42, #tbg_game_area .island_10 #space_31, #tbg_game_area .island_10 #space_42, #tbg_game_area .island_11 #space_31, #tbg_game_area .island_11 #space_42 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river25.svg");
+}
+
+#tbg_game_area .island_6 #space_22, #tbg_game_area .island_6 #space_32, #tbg_game_area .island_6 #space_44, #tbg_game_area .island_8 #space_22, #tbg_game_area .island_8 #space_32, #tbg_game_area .island_8 #space_44, #tbg_game_area .island_9 #space_22, #tbg_game_area .island_9 #space_32, #tbg_game_area .island_9 #space_44, #tbg_game_area .island_12 #space_22, #tbg_game_area .island_12 #space_32, #tbg_game_area .island_12 #space_44 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_6 #space_2, #tbg_game_area .island_6 #space_3, #tbg_game_area .island_6 #space_7, #tbg_game_area .island_6 #space_8, #tbg_game_area .island_6 #space_14, #tbg_game_area .island_6 #space_24, #tbg_game_area .island_6 #space_35, #tbg_game_area .island_8 #space_2, #tbg_game_area .island_8 #space_3, #tbg_game_area .island_8 #space_7, #tbg_game_area .island_8 #space_8, #tbg_game_area .island_8 #space_14, #tbg_game_area .island_8 #space_24, #tbg_game_area .island_8 #space_35, #tbg_game_area .island_9 #space_2, #tbg_game_area .island_9 #space_3, #tbg_game_area .island_9 #space_7, #tbg_game_area .island_9 #space_8, #tbg_game_area .island_9 #space_14, #tbg_game_area .island_9 #space_24, #tbg_game_area .island_9 #space_35, #tbg_game_area .island_12 #space_2, #tbg_game_area .island_12 #space_3, #tbg_game_area .island_12 #space_7, #tbg_game_area .island_12 #space_8, #tbg_game_area .island_12 #space_14, #tbg_game_area .island_12 #space_24, #tbg_game_area .island_12 #space_35 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_6 #space_60, #tbg_game_area .island_6 #space_61, #tbg_game_area .island_6 #space_73, #tbg_game_area .island_6 #space_74, #tbg_game_area .island_8 #space_60, #tbg_game_area .island_8 #space_61, #tbg_game_area .island_8 #space_73, #tbg_game_area .island_8 #space_74, #tbg_game_area .island_9 #space_60, #tbg_game_area .island_9 #space_61, #tbg_game_area .island_9 #space_73, #tbg_game_area .island_9 #space_74, #tbg_game_area .island_12 #space_60, #tbg_game_area .island_12 #space_61, #tbg_game_area .island_12 #space_73, #tbg_game_area .island_12 #space_74 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_6 #space_15, #tbg_game_area .island_6 #space_25, #tbg_game_area .island_6 #space_36, #tbg_game_area .island_6 #space_48, #tbg_game_area .island_6 #space_49, #tbg_game_area .island_8 #space_15, #tbg_game_area .island_8 #space_25, #tbg_game_area .island_8 #space_36, #tbg_game_area .island_8 #space_48, #tbg_game_area .island_8 #space_49, #tbg_game_area .island_9 #space_15, #tbg_game_area .island_9 #space_25, #tbg_game_area .island_9 #space_36, #tbg_game_area .island_9 #space_48, #tbg_game_area .island_9 #space_49, #tbg_game_area .island_12 #space_15, #tbg_game_area .island_12 #space_25, #tbg_game_area .island_12 #space_36, #tbg_game_area .island_12 #space_48, #tbg_game_area .island_12 #space_49 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_6 #space_17, #tbg_game_area .island_6 #space_26, #tbg_game_area .island_6 #space_27, #tbg_game_area .island_6 #space_33, #tbg_game_area .island_6 #space_37, #tbg_game_area .island_6 #space_45, #tbg_game_area .island_6 #space_46, #tbg_game_area .island_6 #space_59, #tbg_game_area .island_6 #space_71, #tbg_game_area .island_6 #space_72, #tbg_game_area .island_8 #space_17, #tbg_game_area .island_8 #space_26, #tbg_game_area .island_8 #space_27, #tbg_game_area .island_8 #space_33, #tbg_game_area .island_8 #space_37, #tbg_game_area .island_8 #space_45, #tbg_game_area .island_8 #space_46, #tbg_game_area .island_8 #space_59, #tbg_game_area .island_8 #space_71, #tbg_game_area .island_8 #space_72, #tbg_game_area .island_9 #space_17, #tbg_game_area .island_9 #space_26, #tbg_game_area .island_9 #space_27, #tbg_game_area .island_9 #space_33, #tbg_game_area .island_9 #space_37, #tbg_game_area .island_9 #space_45, #tbg_game_area .island_9 #space_46, #tbg_game_area .island_9 #space_59, #tbg_game_area .island_9 #space_71, #tbg_game_area .island_9 #space_72, #tbg_game_area .island_12 #space_17, #tbg_game_area .island_12 #space_26, #tbg_game_area .island_12 #space_27, #tbg_game_area .island_12 #space_33, #tbg_game_area .island_12 #space_37, #tbg_game_area .island_12 #space_45, #tbg_game_area .island_12 #space_46, #tbg_game_area .island_12 #space_59, #tbg_game_area .island_12 #space_71, #tbg_game_area .island_12 #space_72 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_6 #space_34, #tbg_game_area .island_6 #space_47, #tbg_game_area .island_8 #space_34, #tbg_game_area .island_8 #space_47, #tbg_game_area .island_9 #space_34, #tbg_game_area .island_9 #space_47, #tbg_game_area .island_12 #space_34, #tbg_game_area .island_12 #space_47 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river25.svg");
+}
+
+#tbg_game_area .island_13 #space_8, #tbg_game_area .island_13 #space_14, #tbg_game_area .island_13 #space_1, #tbg_game_area .island_13 #space_23, #tbg_game_area .island_13 #space_24, #tbg_game_area .island_13 #space_28, #tbg_game_area .island_13 #space_39, #tbg_game_area .island_13 #space_51, #tbg_game_area .island_17 #space_8, #tbg_game_area .island_17 #space_14, #tbg_game_area .island_17 #space_1, #tbg_game_area .island_17 #space_23, #tbg_game_area .island_17 #space_24, #tbg_game_area .island_17 #space_28, #tbg_game_area .island_17 #space_39, #tbg_game_area .island_17 #space_51, #tbg_game_area .island_28 #space_8, #tbg_game_area .island_28 #space_14, #tbg_game_area .island_28 #space_1, #tbg_game_area .island_28 #space_23, #tbg_game_area .island_28 #space_24, #tbg_game_area .island_28 #space_28, #tbg_game_area .island_28 #space_39, #tbg_game_area .island_28 #space_51, #tbg_game_area .island_31 #space_8, #tbg_game_area .island_31 #space_14, #tbg_game_area .island_31 #space_1, #tbg_game_area .island_31 #space_23, #tbg_game_area .island_31 #space_24, #tbg_game_area .island_31 #space_28, #tbg_game_area .island_31 #space_39, #tbg_game_area .island_31 #space_51 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_13 #space_11, #tbg_game_area .island_13 #space_20, #tbg_game_area .island_13 #space_29, #tbg_game_area .island_13 #space_40, #tbg_game_area .island_13 #space_52, #tbg_game_area .island_13 #space_53, #tbg_game_area .island_13 #space_54, #tbg_game_area .island_13 #space_65, #tbg_game_area .island_13 #space_66, #tbg_game_area .island_13 #space_67, #tbg_game_area .island_17 #space_11, #tbg_game_area .island_17 #space_20, #tbg_game_area .island_17 #space_29, #tbg_game_area .island_17 #space_40, #tbg_game_area .island_17 #space_52, #tbg_game_area .island_17 #space_53, #tbg_game_area .island_17 #space_54, #tbg_game_area .island_17 #space_65, #tbg_game_area .island_17 #space_66, #tbg_game_area .island_17 #space_67, #tbg_game_area .island_28 #space_11, #tbg_game_area .island_28 #space_20, #tbg_game_area .island_28 #space_29, #tbg_game_area .island_28 #space_40, #tbg_game_area .island_28 #space_52, #tbg_game_area .island_28 #space_53, #tbg_game_area .island_28 #space_54, #tbg_game_area .island_28 #space_65, #tbg_game_area .island_28 #space_66, #tbg_game_area .island_28 #space_67, #tbg_game_area .island_31 #space_11, #tbg_game_area .island_31 #space_20, #tbg_game_area .island_31 #space_29, #tbg_game_area .island_31 #space_40, #tbg_game_area .island_31 #space_52, #tbg_game_area .island_31 #space_53, #tbg_game_area .island_31 #space_54, #tbg_game_area .island_31 #space_65, #tbg_game_area .island_31 #space_66, #tbg_game_area .island_31 #space_67 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_13 #space_31, #tbg_game_area .island_13 #space_41, #tbg_game_area .island_13 #space_42, #tbg_game_area .island_17 #space_31, #tbg_game_area .island_17 #space_41, #tbg_game_area .island_17 #space_42, #tbg_game_area .island_28 #space_31, #tbg_game_area .island_28 #space_41, #tbg_game_area .island_28 #space_42, #tbg_game_area .island_31 #space_31, #tbg_game_area .island_31 #space_41, #tbg_game_area .island_31 #space_42 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_13 #space_7, #tbg_game_area .island_13 #space_12, #tbg_game_area .island_13 #space_13, #tbg_game_area .island_13 #space_21, #tbg_game_area .island_13 #space_22, #tbg_game_area .island_13 #space_30, #tbg_game_area .island_13 #space_63, #tbg_game_area .island_13 #space_64, #tbg_game_area .island_17 #space_7, #tbg_game_area .island_17 #space_12, #tbg_game_area .island_17 #space_13, #tbg_game_area .island_17 #space_21, #tbg_game_area .island_17 #space_22, #tbg_game_area .island_17 #space_30, #tbg_game_area .island_17 #space_63, #tbg_game_area .island_17 #space_64, #tbg_game_area .island_28 #space_7, #tbg_game_area .island_28 #space_12, #tbg_game_area .island_28 #space_13, #tbg_game_area .island_28 #space_21, #tbg_game_area .island_28 #space_22, #tbg_game_area .island_28 #space_30, #tbg_game_area .island_28 #space_63, #tbg_game_area .island_28 #space_64, #tbg_game_area .island_31 #space_7, #tbg_game_area .island_31 #space_12, #tbg_game_area .island_31 #space_13, #tbg_game_area .island_31 #space_21, #tbg_game_area .island_31 #space_22, #tbg_game_area .island_31 #space_30, #tbg_game_area .island_31 #space_63, #tbg_game_area .island_31 #space_64 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_13 #space_34, #tbg_game_area .island_13 #space_43, #tbg_game_area .island_13 #space_44, #tbg_game_area .island_13 #space_55, #tbg_game_area .island_17 #space_34, #tbg_game_area .island_17 #space_43, #tbg_game_area .island_17 #space_44, #tbg_game_area .island_17 #space_55, #tbg_game_area .island_28 #space_34, #tbg_game_area .island_28 #space_43, #tbg_game_area .island_28 #space_44, #tbg_game_area .island_28 #space_55, #tbg_game_area .island_31 #space_34, #tbg_game_area .island_31 #space_43, #tbg_game_area .island_31 #space_44, #tbg_game_area .island_31 #space_55 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_13 #space_17, #tbg_game_area .island_13 #space_25, #tbg_game_area .island_17 #space_17, #tbg_game_area .island_17 #space_25, #tbg_game_area .island_28 #space_17, #tbg_game_area .island_28 #space_25, #tbg_game_area .island_31 #space_17, #tbg_game_area .island_31 #space_25 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river14.svg");
+}
+
+#tbg_game_area .island_13 #space_32, #tbg_game_area .island_17 #space_32, #tbg_game_area .island_28 #space_32, #tbg_game_area .island_31 #space_32 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river03.svg");
+}
+
+#tbg_game_area .island_13 #space_33, #tbg_game_area .island_17 #space_33, #tbg_game_area .island_28 #space_33, #tbg_game_area .island_31 #space_33 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river04.svg");
+}
+
+#tbg_game_area .island_14 #space_8, #tbg_game_area .island_14 #space_14, #tbg_game_area .island_14 #space_16, #tbg_game_area .island_14 #space_24, #tbg_game_area .island_14 #space_25, #tbg_game_area .island_14 #space_31, #tbg_game_area .island_14 #space_44, #tbg_game_area .island_14 #space_57, #tbg_game_area .island_15 #space_8, #tbg_game_area .island_15 #space_14, #tbg_game_area .island_15 #space_16, #tbg_game_area .island_15 #space_24, #tbg_game_area .island_15 #space_25, #tbg_game_area .island_15 #space_31, #tbg_game_area .island_15 #space_44, #tbg_game_area .island_15 #space_57, #tbg_game_area .island_30 #space_8, #tbg_game_area .island_30 #space_14, #tbg_game_area .island_30 #space_16, #tbg_game_area .island_30 #space_24, #tbg_game_area .island_30 #space_25, #tbg_game_area .island_30 #space_31, #tbg_game_area .island_30 #space_44, #tbg_game_area .island_30 #space_57, #tbg_game_area .island_32 #space_8, #tbg_game_area .island_32 #space_14, #tbg_game_area .island_32 #space_16, #tbg_game_area .island_32 #space_24, #tbg_game_area .island_32 #space_25, #tbg_game_area .island_32 #space_31, #tbg_game_area .island_32 #space_44, #tbg_game_area .island_32 #space_57 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_14 #space_11, #tbg_game_area .island_14 #space_21, #tbg_game_area .island_14 #space_32, #tbg_game_area .island_14 #space_45, #tbg_game_area .island_14 #space_58, #tbg_game_area .island_14 #space_59, #tbg_game_area .island_14 #space_60, #tbg_game_area .island_14 #space_72, #tbg_game_area .island_14 #space_73, #tbg_game_area .island_14 #space_74, #tbg_game_area .island_15 #space_11, #tbg_game_area .island_15 #space_21, #tbg_game_area .island_15 #space_32, #tbg_game_area .island_15 #space_45, #tbg_game_area .island_15 #space_58, #tbg_game_area .island_15 #space_59, #tbg_game_area .island_15 #space_60, #tbg_game_area .island_15 #space_72, #tbg_game_area .island_15 #space_73, #tbg_game_area .island_15 #space_74, #tbg_game_area .island_30 #space_11, #tbg_game_area .island_30 #space_21, #tbg_game_area .island_30 #space_32, #tbg_game_area .island_30 #space_45, #tbg_game_area .island_30 #space_58, #tbg_game_area .island_30 #space_59, #tbg_game_area .island_30 #space_60, #tbg_game_area .island_30 #space_72, #tbg_game_area .island_30 #space_73, #tbg_game_area .island_30 #space_74, #tbg_game_area .island_32 #space_11, #tbg_game_area .island_32 #space_21, #tbg_game_area .island_32 #space_32, #tbg_game_area .island_32 #space_45, #tbg_game_area .island_32 #space_58, #tbg_game_area .island_32 #space_59, #tbg_game_area .island_32 #space_60, #tbg_game_area .island_32 #space_72, #tbg_game_area .island_32 #space_73, #tbg_game_area .island_32 #space_74 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_14 #space_34, #tbg_game_area .island_14 #space_46, #tbg_game_area .island_14 #space_47, #tbg_game_area .island_15 #space_34, #tbg_game_area .island_15 #space_46, #tbg_game_area .island_15 #space_47, #tbg_game_area .island_30 #space_34, #tbg_game_area .island_30 #space_46, #tbg_game_area .island_30 #space_47, #tbg_game_area .island_32 #space_34, #tbg_game_area .island_32 #space_46, #tbg_game_area .island_32 #space_47 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_14 #space_7, #tbg_game_area .island_14 #space_12, #tbg_game_area .island_14 #space_13, #tbg_game_area .island_14 #space_22, #tbg_game_area .island_14 #space_23, #tbg_game_area .island_14 #space_33, #tbg_game_area .island_14 #space_70, #tbg_game_area .island_14 #space_71, #tbg_game_area .island_15 #space_7, #tbg_game_area .island_15 #space_12, #tbg_game_area .island_15 #space_13, #tbg_game_area .island_15 #space_22, #tbg_game_area .island_15 #space_23, #tbg_game_area .island_15 #space_33, #tbg_game_area .island_15 #space_70, #tbg_game_area .island_15 #space_71, #tbg_game_area .island_30 #space_7, #tbg_game_area .island_30 #space_12, #tbg_game_area .island_30 #space_13, #tbg_game_area .island_30 #space_22, #tbg_game_area .island_30 #space_23, #tbg_game_area .island_30 #space_33, #tbg_game_area .island_30 #space_70, #tbg_game_area .island_30 #space_71, #tbg_game_area .island_32 #space_7, #tbg_game_area .island_32 #space_12, #tbg_game_area .island_32 #space_13, #tbg_game_area .island_32 #space_22, #tbg_game_area .island_32 #space_23, #tbg_game_area .island_32 #space_33, #tbg_game_area .island_32 #space_70, #tbg_game_area .island_32 #space_71 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_14 #space_37, #tbg_game_area .island_14 #space_48, #tbg_game_area .island_14 #space_49, #tbg_game_area .island_14 #space_61, #tbg_game_area .island_15 #space_37, #tbg_game_area .island_15 #space_48, #tbg_game_area .island_15 #space_49, #tbg_game_area .island_15 #space_61, #tbg_game_area .island_30 #space_37, #tbg_game_area .island_30 #space_48, #tbg_game_area .island_30 #space_49, #tbg_game_area .island_30 #space_61, #tbg_game_area .island_32 #space_37, #tbg_game_area .island_32 #space_48, #tbg_game_area .island_32 #space_49, #tbg_game_area .island_32 #space_61 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_14 #space_17, #tbg_game_area .island_14 #space_26, #tbg_game_area .island_15 #space_17, #tbg_game_area .island_15 #space_26, #tbg_game_area .island_30 #space_17, #tbg_game_area .island_30 #space_26, #tbg_game_area .island_32 #space_17, #tbg_game_area .island_32 #space_26 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river14.svg");
+}
+
+#tbg_game_area .island_14 #space_35, #tbg_game_area .island_15 #space_35, #tbg_game_area .island_30 #space_35, #tbg_game_area .island_32 #space_35 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river03.svg");
+}
+
+#tbg_game_area .island_14 #space_36, #tbg_game_area .island_15 #space_36, #tbg_game_area .island_30 #space_36, #tbg_game_area .island_32 #space_36 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river04.svg");
+}
+
+#tbg_game_area .island_16 #space_14, #tbg_game_area .island_16 #space_15, #tbg_game_area .island_16 #space_16, #tbg_game_area .island_16 #space_25, #tbg_game_area .island_16 #space_39, #tbg_game_area .island_16 #space_50, #tbg_game_area .island_19 #space_14, #tbg_game_area .island_19 #space_15, #tbg_game_area .island_19 #space_16, #tbg_game_area .island_19 #space_25, #tbg_game_area .island_19 #space_39, #tbg_game_area .island_19 #space_50, #tbg_game_area .island_25 #space_14, #tbg_game_area .island_25 #space_15, #tbg_game_area .island_25 #space_16, #tbg_game_area .island_25 #space_25, #tbg_game_area .island_25 #space_39, #tbg_game_area .island_25 #space_50, #tbg_game_area .island_29 #space_14, #tbg_game_area .island_29 #space_15, #tbg_game_area .island_29 #space_16, #tbg_game_area .island_29 #space_25, #tbg_game_area .island_29 #space_39, #tbg_game_area .island_29 #space_50 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_16 #space_12, #tbg_game_area .island_16 #space_13, #tbg_game_area .island_16 #space_21, #tbg_game_area .island_16 #space_22, #tbg_game_area .island_16 #space_31, #tbg_game_area .island_19 #space_12, #tbg_game_area .island_19 #space_13, #tbg_game_area .island_19 #space_21, #tbg_game_area .island_19 #space_22, #tbg_game_area .island_19 #space_31, #tbg_game_area .island_25 #space_12, #tbg_game_area .island_25 #space_13, #tbg_game_area .island_25 #space_21, #tbg_game_area .island_25 #space_22, #tbg_game_area .island_25 #space_31, #tbg_game_area .island_29 #space_12, #tbg_game_area .island_29 #space_13, #tbg_game_area .island_29 #space_21, #tbg_game_area .island_29 #space_22, #tbg_game_area .island_29 #space_31 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_16 #space_42, #tbg_game_area .island_16 #space_53, #tbg_game_area .island_16 #space_54, #tbg_game_area .island_16 #space_65, #tbg_game_area .island_16 #space_66, #tbg_game_area .island_16 #space_67, #tbg_game_area .island_19 #space_42, #tbg_game_area .island_19 #space_53, #tbg_game_area .island_19 #space_54, #tbg_game_area .island_19 #space_65, #tbg_game_area .island_19 #space_66, #tbg_game_area .island_19 #space_67, #tbg_game_area .island_25 #space_42, #tbg_game_area .island_25 #space_53, #tbg_game_area .island_25 #space_54, #tbg_game_area .island_25 #space_65, #tbg_game_area .island_25 #space_66, #tbg_game_area .island_25 #space_67, #tbg_game_area .island_29 #space_42, #tbg_game_area .island_29 #space_53, #tbg_game_area .island_29 #space_54, #tbg_game_area .island_29 #space_65, #tbg_game_area .island_29 #space_66, #tbg_game_area .island_29 #space_67 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_16 #space_34, #tbg_game_area .island_16 #space_44, #tbg_game_area .island_16 #space_55, #tbg_game_area .island_19 #space_34, #tbg_game_area .island_19 #space_44, #tbg_game_area .island_19 #space_55, #tbg_game_area .island_25 #space_34, #tbg_game_area .island_25 #space_44, #tbg_game_area .island_25 #space_55, #tbg_game_area .island_29 #space_34, #tbg_game_area .island_29 #space_44, #tbg_game_area .island_29 #space_55 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_16 #space_23, #tbg_game_area .island_16 #space_24, #tbg_game_area .island_16 #space_32, #tbg_game_area .island_16 #space_33, #tbg_game_area .island_16 #space_40, #tbg_game_area .island_16 #space_43, #tbg_game_area .island_16 #space_51, #tbg_game_area .island_16 #space_52, #tbg_game_area .island_16 #space_63, #tbg_game_area .island_16 #space_64, #tbg_game_area .island_19 #space_23, #tbg_game_area .island_19 #space_24, #tbg_game_area .island_19 #space_32, #tbg_game_area .island_19 #space_33, #tbg_game_area .island_19 #space_40, #tbg_game_area .island_19 #space_43, #tbg_game_area .island_19 #space_51, #tbg_game_area .island_19 #space_52, #tbg_game_area .island_19 #space_63, #tbg_game_area .island_19 #space_64, #tbg_game_area .island_25 #space_23, #tbg_game_area .island_25 #space_24, #tbg_game_area .island_25 #space_32, #tbg_game_area .island_25 #space_33, #tbg_game_area .island_25 #space_40, #tbg_game_area .island_25 #space_43, #tbg_game_area .island_25 #space_51, #tbg_game_area .island_25 #space_52, #tbg_game_area .island_25 #space_63, #tbg_game_area .island_25 #space_64, #tbg_game_area .island_29 #space_23, #tbg_game_area .island_29 #space_24, #tbg_game_area .island_29 #space_32, #tbg_game_area .island_29 #space_33, #tbg_game_area .island_29 #space_40, #tbg_game_area .island_29 #space_43, #tbg_game_area .island_29 #space_51, #tbg_game_area .island_29 #space_52, #tbg_game_area .island_29 #space_63, #tbg_game_area .island_29 #space_64 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_16 #space_29, #tbg_game_area .island_19 #space_29, #tbg_game_area .island_25 #space_29, #tbg_game_area .island_29 #space_29 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river03.svg");
+}
+
+#tbg_game_area .island_16 #space_30, #tbg_game_area .island_19 #space_30, #tbg_game_area .island_25 #space_30, #tbg_game_area .island_29 #space_30 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river02.svg");
+}
+
+#tbg_game_area .island_16 #space_41, #tbg_game_area .island_19 #space_41, #tbg_game_area .island_25 #space_41, #tbg_game_area .island_29 #space_41 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river25.svg");
+}
+
+#tbg_game_area .island_18 #space_14, #tbg_game_area .island_18 #space_15, #tbg_game_area .island_18 #space_16, #tbg_game_area .island_18 #space_26, #tbg_game_area .island_18 #space_44, #tbg_game_area .island_18 #space_56, #tbg_game_area .island_21 #space_14, #tbg_game_area .island_21 #space_15, #tbg_game_area .island_21 #space_16, #tbg_game_area .island_21 #space_26, #tbg_game_area .island_21 #space_44, #tbg_game_area .island_21 #space_56, #tbg_game_area .island_26 #space_14, #tbg_game_area .island_26 #space_15, #tbg_game_area .island_26 #space_16, #tbg_game_area .island_26 #space_26, #tbg_game_area .island_26 #space_44, #tbg_game_area .island_26 #space_56, #tbg_game_area .island_27 #space_14, #tbg_game_area .island_27 #space_15, #tbg_game_area .island_27 #space_16, #tbg_game_area .island_27 #space_26, #tbg_game_area .island_27 #space_44, #tbg_game_area .island_27 #space_56 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/beach.svg");
+}
+
+#tbg_game_area .island_18 #space_12, #tbg_game_area .island_18 #space_13, #tbg_game_area .island_18 #space_22, #tbg_game_area .island_18 #space_23, #tbg_game_area .island_18 #space_34, #tbg_game_area .island_21 #space_12, #tbg_game_area .island_21 #space_13, #tbg_game_area .island_21 #space_22, #tbg_game_area .island_21 #space_23, #tbg_game_area .island_21 #space_34, #tbg_game_area .island_26 #space_12, #tbg_game_area .island_26 #space_13, #tbg_game_area .island_26 #space_22, #tbg_game_area .island_26 #space_23, #tbg_game_area .island_26 #space_34, #tbg_game_area .island_27 #space_12, #tbg_game_area .island_27 #space_13, #tbg_game_area .island_27 #space_22, #tbg_game_area .island_27 #space_23, #tbg_game_area .island_27 #space_34 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/jungle.svg");
+}
+
+#tbg_game_area .island_18 #space_47, #tbg_game_area .island_18 #space_59, #tbg_game_area .island_18 #space_60, #tbg_game_area .island_18 #space_72, #tbg_game_area .island_18 #space_73, #tbg_game_area .island_18 #space_74, #tbg_game_area .island_21 #space_47, #tbg_game_area .island_21 #space_59, #tbg_game_area .island_21 #space_60, #tbg_game_area .island_21 #space_72, #tbg_game_area .island_21 #space_73, #tbg_game_area .island_21 #space_74, #tbg_game_area .island_26 #space_47, #tbg_game_area .island_26 #space_59, #tbg_game_area .island_26 #space_60, #tbg_game_area .island_26 #space_72, #tbg_game_area .island_26 #space_73, #tbg_game_area .island_26 #space_74, #tbg_game_area .island_27 #space_47, #tbg_game_area .island_27 #space_59, #tbg_game_area .island_27 #space_60, #tbg_game_area .island_27 #space_72, #tbg_game_area .island_27 #space_73, #tbg_game_area .island_27 #space_74 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/lake.svg");
+}
+
+#tbg_game_area .island_18 #space_37, #tbg_game_area .island_18 #space_49, #tbg_game_area .island_18 #space_61, #tbg_game_area .island_21 #space_37, #tbg_game_area .island_21 #space_49, #tbg_game_area .island_21 #space_61, #tbg_game_area .island_26 #space_37, #tbg_game_area .island_26 #space_49, #tbg_game_area .island_26 #space_61, #tbg_game_area .island_27 #space_37, #tbg_game_area .island_27 #space_49, #tbg_game_area .island_27 #space_61 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/mountain.svg");
+}
+
+#tbg_game_area .island_18 #space_24, #tbg_game_area .island_18 #space_25, #tbg_game_area .island_18 #space_35, #tbg_game_area .island_18 #space_36, #tbg_game_area .island_18 #space_45, #tbg_game_area .island_18 #space_48, #tbg_game_area .island_18 #space_57, #tbg_game_area .island_18 #space_58, #tbg_game_area .island_18 #space_70, #tbg_game_area .island_18 #space_71, #tbg_game_area .island_21 #space_24, #tbg_game_area .island_21 #space_25, #tbg_game_area .island_21 #space_35, #tbg_game_area .island_21 #space_36, #tbg_game_area .island_21 #space_45, #tbg_game_area .island_21 #space_48, #tbg_game_area .island_21 #space_57, #tbg_game_area .island_21 #space_58, #tbg_game_area .island_21 #space_70, #tbg_game_area .island_21 #space_71, #tbg_game_area .island_26 #space_24, #tbg_game_area .island_26 #space_25, #tbg_game_area .island_26 #space_35, #tbg_game_area .island_26 #space_36, #tbg_game_area .island_26 #space_45, #tbg_game_area .island_26 #space_48, #tbg_game_area .island_26 #space_57, #tbg_game_area .island_26 #space_58, #tbg_game_area .island_26 #space_70, #tbg_game_area .island_26 #space_71, #tbg_game_area .island_27 #space_24, #tbg_game_area .island_27 #space_25, #tbg_game_area .island_27 #space_35, #tbg_game_area .island_27 #space_36, #tbg_game_area .island_27 #space_45, #tbg_game_area .island_27 #space_48, #tbg_game_area .island_27 #space_57, #tbg_game_area .island_27 #space_58, #tbg_game_area .island_27 #space_70, #tbg_game_area .island_27 #space_71 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/scrub.svg");
+}
+
+#tbg_game_area .island_18 #space_32, #tbg_game_area .island_21 #space_32, #tbg_game_area .island_26 #space_32, #tbg_game_area .island_27 #space_32 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river03.svg");
+}
+
+#tbg_game_area .island_18 #space_33, #tbg_game_area .island_21 #space_33, #tbg_game_area .island_26 #space_33, #tbg_game_area .island_27 #space_33 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river02.svg");
+}
+
+#tbg_game_area .island_18 #space_46, #tbg_game_area .island_21 #space_46, #tbg_game_area .island_26 #space_46, #tbg_game_area .island_27 #space_46 {
+  background: url("https://pjt33.github.io/bga_custom_css/tobago/river25.svg");
+}
