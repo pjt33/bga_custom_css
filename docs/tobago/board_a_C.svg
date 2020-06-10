@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="733px" height="723px">
+	<defs>
+		<path id="beach" style="fill:#fff894; stroke:#000000" d="M 0.5,22 L 10,0.5 39,0.5 48.5,22 39,43.5 10,43.5 Z" />
+		<path id="jungle" style="fill:#264223; stroke:#000000" d="M 0.5,22 L 10,0.5 39,0.5 48.5,22 39,43.5 10,43.5 Z" />
+		<path id="lake" style="fill:#3a7ca6; stroke:#ffffff" d="M 0.5,22 L 10,0.5 39,0.5 48.5,22 39,43.5 10,43.5 Z" />
+		<path id="mountain" style="fill:#485356; stroke:#000000" d="M 0.5,22 L 10,0.5 39,0.5 48.5,22 39,43.5 10,43.5 Z" />
+		<path id="scrub" style="fill:#a89e38; stroke:#000000" d="M 0.5,22 L 10,0.5 39,0.5 48.5,22 39,43.5 10,43.5 Z" />
+		<g id="river02">
+			<path style="fill:#c99584; stroke:#000000" d="M 0.5,22 L 10,0.5 39,0.5 48.5,22 39,43.5 10,43.5 Z" />
+			<path style="fill:none;stroke:#3a7ca6;stroke-width:5px" d="M 24.5,0 C 24.49983,5.1094131 13.290202,15.34805 15.503777,22.736203 17.694812,30.049126 30.124914,26.965701 44.106409,33.212817" />
+		</g>
+		<g id="river03">
+			<path style="fill:#c99584; stroke:#000000" d="M 0.5,22 L 10,0.5 39,0.5 48.5,22 39,43.5 10,43.5 Z" />
+			<path style="fill:none;stroke:#3a7ca6;stroke-width:5px" d="M 24.5,0 C 24.5,7.1110206 12.059979,13.776159 24.30225,22.329584 34.329505,29.335422 24.5,38 24.5,44" />
+		</g>
+		<g id="river04">
+			<path style="fill:#c99584; stroke:#000000" d="M 0.5,22 L 10,0.5 39,0.5 48.5,22 39,43.5 10,43.5 Z" />
+			<path style="stroke:#3a7ca6; stroke-width: 5px; fill:none" d="M 24.5,0 S 24.5 22 5,33" />
+		</g>
+		<g id="river12">
+			<path style="fill:#c99584; stroke:#000000" d="M 0.5,22 L 10,0.5 39,0.5 48.5,22 39,43.5 10,43.5 Z" />
+			<path style="stroke:#3a7ca6; stroke-width: 5px; fill:none" d="M 44,11 S 24.5 22 44,33" />
+		</g>
+		<g id="river14">
+			<path style="fill:#c99584; stroke:#000000" d="M 0.5,22 L 10,0.5 39,0.5 48.5,22 39,43.5 10,43.5 Z" />
+			<path style="stroke:#3a7ca6; stroke-width: 5px; fill:none" d="M 5,33 L 44,11 Z" />
+		</g>
+		<g id="river15">
+			<path style="fill:#c99584; stroke:#000000" d="M 0.5,22 L 10,0.5 39,0.5 48.5,22 39,43.5 10,43.5 Z" />
+			<path style="stroke:#3a7ca6; stroke-width: 5px; fill:none" d="M 5,11 S 24.5 22 44,11" />
+		</g>
+		<g id="river24">
+			<path style="fill:#c99584; stroke:#000000" d="M 0.5,22 L 10,0.5 39,0.5 48.5,22 39,43.5 10,43.5 Z" />
+			<path style="stroke:#3a7ca6; stroke-width: 5px; fill:none" d="M 5,33 S 24.5 22 44,33" />
+		</g>
+		<g id="river25">
+			<path style="fill:#c99584; stroke:#000000" d="M 0.5,22 L 10,0.5 39,0.5 48.5,22 39,43.5 10,43.5 Z" />
+			<path style="stroke:#3a7ca6; stroke-width: 5px; fill:none" d="M 5,11 L 44,33 Z" />
+		</g>
+		<g id="river35">
+			<path style="fill:#c99584; stroke:#000000" d="M 0.5,22 L 10,0.5 39,0.5 48.5,22 39,43.5 10,43.5 Z" />
+			<path style="stroke:#3a7ca6; stroke-width: 5px; fill:none" d="M 5,11 S 24.5 22 24.5,44" />
+		</g>
+	</defs>
+
+	<use id="space_38" transform="translate(207, 415)" href="#river12" />
+	<use id="space_50" transform="translate(246, 393)" href="#river24" />
+	<use id="space_51" transform="translate(246, 437)" href="#river35" />
+	<use id="space_52" transform="translate(246, 481)" href="#river03" />
+	<use id="space_54" transform="translate(246, 569)" href="#beach" />
+	<use id="space_62" transform="translate(285, 371)" href="#lake" />
+	<use id="space_63" transform="translate(285, 415)" href="#river15" />
+	<use id="space_64" transform="translate(285, 459)" href="#mountain" />
+	<use id="space_66" transform="translate(285, 547)" href="#jungle" />
+	<use id="space_67" transform="translate(285, 591)" href="#beach" />
+	<use id="space_75" transform="translate(324, 349)" href="#lake" />
+	<use id="space_76" transform="translate(324, 393)" href="#lake" />
+	<use id="space_77" transform="translate(324, 437)" href="#mountain" />
+	<use id="space_78" transform="translate(324, 481)" href="#jungle" />
+	<use id="space_79" transform="translate(324, 525)" href="#jungle" />
+	<use id="space_80" transform="translate(324, 569)" href="#jungle" />
+	<use id="space_81" transform="translate(324, 613)" href="#mountain" />
+	<use id="space_88" transform="translate(362, 371)" href="#scrub" />
+	<use id="space_89" transform="translate(362, 415)" href="#mountain" />
+	<use id="space_90" transform="translate(362, 459)" href="#beach" />
+	<use id="space_91" transform="translate(362, 503)" href="#beach" />
+	<use id="space_92" transform="translate(362, 547)" href="#jungle" />
+	<use id="space_93" transform="translate(362, 591)" href="#beach" />
+	<use id="space_101" transform="translate(401, 393)" href="#scrub" />
+	<use id="space_102" transform="translate(401, 437)" href="#beach" />
+	<use id="space_104" transform="translate(401, 525)" href="#jungle" />
+	<use id="space_105" transform="translate(401, 569)" href="#beach" />
+	<use id="space_114" transform="translate(440, 415)" href="#scrub" />
+	<use id="space_116" transform="translate(440, 503)" href="#beach" />
+
+</svg>
