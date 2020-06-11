@@ -1,0 +1,46 @@
+	<g class="beach">
+		<use href="#hex" transform="translate(400.833333, 173)" />
+		<use href="#hex" transform="translate(439.5, 151)" />
+		<use href="#hex" transform="translate(478.166667, 173)" />
+		<use href="#hex" transform="translate(516.833333, 195)" />
+		<use href="#hex" transform="translate(555.5, 349)" />
+		<use href="#hex" transform="translate(555.5, 393)" />
+	</g>
+	<g class="scrub">
+		<use href="#hex" transform="translate(400.833333, 217)" />
+		<use href="#hex" transform="translate(400.833333, 261)" />
+		<use href="#hex" transform="translate(439.5, 195)" />
+		<use href="#hex" transform="translate(439.5, 239)" />
+		<use href="#hex" transform="translate(478.166667, 217)" />
+		<use href="#hex" transform="translate(478.166667, 349)" />
+		<use href="#hex" transform="translate(478.166667, 393)" />
+		<use href="#hex" transform="translate(516.833333, 327)" />
+		<use href="#hex" transform="translate(516.833333, 371)" />
+		<use href="#hex" transform="translate(516.833333, 415)" />
+	</g>
+	<g class="jungle">
+		<use href="#hex" transform="translate(478.166667, 261)" />
+		<use href="#hex" transform="translate(516.833333, 239)" />
+		<use href="#hex" transform="translate(555.5, 217)" />
+		<use href="#hex" transform="translate(555.5, 261)" />
+		<use href="#hex" transform="translate(594.166667, 239)" />
+	</g>
+	<g class="mountain">
+		<use href="#hex" transform="translate(362.166667, 195)" />
+		<use href="#hex" transform="translate(362.166667, 239)" />
+		<use href="#hex" transform="translate(362.166667, 283)" />
+	</g>
+	<g class="river">
+		<use href="#hex" transform="translate(478.166667, 305)" />
+		<use href="#hex" transform="translate(516.833333, 283)" />
+		<use href="#hex" transform="translate(555.5, 305)" />
+	</g>
+	<g class="lake">
+		<use href="#hex" transform="translate(362.166667, 327)" />
+		<use href="#hex" transform="translate(400.833333, 305)" />
+		<use href="#hex" transform="translate(400.833333, 349)" />
+		<use href="#hex" transform="translate(439.5, 283)" />
+		<use href="#hex" transform="translate(439.5, 327)" />
+		<use href="#hex" transform="translate(439.5, 371)" />
+	</g>
+	<path class="rivercourse" d="M 483.166667,338 l 39,-22 s 19.5,-11 39,0 l 39,22" />

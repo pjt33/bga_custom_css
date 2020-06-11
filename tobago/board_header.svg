@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="733px" height="723px">
+	<style type="text/css">
+		.beach       {   fill: #fff894; }
+		.jungle      {   fill: #264223; }
+		.mountain    {   fill: #485356; }
+		.scrub       {   fill: #a89e38; }
+		.lake        {   fill: #03a7cf; stroke: #ffffff; }
+		.rivercourse { stroke: #03a7cf;   fill:    none; stroke-width: 5px; }
+		.river       {   fill: #c99584; }
+	</style>
+	<defs>
+		<path id="hex" class="hex" d="M 0,22 l 12.7,-22 L 38.666667,0 l 12.7,22 -12.7,22 L 12.7,44 Z" />
+	</defs>
+
+	<g style="stroke: #000000;">

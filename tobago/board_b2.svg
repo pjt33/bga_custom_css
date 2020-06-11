@@ -1,0 +1,44 @@
+	<g class="beach">
+		<use href="#hex" transform="translate(555.5, 261)" />
+		<use href="#hex" transform="translate(555.5, 305)" />
+		<use href="#hex" transform="translate(555.5, 349)" />
+	</g>
+	<g class="scrub">
+		<use href="#hex" transform="translate(362.166667, 151)" />
+		<use href="#hex" transform="translate(362.166667, 195)" />
+		<use href="#hex" transform="translate(400.833333, 129)" />
+		<use href="#hex" transform="translate(400.833333, 173)" />
+		<use href="#hex" transform="translate(439.5, 327)" />
+		<use href="#hex" transform="translate(439.5, 371)" />
+		<use href="#hex" transform="translate(478.166667, 305)" />
+		<use href="#hex" transform="translate(478.166667, 393)" />
+		<use href="#hex" transform="translate(516.833333, 283)" />
+		<use href="#hex" transform="translate(516.833333, 327)" />
+	</g>
+	<g class="jungle">
+		<use href="#hex" transform="translate(439.5, 239)" />
+		<use href="#hex" transform="translate(478.166667, 217)" />
+		<use href="#hex" transform="translate(516.833333, 151)" />
+		<use href="#hex" transform="translate(516.833333, 195)" />
+		<use href="#hex" transform="translate(555.5, 129)" />
+		<use href="#hex" transform="translate(555.5, 173)" />
+		<use href="#hex" transform="translate(594.166667, 151)" />
+	</g>
+	<g class="mountain">
+		<use href="#hex" transform="translate(362.166667, 239)" />
+		<use href="#hex" transform="translate(400.833333, 217)" />
+		<use href="#hex" transform="translate(400.833333, 261)" />
+		<use href="#hex" transform="translate(439.5, 195)" />
+		<use href="#hex" transform="translate(478.166667, 173)" />
+	</g>
+	<g class="river">
+		<use href="#hex" transform="translate(439.5, 283)" />
+		<use href="#hex" transform="translate(478.166667, 261)" />
+	</g>
+	<g class="lake">
+		<use href="#hex" transform="translate(362.166667, 283)" />
+		<use href="#hex" transform="translate(362.166667, 327)" />
+		<use href="#hex" transform="translate(400.833333, 305)" />
+		<use href="#hex" transform="translate(400.833333, 349)" />
+	</g>
+	<path class="rivercourse" d="M 444.5,316 l 39,-22 39,-22" />

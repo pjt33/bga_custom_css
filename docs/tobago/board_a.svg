@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="733px" height="723px">
+	<style type="text/css">
+		.beach       {   fill: #fff894; }
+		.jungle      {   fill: #264223; }
+		.mountain    {   fill: #485356; }
+		.scrub       {   fill: #a89e38; }
+		.lake        {   fill: #03a7cf; stroke: #ffffff; }
+		.rivercourse { stroke: #03a7cf;   fill:    none; stroke-width: 5px; }
+		.river       {   fill: #c99584; }
+	</style>
+	<defs>
+		<path id="hex" class="hex" d="M 0,22 l 12.7,-22 L 38.666667,0 l 12.7,22 -12.7,22 L 12.7,44 Z" />
+	</defs>
+
+	<g style="stroke: #000000;">
+	<g class="beach">
+		<use href="#hex" transform="translate(246.166667, 569)" />
+		<use href="#hex" transform="translate(284.833333, 591)" />
+		<use href="#hex" transform="translate(362.166667, 459)" />
+		<use href="#hex" transform="translate(362.166667, 503)" />
+		<use href="#hex" transform="translate(362.166667, 591)" />
+		<use href="#hex" transform="translate(400.833333, 437)" />
+		<use href="#hex" transform="translate(400.833333, 569)" />
+		<use href="#hex" transform="translate(439.5, 503)" />
+	</g>
+	<g class="scrub">
+		<use href="#hex" transform="translate(362.166667, 371)" />
+		<use href="#hex" transform="translate(400.833333, 393)" />
+		<use href="#hex" transform="translate(439.5, 415)" />
+	</g>
+	<g class="jungle">
+		<use href="#hex" transform="translate(284.833333, 547)" />
+		<use href="#hex" transform="translate(323.5, 481)" />
+		<use href="#hex" transform="translate(323.5, 525)" />
+		<use href="#hex" transform="translate(323.5, 569)" />
+		<use href="#hex" transform="translate(362.166667, 547)" />
+		<use href="#hex" transform="translate(400.833333, 525)" />
+	</g>
+	<g class="mountain">
+		<use href="#hex" transform="translate(284.833333, 459)" />
+		<use href="#hex" transform="translate(323.5, 437)" />
+		<use href="#hex" transform="translate(323.5, 613)" />
+		<use href="#hex" transform="translate(362.166667, 415)" />
+	</g>
+	<g class="river">
+		<use href="#hex" transform="translate(207.5, 415)" />
+		<use href="#hex" transform="translate(246.166667, 393)" />
+		<use href="#hex" transform="translate(246.166667, 437)" />
+		<use href="#hex" transform="translate(246.166667, 481)" />
+		<use href="#hex" transform="translate(284.833333, 415)" />
+	</g>
+	<g class="lake">
+		<use href="#hex" transform="translate(284.833333, 371)" />
+		<use href="#hex" transform="translate(323.5, 349)" />
+		<use href="#hex" transform="translate(323.5, 393)" />
+	</g>
+	<path class="rivercourse" d="M 328.833333,426 s -19.5,11 -39,0 m 0,0 s -19.5,-11 -39,0 m 0,0 s -19.5,11 0,22 m 0,0 s 19.5,11 19.5,33 m 0,0 c 0,7.111 -12.5,13.777 0,22.333 c 10,7 0,15.667 0,22.117" />
+	</g>
+</svg>
