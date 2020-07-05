@@ -1,9 +1,2 @@
 /* Force yellow dice to use black dots */
-.die_ffff00.white-dots {
-	.die_two { background-position: -40px -41px !important; }
-	.die_three { background-position: -40px -81px !important; }
-	.die_four { background-position: -40px -121px !important; }
-	.die_five { background-position: -40px -161px !important; }
-	.die_six { background-position: -40px -201px !important; }
-	.die_one { background-position: -40px -241px !important; }
-}
+.die_ffff00.white-dots .dots { background-position-x: -40px !important; }
