@@ -4,9 +4,9 @@ pushd `dirname $0` &>/dev/null
 
 for x in *.scss
 do
-	sassc --style expanded $x >docs/$x
+	sassc --style expanded $x >docs/${x/scss/css}
 done
-mv docs/bga.scss docs/custom.css
+mv docs/bga.css docs/custom.css
 
 
 # An external stylesheet to handle the commonalities would be ideal, but Chrome doesn't support them when I use SVG as a background image.
