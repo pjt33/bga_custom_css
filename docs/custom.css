@@ -433,28 +433,28 @@
 }
 
 /* Force yellow dice to use black dots */
-.die_ffff00.white-dots .die_one {
-  background-position: -40px -1px;
-}
-
 .die_ffff00.white-dots .die_two {
-  background-position: -40px -41px;
+  background-position: -40px -41px !important;
 }
 
 .die_ffff00.white-dots .die_three {
-  background-position: -40px -81px;
+  background-position: -40px -81px !important;
 }
 
 .die_ffff00.white-dots .die_four {
-  background-position: -40px -121px;
+  background-position: -40px -121px !important;
 }
 
 .die_ffff00.white-dots .die_five {
-  background-position: -40px -161px;
+  background-position: -40px -161px !important;
 }
 
 .die_ffff00.white-dots .die_six {
-  background-position: -40px -201px;
+  background-position: -40px -201px !important;
+}
+
+.die_ffff00.white-dots .die_one {
+  background-position: -40px -241px !important;
 }
 
 #saboteur_game_area .card_last_ffffff {
