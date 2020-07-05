@@ -427,6 +427,36 @@
   max-height: 1em;
 }
 
+/* Stop cards from jumping around when it's my turn to play */
+#playerTable #playerCards .card {
+  border: 4px solid transparent;
+}
+
+/* Force yellow dice to use black dots */
+.die_ffff00.white-dots .die_one {
+  background-position: -40px -1px;
+}
+
+.die_ffff00.white-dots .die_two {
+  background-position: -40px -41px;
+}
+
+.die_ffff00.white-dots .die_three {
+  background-position: -40px -81px;
+}
+
+.die_ffff00.white-dots .die_four {
+  background-position: -40px -121px;
+}
+
+.die_ffff00.white-dots .die_five {
+  background-position: -40px -161px;
+}
+
+.die_ffff00.white-dots .die_six {
+  background-position: -40px -201px;
+}
+
 #saboteur_game_area .card_last_ffffff {
   /* The game sets .card_last_ffffff where the standard CSS defines card_last_FFFFFF */
   border: 2px #ffffff solid !important;
