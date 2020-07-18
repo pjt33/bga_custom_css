@@ -437,10 +437,10 @@
   width: 90px;
 }
 
-.card.club-1, .card.club-2, .card.club-3, .card.club-4, .card.club-5, .card.club-6, .card.club-7, .card.club-8, .card.club-9, .card.club-10, .card.club-11, .card.club-12, .card.club-13,
-.card.diamond-1, .card.diamond-2, .card.diamond-3, .card.diamond-4, .card.diamond-5, .card.diamond-6, .card.diamond-7, .card.diamond-8, .card.diamond-9, .card.diamond-10, .card.diamond-11, .card.diamond-12, .card.diamond-13,
-.card.heart-1, .card.heart-2, .card.heart-3, .card.heart-4, .card.heart-5, .card.heart-6, .card.heart-7, .card.heart-8, .card.heart-9, .card.heart-10, .card.heart-11, .card.heart-12, .card.heart-13,
-.card.spade-1, .card.spade-2, .card.spade-3, .card.spade-4, .card.spade-5, .card.spade-6, .card.spade-7, .card.spade-8, .card.spade-9, .card.spade-10, .card.spade-11, .card.spade-12, .card.spade-13 {
+.card.club-14, .card.club-2, .card.club-3, .card.club-4, .card.club-5, .card.club-6, .card.club-7, .card.club-8, .card.club-9, .card.club-10, .card.club-11, .card.club-12, .card.club-13,
+.card.diamond-14, .card.diamond-2, .card.diamond-3, .card.diamond-4, .card.diamond-5, .card.diamond-6, .card.diamond-7, .card.diamond-8, .card.diamond-9, .card.diamond-10, .card.diamond-11, .card.diamond-12, .card.diamond-13,
+.card.heart-14, .card.heart-2, .card.heart-3, .card.heart-4, .card.heart-5, .card.heart-6, .card.heart-7, .card.heart-8, .card.heart-9, .card.heart-10, .card.heart-11, .card.heart-12, .card.heart-13,
+.card.spade-14, .card.spade-2, .card.spade-3, .card.spade-4, .card.spade-5, .card.spade-6, .card.spade-7, .card.spade-8, .card.spade-9, .card.spade-10, .card.spade-11, .card.spade-12, .card.spade-13 {
   width: 90px !important;
   height: 120px !important;
   background-position: 0,0 !important;
@@ -448,7 +448,7 @@
   background-repeat: no-repeat !important;
 }
 
-.card.club-1 {
+.card.club-14 {
   background-image: url("cards/AC.svg") !important;
 }
 
@@ -500,7 +500,7 @@
   background-image: url("cards/KC.svg") !important;
 }
 
-.card.diamond-1 {
+.card.diamond-14 {
   background-image: url("cards/AD.svg") !important;
 }
 
@@ -552,7 +552,7 @@
   background-image: url("cards/KD.svg") !important;
 }
 
-.card.heart-1 {
+.card.heart-14 {
   background-image: url("cards/AH.svg") !important;
 }
 
@@ -604,7 +604,7 @@
   background-image: url("cards/KH.svg") !important;
 }
 
-.card.spade-1 {
+.card.spade-14 {
   background-image: url("cards/AS.svg") !important;
 }
 
