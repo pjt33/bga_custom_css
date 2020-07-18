@@ -2,3 +2,227 @@
 #playerTable #playerCards .card {
   border: 4px solid transparent;
 }
+
+/* Custom card designs */
+#table .separateTrump #trump {
+  width: 90px;
+}
+
+.card.club-1, .card.club-2, .card.club-3, .card.club-4, .card.club-5, .card.club-6, .card.club-7, .card.club-8, .card.club-9, .card.club-10, .card.club-11, .card.club-12, .card.club-13,
+.card.diamond-1, .card.diamond-2, .card.diamond-3, .card.diamond-4, .card.diamond-5, .card.diamond-6, .card.diamond-7, .card.diamond-8, .card.diamond-9, .card.diamond-10, .card.diamond-11, .card.diamond-12, .card.diamond-13,
+.card.heart-1, .card.heart-2, .card.heart-3, .card.heart-4, .card.heart-5, .card.heart-6, .card.heart-7, .card.heart-8, .card.heart-9, .card.heart-10, .card.heart-11, .card.heart-12, .card.heart-13,
+.card.spade-1, .card.spade-2, .card.spade-3, .card.spade-4, .card.spade-5, .card.spade-6, .card.spade-7, .card.spade-8, .card.spade-9, .card.spade-10, .card.spade-11, .card.spade-12, .card.spade-13 {
+  width: 90px !important;
+  height: 120px !important;
+  background-position: 0,0 !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.card.club-1 {
+  background-image: url("cards/AC.svg") !important;
+}
+
+.card.club-2 {
+  background-image: url("cards/2C.svg") !important;
+}
+
+.card.club-3 {
+  background-image: url("cards/3C.svg") !important;
+}
+
+.card.club-4 {
+  background-image: url("cards/4C.svg") !important;
+}
+
+.card.club-5 {
+  background-image: url("cards/5C.svg") !important;
+}
+
+.card.club-6 {
+  background-image: url("cards/6C.svg") !important;
+}
+
+.card.club-7 {
+  background-image: url("cards/7C.svg") !important;
+}
+
+.card.club-8 {
+  background-image: url("cards/8C.svg") !important;
+}
+
+.card.club-9 {
+  background-image: url("cards/9C.svg") !important;
+}
+
+.card.club-10 {
+  background-image: url("cards/TC.svg") !important;
+}
+
+.card.club-11 {
+  background-image: url("cards/JC.svg") !important;
+}
+
+.card.club-12 {
+  background-image: url("cards/QC.svg") !important;
+}
+
+.card.club-13 {
+  background-image: url("cards/KC.svg") !important;
+}
+
+.card.diamond-1 {
+  background-image: url("cards/AD.svg") !important;
+}
+
+.card.diamond-2 {
+  background-image: url("cards/2D.svg") !important;
+}
+
+.card.diamond-3 {
+  background-image: url("cards/3D.svg") !important;
+}
+
+.card.diamond-4 {
+  background-image: url("cards/4D.svg") !important;
+}
+
+.card.diamond-5 {
+  background-image: url("cards/5D.svg") !important;
+}
+
+.card.diamond-6 {
+  background-image: url("cards/6D.svg") !important;
+}
+
+.card.diamond-7 {
+  background-image: url("cards/7D.svg") !important;
+}
+
+.card.diamond-8 {
+  background-image: url("cards/8D.svg") !important;
+}
+
+.card.diamond-9 {
+  background-image: url("cards/9D.svg") !important;
+}
+
+.card.diamond-10 {
+  background-image: url("cards/TD.svg") !important;
+}
+
+.card.diamond-11 {
+  background-image: url("cards/JD.svg") !important;
+}
+
+.card.diamond-12 {
+  background-image: url("cards/QD.svg") !important;
+}
+
+.card.diamond-13 {
+  background-image: url("cards/KD.svg") !important;
+}
+
+.card.heart-1 {
+  background-image: url("cards/AH.svg") !important;
+}
+
+.card.heart-2 {
+  background-image: url("cards/2H.svg") !important;
+}
+
+.card.heart-3 {
+  background-image: url("cards/3H.svg") !important;
+}
+
+.card.heart-4 {
+  background-image: url("cards/4H.svg") !important;
+}
+
+.card.heart-5 {
+  background-image: url("cards/5H.svg") !important;
+}
+
+.card.heart-6 {
+  background-image: url("cards/6H.svg") !important;
+}
+
+.card.heart-7 {
+  background-image: url("cards/7H.svg") !important;
+}
+
+.card.heart-8 {
+  background-image: url("cards/8H.svg") !important;
+}
+
+.card.heart-9 {
+  background-image: url("cards/9H.svg") !important;
+}
+
+.card.heart-10 {
+  background-image: url("cards/TH.svg") !important;
+}
+
+.card.heart-11 {
+  background-image: url("cards/JH.svg") !important;
+}
+
+.card.heart-12 {
+  background-image: url("cards/QH.svg") !important;
+}
+
+.card.heart-13 {
+  background-image: url("cards/KH.svg") !important;
+}
+
+.card.spade-1 {
+  background-image: url("cards/AS.svg") !important;
+}
+
+.card.spade-2 {
+  background-image: url("cards/2S.svg") !important;
+}
+
+.card.spade-3 {
+  background-image: url("cards/3S.svg") !important;
+}
+
+.card.spade-4 {
+  background-image: url("cards/4S.svg") !important;
+}
+
+.card.spade-5 {
+  background-image: url("cards/5S.svg") !important;
+}
+
+.card.spade-6 {
+  background-image: url("cards/6S.svg") !important;
+}
+
+.card.spade-7 {
+  background-image: url("cards/7S.svg") !important;
+}
+
+.card.spade-8 {
+  background-image: url("cards/8S.svg") !important;
+}
+
+.card.spade-9 {
+  background-image: url("cards/9S.svg") !important;
+}
+
+.card.spade-10 {
+  background-image: url("cards/TS.svg") !important;
+}
+
+.card.spade-11 {
+  background-image: url("cards/JS.svg") !important;
+}
+
+.card.spade-12 {
+  background-image: url("cards/QS.svg") !important;
+}
+
+.card.spade-13 {
+  background-image: url("cards/KS.svg") !important;
+}
