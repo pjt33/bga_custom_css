@@ -2,5 +2,5 @@
 #table_cards_line_1_item_-10000000, #table_cards_line_1_item_10000000
 #table_cards_line_2_item_-10000000, #table_cards_line_2_item_10000000
 #table_cards_line_3_item_-10000000, #table_cards_line_3_item_10000000 {
-  background-image: url(cubirds/end_of_wire.png);
+  background-image: url(cubirds/end_of_wire.png) !important;
 }
