@@ -6,6 +6,8 @@
 #cantstop_wrap #board {
   /* Image includes a modified version of https://commons.wikimedia.org/wiki/File:K2_2006.jpg which is copyright (c) 2006 Wikimedia user Svy123 and licensed CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/deed.en) */
   background-image: url(http://pjt33.github.io/bga_custom_css/cant_stop_board.png);
+  width: 550px;
+  height: 550px;
 }
 
 #cantstop_wrap #step_2_0 {
