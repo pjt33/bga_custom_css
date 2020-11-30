@@ -878,3 +878,7 @@
   position: absolute;
   left: 800px;
 }
+
+#player-score-sheet .score-sheet .cityname::after {
+  content: "ville";
+}
