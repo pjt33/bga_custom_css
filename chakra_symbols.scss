@@ -1,5 +1,5 @@
 /* Places an overlay on the board to add symbol annotations */
-#table #playertable .board::before {
+#table .playertable .board::before {
     content: "";
     display: block;
     width: 288px;
