@@ -10,6 +10,6 @@
 }
 
 /* Original spritesheet (for current version) is at https://x.boardgamearena.net/data/themereleases/current/games/chakra/210403-2218/img/sprites.png */
-#table .energy {
+#table .energy.red, #table .energy.orange, #table .energy.yellow, #table .energy.green, #table .energy.blue, #table .energy.darkblue, #table .energy.purple {
   background-image: url(chakra/symbols.png) !important;
 }
