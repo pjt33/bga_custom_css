@@ -5,6 +5,7 @@
     width: 288px;
     height: 600px;
     background: url(chakra/hints.png);
+	background-size: 100%; /* Not sure why this is necessary */
 }
 
 /* Original spritesheet (for current version) is at https://x.boardgamearena.net/data/themereleases/current/games/chakra/210403-2218/img/sprites.png */
