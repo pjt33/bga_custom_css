@@ -1,0 +1,13 @@
+/* Places an overlay on the board to add symbol annotations */
+#table #playertable .board::before {
+  content: "";
+  display: block;
+  width: 288px;
+  height: 600px;
+  background: url(chakra/hints.png);
+}
+
+/* Original spritesheet (for current version) is at https://x.boardgamearena.net/data/themereleases/current/games/chakra/210403-2218/img/sprites.png */
+#table .energy {
+  background-image: url(chakra/symbols.png) !important;
+}
