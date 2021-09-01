@@ -1,6 +1,11 @@
-#saboteur_game_area {
+.bgagame-saboteur {
 	.card_last_ffffff {
-		/* The game sets .card_last_ffffff where the standard CSS defines card_last_FFFFFF */
+		/* The game sets .card_last_ffffff where the standard CSS defines card_last_FFFFFF.
+		   Reported as https://boardgamearena.com/bug?id=19941 but auto-closed without obviously being fixed. */
 		border: 2px #ffffff solid !important;
+	}
+
+	.card_last_0000ff {
+		border: 2px #0000ff solid !important;
 	}
 }

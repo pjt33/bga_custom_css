@@ -1,5 +1,9 @@
-/* Places an overlay on the board to add symbol annotations */
-#table .playertable .board::before {
+.bgagame-chakra {
+  /* Places an overlay on the board to add symbol annotations */
+  /* Original spritesheet (for current version) is at https://x.boardgamearena.net/data/themereleases/current/games/chakra/210403-2218/img/sprites.png */
+}
+
+.bgagame-chakra #table .playertable .board::before {
   content: "";
   display: block;
   width: 288px;
@@ -9,7 +13,6 @@
   /* Not sure why this is necessary */
 }
 
-/* Original spritesheet (for current version) is at https://x.boardgamearena.net/data/themereleases/current/games/chakra/210403-2218/img/sprites.png */
-#table .energy.red, #table .energy.orange, #table .energy.yellow, #table .energy.green, #table .energy.blue, #table .energy.darkblue, #table .energy.purple {
+.bgagame-chakra #table .energy.red, .bgagame-chakra #table .energy.orange, .bgagame-chakra #table .energy.yellow, .bgagame-chakra #table .energy.green, .bgagame-chakra #table .energy.blue, .bgagame-chakra #table .energy.darkblue, .bgagame-chakra #table .energy.purple {
   background-image: url(chakra/symbols.png) !important;
 }

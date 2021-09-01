@@ -3,459 +3,462 @@
   background-color: transparent;
 }
 
-#cantstop_wrap #board {
+.bgagame-cantstop #board {
   /* Image includes a modified version of https://commons.wikimedia.org/wiki/File:K2_2006.jpg which is copyright (c) 2006 Wikimedia user Svy123 and licensed CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/deed.en) */
-  background-image: url(http://pjt33.github.io/bga_custom_css/cant_stop_board.png);
+  background-image: url(https://pjt33.github.io/bga_custom_css/cant_stop_board.png);
   width: 550px;
   height: 550px;
 }
 
-#cantstop_wrap #step_2_0 {
+.bgagame-cantstop #step_2_0 {
   left: 89px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_2_1 {
+.bgagame-cantstop #step_2_1 {
   left: 89px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_2_2 {
+.bgagame-cantstop #step_2_2 {
   left: 89px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_3_0 {
+.bgagame-cantstop #step_3_0 {
   left: 124px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_3_1 {
+.bgagame-cantstop #step_3_1 {
   left: 124px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_3_2 {
+.bgagame-cantstop #step_3_2 {
   left: 124px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_3_3 {
+.bgagame-cantstop #step_3_3 {
   left: 124px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_3_4 {
+.bgagame-cantstop #step_3_4 {
   left: 124px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_4_0 {
+.bgagame-cantstop #step_4_0 {
   left: 159px !important;
   top: 153px !important;
 }
 
-#cantstop_wrap #step_4_1 {
+.bgagame-cantstop #step_4_1 {
   left: 159px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_4_2 {
+.bgagame-cantstop #step_4_2 {
   left: 159px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_4_3 {
+.bgagame-cantstop #step_4_3 {
   left: 159px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_4_4 {
+.bgagame-cantstop #step_4_4 {
   left: 159px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_4_5 {
+.bgagame-cantstop #step_4_5 {
   left: 159px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_4_6 {
+.bgagame-cantstop #step_4_6 {
   left: 159px !important;
   top: 381px !important;
 }
 
-#cantstop_wrap #step_5_0 {
+.bgagame-cantstop #step_5_0 {
   left: 194px !important;
   top: 115px !important;
 }
 
-#cantstop_wrap #step_5_1 {
+.bgagame-cantstop #step_5_1 {
   left: 194px !important;
   top: 153px !important;
 }
 
-#cantstop_wrap #step_5_2 {
+.bgagame-cantstop #step_5_2 {
   left: 194px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_5_3 {
+.bgagame-cantstop #step_5_3 {
   left: 194px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_5_4 {
+.bgagame-cantstop #step_5_4 {
   left: 194px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_5_5 {
+.bgagame-cantstop #step_5_5 {
   left: 194px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_5_6 {
+.bgagame-cantstop #step_5_6 {
   left: 194px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_5_7 {
+.bgagame-cantstop #step_5_7 {
   left: 194px !important;
   top: 381px !important;
 }
 
-#cantstop_wrap #step_5_8 {
+.bgagame-cantstop #step_5_8 {
   left: 194px !important;
   top: 419px !important;
 }
 
-#cantstop_wrap #step_6_0 {
+.bgagame-cantstop #step_6_0 {
   left: 229px !important;
   top: 77px !important;
 }
 
-#cantstop_wrap #step_6_1 {
+.bgagame-cantstop #step_6_1 {
   left: 229px !important;
   top: 115px !important;
 }
 
-#cantstop_wrap #step_6_2 {
+.bgagame-cantstop #step_6_2 {
   left: 229px !important;
   top: 153px !important;
 }
 
-#cantstop_wrap #step_6_3 {
+.bgagame-cantstop #step_6_3 {
   left: 229px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_6_4 {
+.bgagame-cantstop #step_6_4 {
   left: 229px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_6_5 {
+.bgagame-cantstop #step_6_5 {
   left: 229px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_6_6 {
+.bgagame-cantstop #step_6_6 {
   left: 229px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_6_7 {
+.bgagame-cantstop #step_6_7 {
   left: 229px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_6_8 {
+.bgagame-cantstop #step_6_8 {
   left: 229px !important;
   top: 381px !important;
 }
 
-#cantstop_wrap #step_6_9 {
+.bgagame-cantstop #step_6_9 {
   left: 229px !important;
   top: 419px !important;
 }
 
-#cantstop_wrap #step_6_10 {
+.bgagame-cantstop #step_6_10 {
   left: 229px !important;
   top: 457px !important;
 }
 
-#cantstop_wrap #step_7_0 {
+.bgagame-cantstop #step_7_0 {
   left: 264px !important;
   top: 39px !important;
 }
 
-#cantstop_wrap #step_7_1 {
+.bgagame-cantstop #step_7_1 {
   left: 264px !important;
   top: 77px !important;
 }
 
-#cantstop_wrap #step_7_2 {
+.bgagame-cantstop #step_7_2 {
   left: 264px !important;
   top: 115px !important;
 }
 
-#cantstop_wrap #step_7_3 {
+.bgagame-cantstop #step_7_3 {
   left: 264px !important;
   top: 153px !important;
 }
 
-#cantstop_wrap #step_7_4 {
+.bgagame-cantstop #step_7_4 {
   left: 264px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_7_5 {
+.bgagame-cantstop #step_7_5 {
   left: 264px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_7_6 {
+.bgagame-cantstop #step_7_6 {
   left: 264px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_7_7 {
+.bgagame-cantstop #step_7_7 {
   left: 264px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_7_8 {
+.bgagame-cantstop #step_7_8 {
   left: 264px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_7_9 {
+.bgagame-cantstop #step_7_9 {
   left: 264px !important;
   top: 381px !important;
 }
 
-#cantstop_wrap #step_7_10 {
+.bgagame-cantstop #step_7_10 {
   left: 264px !important;
   top: 419px !important;
 }
 
-#cantstop_wrap #step_7_11 {
+.bgagame-cantstop #step_7_11 {
   left: 264px !important;
   top: 457px !important;
 }
 
-#cantstop_wrap #step_7_12 {
+.bgagame-cantstop #step_7_12 {
   left: 264px !important;
   top: 495px !important;
 }
 
-#cantstop_wrap #step_8_0 {
+.bgagame-cantstop #step_8_0 {
   left: 299px !important;
   top: 77px !important;
 }
 
-#cantstop_wrap #step_8_1 {
+.bgagame-cantstop #step_8_1 {
   left: 299px !important;
   top: 115px !important;
 }
 
-#cantstop_wrap #step_8_2 {
+.bgagame-cantstop #step_8_2 {
   left: 299px !important;
   top: 153px !important;
 }
 
-#cantstop_wrap #step_8_3 {
+.bgagame-cantstop #step_8_3 {
   left: 299px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_8_4 {
+.bgagame-cantstop #step_8_4 {
   left: 299px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_8_5 {
+.bgagame-cantstop #step_8_5 {
   left: 299px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_8_6 {
+.bgagame-cantstop #step_8_6 {
   left: 299px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_8_7 {
+.bgagame-cantstop #step_8_7 {
   left: 299px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_8_8 {
+.bgagame-cantstop #step_8_8 {
   left: 299px !important;
   top: 381px !important;
 }
 
-#cantstop_wrap #step_8_9 {
+.bgagame-cantstop #step_8_9 {
   left: 299px !important;
   top: 419px !important;
 }
 
-#cantstop_wrap #step_8_10 {
+.bgagame-cantstop #step_8_10 {
   left: 299px !important;
   top: 457px !important;
 }
 
-#cantstop_wrap #step_9_0 {
+.bgagame-cantstop #step_9_0 {
   left: 334px !important;
   top: 115px !important;
 }
 
-#cantstop_wrap #step_9_1 {
+.bgagame-cantstop #step_9_1 {
   left: 334px !important;
   top: 153px !important;
 }
 
-#cantstop_wrap #step_9_2 {
+.bgagame-cantstop #step_9_2 {
   left: 334px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_9_3 {
+.bgagame-cantstop #step_9_3 {
   left: 334px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_9_4 {
+.bgagame-cantstop #step_9_4 {
   left: 334px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_9_5 {
+.bgagame-cantstop #step_9_5 {
   left: 334px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_9_6 {
+.bgagame-cantstop #step_9_6 {
   left: 334px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_9_7 {
+.bgagame-cantstop #step_9_7 {
   left: 334px !important;
   top: 381px !important;
 }
 
-#cantstop_wrap #step_9_8 {
+.bgagame-cantstop #step_9_8 {
   left: 334px !important;
   top: 419px !important;
 }
 
-#cantstop_wrap #step_10_0 {
+.bgagame-cantstop #step_10_0 {
   left: 369px !important;
   top: 153px !important;
 }
 
-#cantstop_wrap #step_10_1 {
+.bgagame-cantstop #step_10_1 {
   left: 369px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_10_2 {
+.bgagame-cantstop #step_10_2 {
   left: 369px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_10_3 {
+.bgagame-cantstop #step_10_3 {
   left: 369px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_10_4 {
+.bgagame-cantstop #step_10_4 {
   left: 369px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_10_5 {
+.bgagame-cantstop #step_10_5 {
   left: 369px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_10_6 {
+.bgagame-cantstop #step_10_6 {
   left: 369px !important;
   top: 381px !important;
 }
 
-#cantstop_wrap #step_11_0 {
+.bgagame-cantstop #step_11_0 {
   left: 404px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_11_1 {
+.bgagame-cantstop #step_11_1 {
   left: 404px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_11_2 {
+.bgagame-cantstop #step_11_2 {
   left: 404px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_11_3 {
+.bgagame-cantstop #step_11_3 {
   left: 404px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_11_4 {
+.bgagame-cantstop #step_11_4 {
   left: 404px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_12_0 {
+.bgagame-cantstop #step_12_0 {
   left: 439px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_12_1 {
+.bgagame-cantstop #step_12_1 {
   left: 439px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_12_2 {
+.bgagame-cantstop #step_12_2 {
   left: 439px !important;
   top: 305px !important;
 }
 
-#table_cards_line_0_item_-10000000, #table_cards_line_0_item_10000000,
-#table_cards_line_1_item_-10000000, #table_cards_line_1_item_10000000,
-#table_cards_line_2_item_-10000000, #table_cards_line_2_item_10000000,
-#table_cards_line_3_item_-10000000, #table_cards_line_3_item_10000000 {
+.bgagame-cubirds #table_cards_line_0_item_-10000000, .bgagame-cubirds #table_cards_line_0_item_10000000,
+.bgagame-cubirds #table_cards_line_1_item_-10000000, .bgagame-cubirds #table_cards_line_1_item_10000000,
+.bgagame-cubirds #table_cards_line_2_item_-10000000, .bgagame-cubirds #table_cards_line_2_item_10000000,
+.bgagame-cubirds #table_cards_line_3_item_-10000000, .bgagame-cubirds #table_cards_line_3_item_10000000 {
   background-image: url(cubirds/end_of_wire.png) !important;
   background-size: 100%;
 }
 
-#campscell #campswrapper h2.Header {
+.bgagame-incangold h2.Header {
   max-height: 1em;
 }
 
-/* Stop cards from jumping around when it's my turn to play */
-#playerTable #playerCards .card, #table #trump .card, #table .tableCard .card {
+.bgagame-ohhell {
+  /* Stop cards from jumping around when it's my turn to play */
+  /* Custom card designs */
+}
+
+.bgagame-ohhell #playerTable #playerCards .card, .bgagame-ohhell #table #trump .card, .bgagame-ohhell #table .tableCard .card {
   border: 4px solid transparent;
 }
 
-#playerTable #playerCards .card-clickable {
+.bgagame-ohhell #playerTable #playerCards .card-clickable {
   border-color: cornflowerblue;
   border-radius: 10px;
 }
 
-/* Custom card designs */
-#table .separateTrump #trump {
+.bgagame-ohhell #table .separateTrump #trump {
   width: 90px;
 }
 
-.card.club-14, .card.club-2, .card.club-3, .card.club-4, .card.club-5, .card.club-6, .card.club-7, .card.club-8, .card.club-9, .card.club-10, .card.club-11, .card.club-12, .card.club-13,
-.card.diamond-14, .card.diamond-2, .card.diamond-3, .card.diamond-4, .card.diamond-5, .card.diamond-6, .card.diamond-7, .card.diamond-8, .card.diamond-9, .card.diamond-10, .card.diamond-11, .card.diamond-12, .card.diamond-13,
-.card.heart-14, .card.heart-2, .card.heart-3, .card.heart-4, .card.heart-5, .card.heart-6, .card.heart-7, .card.heart-8, .card.heart-9, .card.heart-10, .card.heart-11, .card.heart-12, .card.heart-13,
-.card.spade-14, .card.spade-2, .card.spade-3, .card.spade-4, .card.spade-5, .card.spade-6, .card.spade-7, .card.spade-8, .card.spade-9, .card.spade-10, .card.spade-11, .card.spade-12, .card.spade-13 {
+.bgagame-ohhell .card.club-15, .bgagame-ohhell .card.club-14, .bgagame-ohhell .card.club-2, .bgagame-ohhell .card.club-3, .bgagame-ohhell .card.club-4, .bgagame-ohhell .card.club-5, .bgagame-ohhell .card.club-6, .bgagame-ohhell .card.club-7, .bgagame-ohhell .card.club-8, .bgagame-ohhell .card.club-9, .bgagame-ohhell .card.club-10, .bgagame-ohhell .card.club-11, .bgagame-ohhell .card.club-12, .bgagame-ohhell .card.club-13,
+.bgagame-ohhell .card.diamond-15, .bgagame-ohhell .card.diamond-14, .bgagame-ohhell .card.diamond-2, .bgagame-ohhell .card.diamond-3, .bgagame-ohhell .card.diamond-4, .bgagame-ohhell .card.diamond-5, .bgagame-ohhell .card.diamond-6, .bgagame-ohhell .card.diamond-7, .bgagame-ohhell .card.diamond-8, .bgagame-ohhell .card.diamond-9, .bgagame-ohhell .card.diamond-10, .bgagame-ohhell .card.diamond-11, .bgagame-ohhell .card.diamond-12, .bgagame-ohhell .card.diamond-13,
+.bgagame-ohhell .card.heart-15, .bgagame-ohhell .card.heart-14, .bgagame-ohhell .card.heart-2, .bgagame-ohhell .card.heart-3, .bgagame-ohhell .card.heart-4, .bgagame-ohhell .card.heart-5, .bgagame-ohhell .card.heart-6, .bgagame-ohhell .card.heart-7, .bgagame-ohhell .card.heart-8, .bgagame-ohhell .card.heart-9, .bgagame-ohhell .card.heart-10, .bgagame-ohhell .card.heart-11, .bgagame-ohhell .card.heart-12, .bgagame-ohhell .card.heart-13,
+.bgagame-ohhell .card.spade-15, .bgagame-ohhell .card.spade-14, .bgagame-ohhell .card.spade-2, .bgagame-ohhell .card.spade-3, .bgagame-ohhell .card.spade-4, .bgagame-ohhell .card.spade-5, .bgagame-ohhell .card.spade-6, .bgagame-ohhell .card.spade-7, .bgagame-ohhell .card.spade-8, .bgagame-ohhell .card.spade-9, .bgagame-ohhell .card.spade-10, .bgagame-ohhell .card.spade-11, .bgagame-ohhell .card.spade-12, .bgagame-ohhell .card.spade-13 {
   width: 90px !important;
   height: 120px !important;
   background-position: 0,0 !important;
@@ -463,231 +466,252 @@
   background-repeat: no-repeat !important;
 }
 
-.card.club-14 {
+.bgagame-ohhell .card.club-15 {
+  background-image: url("cards/suitC.svg") !important;
+}
+
+.bgagame-ohhell .card.club-14 {
   background-image: url("cards/AC.svg") !important;
 }
 
-.card.club-2 {
+.bgagame-ohhell .card.club-2 {
   background-image: url("cards/2C.svg") !important;
 }
 
-.card.club-3 {
+.bgagame-ohhell .card.club-3 {
   background-image: url("cards/3C.svg") !important;
 }
 
-.card.club-4 {
+.bgagame-ohhell .card.club-4 {
   background-image: url("cards/4C.svg") !important;
 }
 
-.card.club-5 {
+.bgagame-ohhell .card.club-5 {
   background-image: url("cards/5C.svg") !important;
 }
 
-.card.club-6 {
+.bgagame-ohhell .card.club-6 {
   background-image: url("cards/6C.svg") !important;
 }
 
-.card.club-7 {
+.bgagame-ohhell .card.club-7 {
   background-image: url("cards/7C.svg") !important;
 }
 
-.card.club-8 {
+.bgagame-ohhell .card.club-8 {
   background-image: url("cards/8C.svg") !important;
 }
 
-.card.club-9 {
+.bgagame-ohhell .card.club-9 {
   background-image: url("cards/9C.svg") !important;
 }
 
-.card.club-10 {
+.bgagame-ohhell .card.club-10 {
   background-image: url("cards/TC.svg") !important;
 }
 
-.card.club-11 {
+.bgagame-ohhell .card.club-11 {
   background-image: url("cards/JC.svg") !important;
 }
 
-.card.club-12 {
+.bgagame-ohhell .card.club-12 {
   background-image: url("cards/QC.svg") !important;
 }
 
-.card.club-13 {
+.bgagame-ohhell .card.club-13 {
   background-image: url("cards/KC.svg") !important;
 }
 
-.card.diamond-14 {
+.bgagame-ohhell .card.diamond-15 {
+  background-image: url("cards/suitD.svg") !important;
+}
+
+.bgagame-ohhell .card.diamond-14 {
   background-image: url("cards/AD.svg") !important;
 }
 
-.card.diamond-2 {
+.bgagame-ohhell .card.diamond-2 {
   background-image: url("cards/2D.svg") !important;
 }
 
-.card.diamond-3 {
+.bgagame-ohhell .card.diamond-3 {
   background-image: url("cards/3D.svg") !important;
 }
 
-.card.diamond-4 {
+.bgagame-ohhell .card.diamond-4 {
   background-image: url("cards/4D.svg") !important;
 }
 
-.card.diamond-5 {
+.bgagame-ohhell .card.diamond-5 {
   background-image: url("cards/5D.svg") !important;
 }
 
-.card.diamond-6 {
+.bgagame-ohhell .card.diamond-6 {
   background-image: url("cards/6D.svg") !important;
 }
 
-.card.diamond-7 {
+.bgagame-ohhell .card.diamond-7 {
   background-image: url("cards/7D.svg") !important;
 }
 
-.card.diamond-8 {
+.bgagame-ohhell .card.diamond-8 {
   background-image: url("cards/8D.svg") !important;
 }
 
-.card.diamond-9 {
+.bgagame-ohhell .card.diamond-9 {
   background-image: url("cards/9D.svg") !important;
 }
 
-.card.diamond-10 {
+.bgagame-ohhell .card.diamond-10 {
   background-image: url("cards/TD.svg") !important;
 }
 
-.card.diamond-11 {
+.bgagame-ohhell .card.diamond-11 {
   background-image: url("cards/JD.svg") !important;
 }
 
-.card.diamond-12 {
+.bgagame-ohhell .card.diamond-12 {
   background-image: url("cards/QD.svg") !important;
 }
 
-.card.diamond-13 {
+.bgagame-ohhell .card.diamond-13 {
   background-image: url("cards/KD.svg") !important;
 }
 
-.card.heart-14 {
+.bgagame-ohhell .card.heart-15 {
+  background-image: url("cards/suitH.svg") !important;
+}
+
+.bgagame-ohhell .card.heart-14 {
   background-image: url("cards/AH.svg") !important;
 }
 
-.card.heart-2 {
+.bgagame-ohhell .card.heart-2 {
   background-image: url("cards/2H.svg") !important;
 }
 
-.card.heart-3 {
+.bgagame-ohhell .card.heart-3 {
   background-image: url("cards/3H.svg") !important;
 }
 
-.card.heart-4 {
+.bgagame-ohhell .card.heart-4 {
   background-image: url("cards/4H.svg") !important;
 }
 
-.card.heart-5 {
+.bgagame-ohhell .card.heart-5 {
   background-image: url("cards/5H.svg") !important;
 }
 
-.card.heart-6 {
+.bgagame-ohhell .card.heart-6 {
   background-image: url("cards/6H.svg") !important;
 }
 
-.card.heart-7 {
+.bgagame-ohhell .card.heart-7 {
   background-image: url("cards/7H.svg") !important;
 }
 
-.card.heart-8 {
+.bgagame-ohhell .card.heart-8 {
   background-image: url("cards/8H.svg") !important;
 }
 
-.card.heart-9 {
+.bgagame-ohhell .card.heart-9 {
   background-image: url("cards/9H.svg") !important;
 }
 
-.card.heart-10 {
+.bgagame-ohhell .card.heart-10 {
   background-image: url("cards/TH.svg") !important;
 }
 
-.card.heart-11 {
+.bgagame-ohhell .card.heart-11 {
   background-image: url("cards/JH.svg") !important;
 }
 
-.card.heart-12 {
+.bgagame-ohhell .card.heart-12 {
   background-image: url("cards/QH.svg") !important;
 }
 
-.card.heart-13 {
+.bgagame-ohhell .card.heart-13 {
   background-image: url("cards/KH.svg") !important;
 }
 
-.card.spade-14 {
+.bgagame-ohhell .card.spade-15 {
+  background-image: url("cards/suitS.svg") !important;
+}
+
+.bgagame-ohhell .card.spade-14 {
   background-image: url("cards/AS.svg") !important;
 }
 
-.card.spade-2 {
+.bgagame-ohhell .card.spade-2 {
   background-image: url("cards/2S.svg") !important;
 }
 
-.card.spade-3 {
+.bgagame-ohhell .card.spade-3 {
   background-image: url("cards/3S.svg") !important;
 }
 
-.card.spade-4 {
+.bgagame-ohhell .card.spade-4 {
   background-image: url("cards/4S.svg") !important;
 }
 
-.card.spade-5 {
+.bgagame-ohhell .card.spade-5 {
   background-image: url("cards/5S.svg") !important;
 }
 
-.card.spade-6 {
+.bgagame-ohhell .card.spade-6 {
   background-image: url("cards/6S.svg") !important;
 }
 
-.card.spade-7 {
+.bgagame-ohhell .card.spade-7 {
   background-image: url("cards/7S.svg") !important;
 }
 
-.card.spade-8 {
+.bgagame-ohhell .card.spade-8 {
   background-image: url("cards/8S.svg") !important;
 }
 
-.card.spade-9 {
+.bgagame-ohhell .card.spade-9 {
   background-image: url("cards/9S.svg") !important;
 }
 
-.card.spade-10 {
+.bgagame-ohhell .card.spade-10 {
   background-image: url("cards/TS.svg") !important;
 }
 
-.card.spade-11 {
+.bgagame-ohhell .card.spade-11 {
   background-image: url("cards/JS.svg") !important;
 }
 
-.card.spade-12 {
+.bgagame-ohhell .card.spade-12 {
   background-image: url("cards/QS.svg") !important;
 }
 
-.card.spade-13 {
+.bgagame-ohhell .card.spade-13 {
   background-image: url("cards/KS.svg") !important;
 }
 
 /* Force yellow dice to use black dots */
-.die_ffff00.white-dots .dots {
+.bgagame-perudo .die_ffff00.white-dots .dots {
   background-position-x: -40px !important;
 }
 
-#saboteur_game_area .card_last_ffffff {
-  /* The game sets .card_last_ffffff where the standard CSS defines card_last_FFFFFF */
+.bgagame-saboteur .card_last_ffffff {
+  /* The game sets .card_last_ffffff where the standard CSS defines card_last_FFFFFF.
+		   Reported as https://boardgamearena.com/bug?id=19941 but auto-closed without obviously being fixed. */
   border: 2px #ffffff solid !important;
 }
 
-#remaining.whiteblock {
+.bgagame-saboteur .card_last_0000ff {
+  border: 2px #0000ff solid !important;
+}
+
+.bgagame-takenoko #remaining.whiteblock {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-#tbg_game_area {
+.bgagame-tobago #tbg_game_area {
   /* Fix a glitch due to this being placed on the wrong element */
   /* Doing the statues well is hard, so for the time being I'm going to stick to arrows */
   /* Use vector backgrounds rather than poor quality bitmaps. Order b-a-c favours the lake border. */
@@ -695,190 +719,190 @@
   /* Make hand not overlap board */
 }
 
-#tbg_game_area #clue_cards_deck {
+.bgagame-tobago #tbg_game_area #clue_cards_deck {
   background-repeat: no-repeat;
 }
 
-#tbg_game_area .statue_1 {
+.bgagame-tobago #tbg_game_area .statue_1 {
   background-image: url("tobago/statue_s.svg");
 }
 
-#tbg_game_area .statue_2 {
+.bgagame-tobago #tbg_game_area .statue_2 {
   background-image: url("tobago/statue_sw.svg");
 }
 
-#tbg_game_area .statue_3 {
+.bgagame-tobago #tbg_game_area .statue_3 {
   background-image: url("tobago/statue_nw.svg");
 }
 
-#tbg_game_area .statue_4 {
+.bgagame-tobago #tbg_game_area .statue_4 {
   background-image: url("tobago/statue_n.svg");
 }
 
-#tbg_game_area .statue_5 {
+.bgagame-tobago #tbg_game_area .statue_5 {
   background-image: url("tobago/statue_ne.svg");
 }
 
-#tbg_game_area .statue_6 {
+.bgagame-tobago #tbg_game_area .statue_6 {
   background-image: url("tobago/statue_se.svg");
 }
 
-#tbg_game_area .island_1 {
+.bgagame-tobago #tbg_game_area .island_1 {
   background: url("tobago/board_b2.svg") 0px -21px, url("tobago/board_a.svg") 39px 1px, url("tobago/board_c3.svg") 0px 23px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_2 {
+.bgagame-tobago #tbg_game_area .island_2 {
   background: url("tobago/board_b2.svg"), url("tobago/board_A.svg"), url("tobago/board_c3.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area .island_3 {
+.bgagame-tobago #tbg_game_area .island_3 {
   background: url("tobago/board_b2.svg"), url("tobago/board_a.svg"), url("tobago/board_c3.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area .island_4 {
+.bgagame-tobago #tbg_game_area .island_4 {
   background: url("tobago/board_b3.svg") 0px 23px, url("tobago/board_a.svg") 39px 1px, url("tobago/board_c2.svg") 0px -21px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_5 {
+.bgagame-tobago #tbg_game_area .island_5 {
   background: url("tobago/board_b2.svg") 0px -21px, url("tobago/board_A.svg") 39px 1px, url("tobago/board_c3.svg") 0px 23px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_6 {
+.bgagame-tobago #tbg_game_area .island_6 {
   background: url("tobago/board_b3.svg"), url("tobago/board_a.svg"), url("tobago/board_c2.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area .island_7 {
+.bgagame-tobago #tbg_game_area .island_7 {
   background: url("tobago/board_b3.svg") 0px 23px, url("tobago/board_A.svg") 39px 1px, url("tobago/board_c2.svg") 0px -21px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_8 {
+.bgagame-tobago #tbg_game_area .island_8 {
   background: url("tobago/board_b3.svg"), url("tobago/board_a.svg"), url("tobago/board_C2.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area .island_9 {
+.bgagame-tobago #tbg_game_area .island_9 {
   background: url("tobago/board_b3.svg"), url("tobago/board_A.svg"), url("tobago/board_c2.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area .island_10 {
+.bgagame-tobago #tbg_game_area .island_10 {
   background: url("tobago/board_b3.svg") 0px 23px, url("tobago/board_A.svg") 39px 1px, url("tobago/board_C2.svg") 0px -21px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_11 {
+.bgagame-tobago #tbg_game_area .island_11 {
   background: url("tobago/board_b3.svg") 0px 23px, url("tobago/board_a.svg") 39px 1px, url("tobago/board_C2.svg") 0px -21px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_12 {
+.bgagame-tobago #tbg_game_area .island_12 {
   background: url("tobago/board_b3.svg"), url("tobago/board_A.svg"), url("tobago/board_C2.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area .island_13 {
+.bgagame-tobago #tbg_game_area .island_13 {
   background: url("tobago/board_b2.svg") 0px -21px, url("tobago/board_a.svg") 39px 1px, url("tobago/board_C3.svg") 0px 23px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_14 {
+.bgagame-tobago #tbg_game_area .island_14 {
   background: url("tobago/board_b2.svg"), url("tobago/board_A.svg"), url("tobago/board_C3.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area .island_15 {
+.bgagame-tobago #tbg_game_area .island_15 {
   background: url("tobago/board_b2.svg"), url("tobago/board_a.svg"), url("tobago/board_C3.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area .island_16 {
+.bgagame-tobago #tbg_game_area .island_16 {
   background: url("tobago/board_B3.svg") 0px 23px, url("tobago/board_a.svg") 39px 1px, url("tobago/board_c2.svg") 0px -21px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_17 {
+.bgagame-tobago #tbg_game_area .island_17 {
   background: url("tobago/board_b2.svg") 0px -21px, url("tobago/board_A.svg") 39px 1px, url("tobago/board_C3.svg") 0px 23px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_18 {
+.bgagame-tobago #tbg_game_area .island_18 {
   background: url("tobago/board_B3.svg"), url("tobago/board_a.svg"), url("tobago/board_c2.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area .island_19 {
+.bgagame-tobago #tbg_game_area .island_19 {
   background: url("tobago/board_B3.svg") 0px 23px, url("tobago/board_A.svg") 39px 1px, url("tobago/board_c2.svg") 0px -21px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_20 {
+.bgagame-tobago #tbg_game_area .island_20 {
   background: url("tobago/board_B2.svg"), url("tobago/board_a.svg"), url("tobago/board_c3.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area .island_21 {
+.bgagame-tobago #tbg_game_area .island_21 {
   background: url("tobago/board_B3.svg"), url("tobago/board_A.svg"), url("tobago/board_c2.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area .island_22 {
+.bgagame-tobago #tbg_game_area .island_22 {
   background: url("tobago/board_B2.svg") 0px -21px, url("tobago/board_A.svg") 39px 1px, url("tobago/board_c3.svg") 0px 23px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_23 {
+.bgagame-tobago #tbg_game_area .island_23 {
   background: url("tobago/board_B2.svg") 0px -21px, url("tobago/board_a.svg") 39px 1px, url("tobago/board_c3.svg") 0px 23px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_24 {
+.bgagame-tobago #tbg_game_area .island_24 {
   background: url("tobago/board_B2.svg"), url("tobago/board_A.svg"), url("tobago/board_c3.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area .island_25 {
+.bgagame-tobago #tbg_game_area .island_25 {
   background: url("tobago/board_B3.svg") 0px 23px, url("tobago/board_a.svg") 39px 1px, url("tobago/board_C2.svg") 0px -21px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_26 {
+.bgagame-tobago #tbg_game_area .island_26 {
   background: url("tobago/board_B3.svg"), url("tobago/board_A.svg"), url("tobago/board_C2.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area .island_27 {
+.bgagame-tobago #tbg_game_area .island_27 {
   background: url("tobago/board_B3.svg"), url("tobago/board_a.svg"), url("tobago/board_C2.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area .island_28 {
+.bgagame-tobago #tbg_game_area .island_28 {
   background: url("tobago/board_B2.svg") 0px -21px, url("tobago/board_a.svg") 39px 1px, url("tobago/board_C3.svg") 0px 23px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_29 {
+.bgagame-tobago #tbg_game_area .island_29 {
   background: url("tobago/board_B3.svg") 0px 23px, url("tobago/board_A.svg") 39px 1px, url("tobago/board_C2.svg") 0px -21px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_30 {
+.bgagame-tobago #tbg_game_area .island_30 {
   background: url("tobago/board_B2.svg"), url("tobago/board_a.svg"), url("tobago/board_C3.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area .island_31 {
+.bgagame-tobago #tbg_game_area .island_31 {
   background: url("tobago/board_B2.svg") 0px -21px, url("tobago/board_A.svg") 39px 1px, url("tobago/board_C3.svg") 0px 23px, url("tobago/board.svg");
 }
 
-#tbg_game_area .island_32 {
+.bgagame-tobago #tbg_game_area .island_32 {
   background: url("tobago/board_B2.svg"), url("tobago/board_A.svg"), url("tobago/board_C3.svg"), url("tobago/board.svg");
 }
 
-#tbg_game_area #amulet_heap_counter, #tbg_game_area #clue_cards_counter, #tbg_game_area #treasure_cards_counter {
+.bgagame-tobago #tbg_game_area #amulet_heap_counter, .bgagame-tobago #tbg_game_area #clue_cards_counter, .bgagame-tobago #tbg_game_area #treasure_cards_counter {
   color: #000;
 }
 
-#tbg_game_area #amulet_heap_picture, #tbg_game_area .amulet {
+.bgagame-tobago #tbg_game_area #amulet_heap_picture, .bgagame-tobago #tbg_game_area .amulet {
   background-image: url("tobago/amulet-sml.png");
 }
 
-#tbg_game_area #island {
+.bgagame-tobago #tbg_game_area #island {
   left: 80px;
 }
 
-#tbg_game_area #player_hand {
+.bgagame-tobago #tbg_game_area #player_hand {
   position: relative;
   float: none;
   left: -60px;
 }
 
-#tbg_game_area #cards_in_hand {
+.bgagame-tobago #tbg_game_area #cards_in_hand {
   width: 80px !important;
 }
 
-#tbg_game_area #treasure_maps {
+.bgagame-tobago #tbg_game_area #treasure_maps {
   margin: 0 !important;
   position: absolute;
   left: 800px;
 }
 
-#player-score-sheet .score-sheet .cityname::after {
+.bgagame-welcometo #player-score-sheet .score-sheet .cityname::after {
   content: "ville";
 }

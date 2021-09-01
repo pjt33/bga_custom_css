@@ -1,3 +1,5 @@
+.bgagame-chakra {
+
 /* Places an overlay on the board to add symbol annotations */
 #table .playertable .board::before {
     content: "";
@@ -13,4 +15,6 @@
 	&.red, &.orange, &.yellow, &.green, &.blue, &.darkblue, &.purple {
 		background-image: url(chakra/symbols.png) !important;
 	}
+}
+
 }

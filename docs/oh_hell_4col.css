@@ -1,22 +1,25 @@
-/* Stop cards from jumping around when it's my turn to play */
-#playerTable #playerCards .card, #table #trump .card, #table .tableCard .card {
+.bgagame-ohhell {
+  /* Stop cards from jumping around when it's my turn to play */
+  /* Custom card designs */
+}
+
+.bgagame-ohhell #playerTable #playerCards .card, .bgagame-ohhell #table #trump .card, .bgagame-ohhell #table .tableCard .card {
   border: 4px solid transparent;
 }
 
-#playerTable #playerCards .card-clickable {
+.bgagame-ohhell #playerTable #playerCards .card-clickable {
   border-color: cornflowerblue;
   border-radius: 10px;
 }
 
-/* Custom card designs */
-#table .separateTrump #trump {
+.bgagame-ohhell #table .separateTrump #trump {
   width: 90px;
 }
 
-.card.club-14, .card.club-2, .card.club-3, .card.club-4, .card.club-5, .card.club-6, .card.club-7, .card.club-8, .card.club-9, .card.club-10, .card.club-11, .card.club-12, .card.club-13,
-.card.diamond-14, .card.diamond-2, .card.diamond-3, .card.diamond-4, .card.diamond-5, .card.diamond-6, .card.diamond-7, .card.diamond-8, .card.diamond-9, .card.diamond-10, .card.diamond-11, .card.diamond-12, .card.diamond-13,
-.card.heart-14, .card.heart-2, .card.heart-3, .card.heart-4, .card.heart-5, .card.heart-6, .card.heart-7, .card.heart-8, .card.heart-9, .card.heart-10, .card.heart-11, .card.heart-12, .card.heart-13,
-.card.spade-14, .card.spade-2, .card.spade-3, .card.spade-4, .card.spade-5, .card.spade-6, .card.spade-7, .card.spade-8, .card.spade-9, .card.spade-10, .card.spade-11, .card.spade-12, .card.spade-13 {
+.bgagame-ohhell .card.club-15, .bgagame-ohhell .card.club-14, .bgagame-ohhell .card.club-2, .bgagame-ohhell .card.club-3, .bgagame-ohhell .card.club-4, .bgagame-ohhell .card.club-5, .bgagame-ohhell .card.club-6, .bgagame-ohhell .card.club-7, .bgagame-ohhell .card.club-8, .bgagame-ohhell .card.club-9, .bgagame-ohhell .card.club-10, .bgagame-ohhell .card.club-11, .bgagame-ohhell .card.club-12, .bgagame-ohhell .card.club-13,
+.bgagame-ohhell .card.diamond-15, .bgagame-ohhell .card.diamond-14, .bgagame-ohhell .card.diamond-2, .bgagame-ohhell .card.diamond-3, .bgagame-ohhell .card.diamond-4, .bgagame-ohhell .card.diamond-5, .bgagame-ohhell .card.diamond-6, .bgagame-ohhell .card.diamond-7, .bgagame-ohhell .card.diamond-8, .bgagame-ohhell .card.diamond-9, .bgagame-ohhell .card.diamond-10, .bgagame-ohhell .card.diamond-11, .bgagame-ohhell .card.diamond-12, .bgagame-ohhell .card.diamond-13,
+.bgagame-ohhell .card.heart-15, .bgagame-ohhell .card.heart-14, .bgagame-ohhell .card.heart-2, .bgagame-ohhell .card.heart-3, .bgagame-ohhell .card.heart-4, .bgagame-ohhell .card.heart-5, .bgagame-ohhell .card.heart-6, .bgagame-ohhell .card.heart-7, .bgagame-ohhell .card.heart-8, .bgagame-ohhell .card.heart-9, .bgagame-ohhell .card.heart-10, .bgagame-ohhell .card.heart-11, .bgagame-ohhell .card.heart-12, .bgagame-ohhell .card.heart-13,
+.bgagame-ohhell .card.spade-15, .bgagame-ohhell .card.spade-14, .bgagame-ohhell .card.spade-2, .bgagame-ohhell .card.spade-3, .bgagame-ohhell .card.spade-4, .bgagame-ohhell .card.spade-5, .bgagame-ohhell .card.spade-6, .bgagame-ohhell .card.spade-7, .bgagame-ohhell .card.spade-8, .bgagame-ohhell .card.spade-9, .bgagame-ohhell .card.spade-10, .bgagame-ohhell .card.spade-11, .bgagame-ohhell .card.spade-12, .bgagame-ohhell .card.spade-13 {
   width: 90px !important;
   height: 120px !important;
   background-position: 0,0 !important;
@@ -24,210 +27,226 @@
   background-repeat: no-repeat !important;
 }
 
-.card.club-14 {
+.bgagame-ohhell .card.club-15 {
+  background-image: url("cards/suitC4col.svg") !important;
+}
+
+.bgagame-ohhell .card.club-14 {
   background-image: url("cards/AC4col.svg") !important;
 }
 
-.card.club-2 {
+.bgagame-ohhell .card.club-2 {
   background-image: url("cards/2C4col.svg") !important;
 }
 
-.card.club-3 {
+.bgagame-ohhell .card.club-3 {
   background-image: url("cards/3C4col.svg") !important;
 }
 
-.card.club-4 {
+.bgagame-ohhell .card.club-4 {
   background-image: url("cards/4C4col.svg") !important;
 }
 
-.card.club-5 {
+.bgagame-ohhell .card.club-5 {
   background-image: url("cards/5C4col.svg") !important;
 }
 
-.card.club-6 {
+.bgagame-ohhell .card.club-6 {
   background-image: url("cards/6C4col.svg") !important;
 }
 
-.card.club-7 {
+.bgagame-ohhell .card.club-7 {
   background-image: url("cards/7C4col.svg") !important;
 }
 
-.card.club-8 {
+.bgagame-ohhell .card.club-8 {
   background-image: url("cards/8C4col.svg") !important;
 }
 
-.card.club-9 {
+.bgagame-ohhell .card.club-9 {
   background-image: url("cards/9C4col.svg") !important;
 }
 
-.card.club-10 {
+.bgagame-ohhell .card.club-10 {
   background-image: url("cards/TC4col.svg") !important;
 }
 
-.card.club-11 {
+.bgagame-ohhell .card.club-11 {
   background-image: url("cards/JC4col.svg") !important;
 }
 
-.card.club-12 {
+.bgagame-ohhell .card.club-12 {
   background-image: url("cards/QC4col.svg") !important;
 }
 
-.card.club-13 {
+.bgagame-ohhell .card.club-13 {
   background-image: url("cards/KC4col.svg") !important;
 }
 
-.card.diamond-14 {
+.bgagame-ohhell .card.diamond-15 {
+  background-image: url("cards/suitD4col.svg") !important;
+}
+
+.bgagame-ohhell .card.diamond-14 {
   background-image: url("cards/AD4col.svg") !important;
 }
 
-.card.diamond-2 {
+.bgagame-ohhell .card.diamond-2 {
   background-image: url("cards/2D4col.svg") !important;
 }
 
-.card.diamond-3 {
+.bgagame-ohhell .card.diamond-3 {
   background-image: url("cards/3D4col.svg") !important;
 }
 
-.card.diamond-4 {
+.bgagame-ohhell .card.diamond-4 {
   background-image: url("cards/4D4col.svg") !important;
 }
 
-.card.diamond-5 {
+.bgagame-ohhell .card.diamond-5 {
   background-image: url("cards/5D4col.svg") !important;
 }
 
-.card.diamond-6 {
+.bgagame-ohhell .card.diamond-6 {
   background-image: url("cards/6D4col.svg") !important;
 }
 
-.card.diamond-7 {
+.bgagame-ohhell .card.diamond-7 {
   background-image: url("cards/7D4col.svg") !important;
 }
 
-.card.diamond-8 {
+.bgagame-ohhell .card.diamond-8 {
   background-image: url("cards/8D4col.svg") !important;
 }
 
-.card.diamond-9 {
+.bgagame-ohhell .card.diamond-9 {
   background-image: url("cards/9D4col.svg") !important;
 }
 
-.card.diamond-10 {
+.bgagame-ohhell .card.diamond-10 {
   background-image: url("cards/TD4col.svg") !important;
 }
 
-.card.diamond-11 {
+.bgagame-ohhell .card.diamond-11 {
   background-image: url("cards/JD4col.svg") !important;
 }
 
-.card.diamond-12 {
+.bgagame-ohhell .card.diamond-12 {
   background-image: url("cards/QD4col.svg") !important;
 }
 
-.card.diamond-13 {
+.bgagame-ohhell .card.diamond-13 {
   background-image: url("cards/KD4col.svg") !important;
 }
 
-.card.heart-14 {
+.bgagame-ohhell .card.heart-15 {
+  background-image: url("cards/suitH.svg") !important;
+}
+
+.bgagame-ohhell .card.heart-14 {
   background-image: url("cards/AH.svg") !important;
 }
 
-.card.heart-2 {
+.bgagame-ohhell .card.heart-2 {
   background-image: url("cards/2H.svg") !important;
 }
 
-.card.heart-3 {
+.bgagame-ohhell .card.heart-3 {
   background-image: url("cards/3H.svg") !important;
 }
 
-.card.heart-4 {
+.bgagame-ohhell .card.heart-4 {
   background-image: url("cards/4H.svg") !important;
 }
 
-.card.heart-5 {
+.bgagame-ohhell .card.heart-5 {
   background-image: url("cards/5H.svg") !important;
 }
 
-.card.heart-6 {
+.bgagame-ohhell .card.heart-6 {
   background-image: url("cards/6H.svg") !important;
 }
 
-.card.heart-7 {
+.bgagame-ohhell .card.heart-7 {
   background-image: url("cards/7H.svg") !important;
 }
 
-.card.heart-8 {
+.bgagame-ohhell .card.heart-8 {
   background-image: url("cards/8H.svg") !important;
 }
 
-.card.heart-9 {
+.bgagame-ohhell .card.heart-9 {
   background-image: url("cards/9H.svg") !important;
 }
 
-.card.heart-10 {
+.bgagame-ohhell .card.heart-10 {
   background-image: url("cards/TH.svg") !important;
 }
 
-.card.heart-11 {
+.bgagame-ohhell .card.heart-11 {
   background-image: url("cards/JH.svg") !important;
 }
 
-.card.heart-12 {
+.bgagame-ohhell .card.heart-12 {
   background-image: url("cards/QH.svg") !important;
 }
 
-.card.heart-13 {
+.bgagame-ohhell .card.heart-13 {
   background-image: url("cards/KH.svg") !important;
 }
 
-.card.spade-14 {
+.bgagame-ohhell .card.spade-15 {
+  background-image: url("cards/suitS.svg") !important;
+}
+
+.bgagame-ohhell .card.spade-14 {
   background-image: url("cards/AS.svg") !important;
 }
 
-.card.spade-2 {
+.bgagame-ohhell .card.spade-2 {
   background-image: url("cards/2S.svg") !important;
 }
 
-.card.spade-3 {
+.bgagame-ohhell .card.spade-3 {
   background-image: url("cards/3S.svg") !important;
 }
 
-.card.spade-4 {
+.bgagame-ohhell .card.spade-4 {
   background-image: url("cards/4S.svg") !important;
 }
 
-.card.spade-5 {
+.bgagame-ohhell .card.spade-5 {
   background-image: url("cards/5S.svg") !important;
 }
 
-.card.spade-6 {
+.bgagame-ohhell .card.spade-6 {
   background-image: url("cards/6S.svg") !important;
 }
 
-.card.spade-7 {
+.bgagame-ohhell .card.spade-7 {
   background-image: url("cards/7S.svg") !important;
 }
 
-.card.spade-8 {
+.bgagame-ohhell .card.spade-8 {
   background-image: url("cards/8S.svg") !important;
 }
 
-.card.spade-9 {
+.bgagame-ohhell .card.spade-9 {
   background-image: url("cards/9S.svg") !important;
 }
 
-.card.spade-10 {
+.bgagame-ohhell .card.spade-10 {
   background-image: url("cards/TS.svg") !important;
 }
 
-.card.spade-11 {
+.bgagame-ohhell .card.spade-11 {
   background-image: url("cards/JS.svg") !important;
 }
 
-.card.spade-12 {
+.bgagame-ohhell .card.spade-12 {
   background-image: url("cards/QS.svg") !important;
 }
 
-.card.spade-13 {
+.bgagame-ohhell .card.spade-13 {
   background-image: url("cards/KS.svg") !important;
 }

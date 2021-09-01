@@ -1,421 +1,421 @@
-#cantstop_wrap #board {
+.bgagame-cantstop #board {
   /* Image includes a modified version of https://commons.wikimedia.org/wiki/File:K2_2006.jpg which is copyright (c) 2006 Wikimedia user Svy123 and licensed CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/deed.en) */
-  background-image: url(http://pjt33.github.io/bga_custom_css/cant_stop_board.png);
+  background-image: url(https://pjt33.github.io/bga_custom_css/cant_stop_board.png);
   width: 550px;
   height: 550px;
 }
 
-#cantstop_wrap #step_2_0 {
+.bgagame-cantstop #step_2_0 {
   left: 89px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_2_1 {
+.bgagame-cantstop #step_2_1 {
   left: 89px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_2_2 {
+.bgagame-cantstop #step_2_2 {
   left: 89px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_3_0 {
+.bgagame-cantstop #step_3_0 {
   left: 124px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_3_1 {
+.bgagame-cantstop #step_3_1 {
   left: 124px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_3_2 {
+.bgagame-cantstop #step_3_2 {
   left: 124px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_3_3 {
+.bgagame-cantstop #step_3_3 {
   left: 124px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_3_4 {
+.bgagame-cantstop #step_3_4 {
   left: 124px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_4_0 {
+.bgagame-cantstop #step_4_0 {
   left: 159px !important;
   top: 153px !important;
 }
 
-#cantstop_wrap #step_4_1 {
+.bgagame-cantstop #step_4_1 {
   left: 159px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_4_2 {
+.bgagame-cantstop #step_4_2 {
   left: 159px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_4_3 {
+.bgagame-cantstop #step_4_3 {
   left: 159px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_4_4 {
+.bgagame-cantstop #step_4_4 {
   left: 159px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_4_5 {
+.bgagame-cantstop #step_4_5 {
   left: 159px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_4_6 {
+.bgagame-cantstop #step_4_6 {
   left: 159px !important;
   top: 381px !important;
 }
 
-#cantstop_wrap #step_5_0 {
+.bgagame-cantstop #step_5_0 {
   left: 194px !important;
   top: 115px !important;
 }
 
-#cantstop_wrap #step_5_1 {
+.bgagame-cantstop #step_5_1 {
   left: 194px !important;
   top: 153px !important;
 }
 
-#cantstop_wrap #step_5_2 {
+.bgagame-cantstop #step_5_2 {
   left: 194px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_5_3 {
+.bgagame-cantstop #step_5_3 {
   left: 194px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_5_4 {
+.bgagame-cantstop #step_5_4 {
   left: 194px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_5_5 {
+.bgagame-cantstop #step_5_5 {
   left: 194px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_5_6 {
+.bgagame-cantstop #step_5_6 {
   left: 194px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_5_7 {
+.bgagame-cantstop #step_5_7 {
   left: 194px !important;
   top: 381px !important;
 }
 
-#cantstop_wrap #step_5_8 {
+.bgagame-cantstop #step_5_8 {
   left: 194px !important;
   top: 419px !important;
 }
 
-#cantstop_wrap #step_6_0 {
+.bgagame-cantstop #step_6_0 {
   left: 229px !important;
   top: 77px !important;
 }
 
-#cantstop_wrap #step_6_1 {
+.bgagame-cantstop #step_6_1 {
   left: 229px !important;
   top: 115px !important;
 }
 
-#cantstop_wrap #step_6_2 {
+.bgagame-cantstop #step_6_2 {
   left: 229px !important;
   top: 153px !important;
 }
 
-#cantstop_wrap #step_6_3 {
+.bgagame-cantstop #step_6_3 {
   left: 229px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_6_4 {
+.bgagame-cantstop #step_6_4 {
   left: 229px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_6_5 {
+.bgagame-cantstop #step_6_5 {
   left: 229px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_6_6 {
+.bgagame-cantstop #step_6_6 {
   left: 229px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_6_7 {
+.bgagame-cantstop #step_6_7 {
   left: 229px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_6_8 {
+.bgagame-cantstop #step_6_8 {
   left: 229px !important;
   top: 381px !important;
 }
 
-#cantstop_wrap #step_6_9 {
+.bgagame-cantstop #step_6_9 {
   left: 229px !important;
   top: 419px !important;
 }
 
-#cantstop_wrap #step_6_10 {
+.bgagame-cantstop #step_6_10 {
   left: 229px !important;
   top: 457px !important;
 }
 
-#cantstop_wrap #step_7_0 {
+.bgagame-cantstop #step_7_0 {
   left: 264px !important;
   top: 39px !important;
 }
 
-#cantstop_wrap #step_7_1 {
+.bgagame-cantstop #step_7_1 {
   left: 264px !important;
   top: 77px !important;
 }
 
-#cantstop_wrap #step_7_2 {
+.bgagame-cantstop #step_7_2 {
   left: 264px !important;
   top: 115px !important;
 }
 
-#cantstop_wrap #step_7_3 {
+.bgagame-cantstop #step_7_3 {
   left: 264px !important;
   top: 153px !important;
 }
 
-#cantstop_wrap #step_7_4 {
+.bgagame-cantstop #step_7_4 {
   left: 264px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_7_5 {
+.bgagame-cantstop #step_7_5 {
   left: 264px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_7_6 {
+.bgagame-cantstop #step_7_6 {
   left: 264px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_7_7 {
+.bgagame-cantstop #step_7_7 {
   left: 264px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_7_8 {
+.bgagame-cantstop #step_7_8 {
   left: 264px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_7_9 {
+.bgagame-cantstop #step_7_9 {
   left: 264px !important;
   top: 381px !important;
 }
 
-#cantstop_wrap #step_7_10 {
+.bgagame-cantstop #step_7_10 {
   left: 264px !important;
   top: 419px !important;
 }
 
-#cantstop_wrap #step_7_11 {
+.bgagame-cantstop #step_7_11 {
   left: 264px !important;
   top: 457px !important;
 }
 
-#cantstop_wrap #step_7_12 {
+.bgagame-cantstop #step_7_12 {
   left: 264px !important;
   top: 495px !important;
 }
 
-#cantstop_wrap #step_8_0 {
+.bgagame-cantstop #step_8_0 {
   left: 299px !important;
   top: 77px !important;
 }
 
-#cantstop_wrap #step_8_1 {
+.bgagame-cantstop #step_8_1 {
   left: 299px !important;
   top: 115px !important;
 }
 
-#cantstop_wrap #step_8_2 {
+.bgagame-cantstop #step_8_2 {
   left: 299px !important;
   top: 153px !important;
 }
 
-#cantstop_wrap #step_8_3 {
+.bgagame-cantstop #step_8_3 {
   left: 299px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_8_4 {
+.bgagame-cantstop #step_8_4 {
   left: 299px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_8_5 {
+.bgagame-cantstop #step_8_5 {
   left: 299px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_8_6 {
+.bgagame-cantstop #step_8_6 {
   left: 299px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_8_7 {
+.bgagame-cantstop #step_8_7 {
   left: 299px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_8_8 {
+.bgagame-cantstop #step_8_8 {
   left: 299px !important;
   top: 381px !important;
 }
 
-#cantstop_wrap #step_8_9 {
+.bgagame-cantstop #step_8_9 {
   left: 299px !important;
   top: 419px !important;
 }
 
-#cantstop_wrap #step_8_10 {
+.bgagame-cantstop #step_8_10 {
   left: 299px !important;
   top: 457px !important;
 }
 
-#cantstop_wrap #step_9_0 {
+.bgagame-cantstop #step_9_0 {
   left: 334px !important;
   top: 115px !important;
 }
 
-#cantstop_wrap #step_9_1 {
+.bgagame-cantstop #step_9_1 {
   left: 334px !important;
   top: 153px !important;
 }
 
-#cantstop_wrap #step_9_2 {
+.bgagame-cantstop #step_9_2 {
   left: 334px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_9_3 {
+.bgagame-cantstop #step_9_3 {
   left: 334px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_9_4 {
+.bgagame-cantstop #step_9_4 {
   left: 334px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_9_5 {
+.bgagame-cantstop #step_9_5 {
   left: 334px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_9_6 {
+.bgagame-cantstop #step_9_6 {
   left: 334px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_9_7 {
+.bgagame-cantstop #step_9_7 {
   left: 334px !important;
   top: 381px !important;
 }
 
-#cantstop_wrap #step_9_8 {
+.bgagame-cantstop #step_9_8 {
   left: 334px !important;
   top: 419px !important;
 }
 
-#cantstop_wrap #step_10_0 {
+.bgagame-cantstop #step_10_0 {
   left: 369px !important;
   top: 153px !important;
 }
 
-#cantstop_wrap #step_10_1 {
+.bgagame-cantstop #step_10_1 {
   left: 369px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_10_2 {
+.bgagame-cantstop #step_10_2 {
   left: 369px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_10_3 {
+.bgagame-cantstop #step_10_3 {
   left: 369px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_10_4 {
+.bgagame-cantstop #step_10_4 {
   left: 369px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_10_5 {
+.bgagame-cantstop #step_10_5 {
   left: 369px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_10_6 {
+.bgagame-cantstop #step_10_6 {
   left: 369px !important;
   top: 381px !important;
 }
 
-#cantstop_wrap #step_11_0 {
+.bgagame-cantstop #step_11_0 {
   left: 404px !important;
   top: 191px !important;
 }
 
-#cantstop_wrap #step_11_1 {
+.bgagame-cantstop #step_11_1 {
   left: 404px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_11_2 {
+.bgagame-cantstop #step_11_2 {
   left: 404px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_11_3 {
+.bgagame-cantstop #step_11_3 {
   left: 404px !important;
   top: 305px !important;
 }
 
-#cantstop_wrap #step_11_4 {
+.bgagame-cantstop #step_11_4 {
   left: 404px !important;
   top: 343px !important;
 }
 
-#cantstop_wrap #step_12_0 {
+.bgagame-cantstop #step_12_0 {
   left: 439px !important;
   top: 229px !important;
 }
 
-#cantstop_wrap #step_12_1 {
+.bgagame-cantstop #step_12_1 {
   left: 439px !important;
   top: 267px !important;
 }
 
-#cantstop_wrap #step_12_2 {
+.bgagame-cantstop #step_12_2 {
   left: 439px !important;
   top: 305px !important;
 }

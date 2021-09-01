@@ -1,11 +1,10 @@
 /*
 Suppress most of the content of the tooltips.
-This selector is a HACK to try to avoid affecting games other than Solo.
 */
-#playercards_wrap ~ #myhand_wrap .tooltip > * {
+.bgagame-solo .tooltip > * {
   display: none;
 }
 
-#playercards_wrap ~ #myhand_wrap .tooltip > :last-child {
+.bgagame-solo .tooltip > :last-child {
   display: block;
 }
