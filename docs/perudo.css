@@ -1,4 +1,5 @@
 /* Force yellow dice to use black dots */
-.bgagame-perudo .die_ffff00.white-dots .dots {
+/* New game name and old game name in case they change it back */
+.bgagame-perudo .die_ffff00.white-dots .dots, .bgagame-dudo .die_ffff00.white-dots .dots {
   background-position-x: -40px !important;
 }
